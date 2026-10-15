@@ -1,1 +1,4 @@
 https://eldecog-lab.github.io/neurytika-website/
+https://eldecog-lab.github.io/neurytika-website/fraud-detection/
+https://eldecog-lab.github.io/neurytika-website/predictive-analytics/
+https://eldecog-lab.github.io/neurytika-website/on-premise-ai/
