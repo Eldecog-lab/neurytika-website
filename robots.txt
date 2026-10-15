@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://eldecog-lab.github.io/neurytika-website/sitemap.xml
