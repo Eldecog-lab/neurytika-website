@@ -13,7 +13,9 @@
 <meta property="og:title" content="Neurytika — Explainable Prediction Software & Consulting">
 <meta property="og:description" content="Your data. Your infrastructure. Explainable prediction software with expert consulting, on premises or in the cloud.">
 <meta property="og:url" content="https://eldecog-lab.github.io/neurytika-website/">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://eldecog-lab.github.io/neurytika-website/assets/prediction-explanation-16.png">
+<meta property="og:image:alt" content="Neurytika prediction explanation interface">
 <meta name="theme-color" content="#102d2a">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="./styles.css">
@@ -22,7 +24,7 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="wrap header">
-<a class="brand" href="./" aria-label="Neurytika home"><span class="mark" aria-hidden="true">n</span>Neurytika</a>
+<a class="brand" href="./" aria-label="Neurytika home"><img class="software-logo" src="./assets/neurytika-logo.png" alt="Neurytika" width="946" height="234"></a>
 <nav aria-label="Main navigation"><a href="#explore">Software</a><a href="#deployment">Deployment</a><a href="#services">Consulting</a><a href="#method">Technology</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main id="main">
@@ -32,22 +34,14 @@
 <p class="lead">Neurytika combines explainable prediction software with expert consulting to put your data to work. We deploy and adapt the solution to your needs — on your own infrastructure or in the cloud.</p>
 <div class="actions"><a class="button" href="mailto:contact@eldecog.ai?subject=Neurytika%20demo">Request a demo <span aria-hidden="true">↗</span></a><a class="text-link" href="#explore">Discover the software ↓</a></div>
 <p class="quiet">On premises or cloud · Explainable models · Tailored implementation</p></div>
-<figure class="evidence">
-<figcaption><span class="status-dot"></span> THE EVIDENCE PATH <span>ERC / 01</span></figcaption>
-<div class="tokens"><span>Feature A</span><b>+</b><span>Feature B</span><b>+</b><span>Feature C</span></div>
-<div class="connector" aria-hidden="true"></div>
-<div class="pattern"><span class="small">EXPLICIT PATTERN</span><strong>A ∩ B ∩ C</strong><p>A combination observed in the data</p></div>
-<div class="connector" aria-hidden="true"></div>
-<div class="stats"><div><span class="small">SUPPORT</span><strong>Observed counts</strong></div><div><span class="small">CLASS EVIDENCE</span><strong>P(class | pattern)</strong></div></div>
-<p class="figure-note">From feature combinations to inspectable evidence.</p>
-</figure>
+<figure class="product-preview"><div class="preview-bar"><span></span><span></span><span></span><b>NEURYTIKA / PREDICTION EXPLANATION</b></div><a href="./assets/prediction-explanation-16.png" target="_blank" rel="noopener" aria-label="Enlarge the Neurytika prediction explanation"><img src="./assets/prediction-explanation-16.png" alt="Neurytika signal-by-target explanation, with grouped bars showing how features align with each outcome" width="990" height="538" fetchpriority="high"></a><figcaption>Inside Neurytika · Explanation view from an Adult dataset example</figcaption></figure>
 </section>
 <div class="principles"><div class="wrap"><span>01 / Prediction software</span><span>02 / Your choice of infrastructure</span><span>03 / Expert consulting</span></div></div>
 <section id="explore" class="explore"><div class="wrap section">
 <div class="section-top"><p class="eyebrow">THE NEURYTIKA SOFTWARE</p><span>01 — From data to predictions</span></div>
 <div class="split"><h2>Turn your data into<br>predictions you can explain.</h2><p class="large">Explore your tabular data, build a classification model and inspect the patterns behind its predictions. Neurytika connects analysis and explanation in one software workflow.</p></div>
 <ol class="steps"><li><span>01 / IMPORT</span><h3>Start with a CSV</h3><p>Profile columns, missing values and distributions. Select the target class.</p></li><li><span>02 / REPRESENT</span><h3>Build discrete features</h3><p>Encode numeric, categorical and boolean data as tokens for combinatorial analysis.</p></li><li><span>03 / ANALYZE</span><h3>Discover class evidence</h3><p>Configure pattern size and minimum support, then examine global patterns and evaluation metrics.</p></li><li><span>04 / EXPLAIN</span><h3>Inspect a prediction</h3><p>Explore the contributing patterns and their statistical support for an individual row.</p></li></ol>
-<a class="text-link" href="https://github.com/Eldecog-lab/Neurytika/blob/main/docs/spec-mvp-v0.md">Explore the software workflow ↗</a>
+<a class="text-link" href="https://github.com/Eldecog-lab/Neurytika/blob/main/docs/spec-mvp-v0.md">Explore the software workflow ↗</a><div class="software-gallery"><figure><a href="./assets/dataset-overview-01.png" target="_blank" rel="noopener" aria-label="Enlarge the dataset overview"><img src="./assets/dataset-overview-01.png" alt="Neurytika dataset overview with row counts, missing values, a numeric histogram and categorical distributions" width="900" height="745" loading="lazy"></a><figcaption><strong>Understand your data</strong><span>Inspect dataset structure, distributions and missing values before modeling.</span></figcaption></figure><figure><a href="./assets/prediction-explanation-16.png" target="_blank" rel="noopener" aria-label="Enlarge the prediction explanation"><img src="./assets/prediction-explanation-16.png" alt="Neurytika explanation chart comparing feature evidence across two predicted classes" width="990" height="538" loading="lazy"></a><figcaption><strong>Explore the evidence behind a prediction</strong><span>Compare the alignment of individual signals with each possible outcome.</span></figcaption></figure></div><p class="screenshot-source">Software views extracted from Neurytika reports · Adult dataset example · Click a view to enlarge.</p>
 </div></section>
 <section id="deployment" class="wrap section">
 <div class="section-top"><p class="eyebrow">YOUR DATA. YOUR ENVIRONMENT.</p><span>02 — Deployment</span></div>
@@ -68,5 +62,5 @@
 <section class="wrap resources-section" id="research"><p class="eyebrow">EXPLORE THE TECHNICAL FOUNDATIONS</p><div class="resources"><a href="https://github.com/Eldecog-lab/Neurytika"><span>PROJECT</span><strong>Software & overview</strong><b aria-hidden="true">↗</b></a><a href="https://github.com/Eldecog-lab/Neurytika/blob/main/docs/api.md"><span>INTEGRATION</span><strong>API documentation</strong><b aria-hidden="true">↗</b></a><a href="https://github.com/Eldecog-lab/Neurytika/blob/main/docs/spec-mvp-v0.md"><span>WORKFLOW</span><strong>Software specification</strong><b aria-hidden="true">↗</b></a></div></section>
 <section id="contact" class="contact"><div class="wrap"><p class="eyebrow">LET'S BUILD YOUR SOLUTION</p><h2>Your next prediction project<br>starts here.</h2><p>Book a software demonstration or discuss a deployment on your data. Tell us about your use case and your preferred environment — on premises or in the cloud.</p><a class="button light" href="mailto:contact@eldecog.ai">contact@eldecog.ai <span aria-hidden="true">↗</span></a></div></section>
 </main>
-<footer class="wrap footer"><a class="brand" href="./">Neurytika</a><p>Software & consulting by Eldecog-lab</p><a href="https://github.com/Eldecog-lab/Neurytika">GitHub ↗</a><a href="https://github.com/Eldecog-lab/neurytika-website">Website source ↗</a></footer>
+<footer class="wrap footer"><a class="brand" href="./"><img class="software-logo" src="./assets/neurytika-logo.png" alt="Neurytika" width="946" height="234" loading="lazy"></a><p>Software & consulting by Eldecog-lab</p><a href="https://github.com/Eldecog-lab/Neurytika">GitHub ↗</a><a href="https://github.com/Eldecog-lab/neurytika-website">Website source ↗</a></footer>
 </body></html>
