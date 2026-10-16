@@ -22,6 +22,7 @@ ROUTES = {
  'on-premise-ai': {'en':'on-premise-ai/','fr':'fr/ia-sur-site/','es':'es/ia-local/'},
  'data-sovereignty-ai': {'en':'data-sovereignty-ai/','fr':'fr/souverainete-donnees-ia/','es':'es/soberania-datos-ia/'},
  'generative-ai-vs-predictive-ai': {'en':'generative-ai-vs-predictive-ai/','fr':'fr/ia-generative-vs-ia-predictive/','es':'es/ia-generativa-vs-ia-predictiva/'},
+ 'embedded-ai-aerospace': {'en':'embedded-ai-aerospace/','fr':'fr/ia-embarquee-aeronautique-spatial/','es':'es/ia-embarcada-aeroespacial/'},
  'company': {'en':'company/','fr':'fr/societe/','es':'es/empresa/'},
  'quiz': {'en':'find-your-ai/','fr':'fr/trouver-votre-solution/','es':'es/encuentre-su-solucion/'}
 }
@@ -36,15 +37,15 @@ QUIZ_CTA={
 DIRECTORY = {
  'en': {'label':'Explore Neurytika','groups':[
   ('Business solutions',[('customer-retention','Customer retention'),('lead-qualification','Lead qualification'),('quality-control','Quality control'),('fraud-detection','Fraud detection'),('predictive-analytics','Predictive analytics & consulting')]),
-  ('Deployment & AI',[('on-premise-ai','On-premise AI'),('data-sovereignty-ai','Data sovereignty & AI'),('generative-ai-vs-predictive-ai','Generative AI vs predictive AI')]),
+  ('Deployment & AI',[('on-premise-ai','On-premise AI'),('data-sovereignty-ai','Data sovereignty & AI'),('generative-ai-vs-predictive-ai','Generative AI vs predictive AI'),('embedded-ai-aerospace','Embedded AI for aerospace')]),
   ('Neurytika',[('home','Home'),('company','Celeste EcoFlyers — About us'),('home#publication','Research & scientific evidence'),('home#academic','Academic access'),('home#contact','Contact & demo')])]},
  'fr': {'label':'Explorer Neurytika','groups':[
   ('Solutions métier',[('customer-retention','Fidélisation clients'),('lead-qualification','Qualification des prospects'),('quality-control','Contrôle qualité'),('fraud-detection','Détection de fraude'),('predictive-analytics','Analyse prédictive et conseil')]),
-  ('Déploiement et IA',[('on-premise-ai','IA sur site'),('data-sovereignty-ai','Souveraineté des données et IA'),('generative-ai-vs-predictive-ai','IA générative et IA prédictive')]),
+  ('Déploiement et IA',[('on-premise-ai','IA sur site'),('data-sovereignty-ai','Souveraineté des données et IA'),('generative-ai-vs-predictive-ai','IA générative et IA prédictive'),('embedded-ai-aerospace','IA embarquée pour l’aérospatial')]),
   ('Neurytika',[('home','Accueil'),('company','Celeste EcoFlyers — Notre société'),('home#publication','Recherche et résultats scientifiques'),('home#academic','Accès académique'),('home#contact','Contact et démonstration')])]},
  'es': {'label':'Explorar Neurytika','groups':[
   ('Soluciones empresariales',[('customer-retention','Fidelización de clientes'),('lead-qualification','Calificación de leads'),('quality-control','Control de calidad'),('fraud-detection','Detección de fraude'),('predictive-analytics','Analítica predictiva y consultoría')]),
-  ('Despliegue e IA',[('on-premise-ai','IA local'),('data-sovereignty-ai','Soberanía de datos e IA'),('generative-ai-vs-predictive-ai','IA generativa e IA predictiva')]),
+  ('Despliegue e IA',[('on-premise-ai','IA local'),('data-sovereignty-ai','Soberanía de datos e IA'),('generative-ai-vs-predictive-ai','IA generativa e IA predictiva'),('embedded-ai-aerospace','IA embarcada aeroespacial')]),
   ('Neurytika',[('home','Inicio'),('company','Celeste EcoFlyers — Nuestra empresa'),('home#publication','Investigación y evidencia científica'),('home#academic','Acceso académico'),('home#contact','Contacto y demostración')])]}
 }
 

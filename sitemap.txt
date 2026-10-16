@@ -25,6 +25,9 @@ https://eldecog-lab.github.io/neurytika-website/es/soberania-datos-ia/
 https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/
 https://eldecog-lab.github.io/neurytika-website/fr/ia-generative-vs-ia-predictive/
 https://eldecog-lab.github.io/neurytika-website/es/ia-generativa-vs-ia-predictiva/
+https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/
+https://eldecog-lab.github.io/neurytika-website/fr/ia-embarquee-aeronautique-spatial/
+https://eldecog-lab.github.io/neurytika-website/es/ia-embarcada-aeroespacial/
 https://eldecog-lab.github.io/neurytika-website/company/
 https://eldecog-lab.github.io/neurytika-website/fr/societe/
 https://eldecog-lab.github.io/neurytika-website/es/empresa/

@@ -90,3 +90,30 @@ window.NeurytikaQuizCopy = {
   }
  }
 };
+
+// Email copy follows the same language and recommendation as the on-screen result.
+Object.assign(window.NeurytikaQuizCopy.en, {
+ contactIntro:'Enter your details to see your recommendation and receive it by email, with practical next steps and a demonstration link.',
+ emailGreeting:'Hello',emailIntro:'Here is your personalized Neurytika AI Compass report.',emailAnswers:'Your five answers',emailDemo:'Request a demonstration',emailClosing:'The Celeste EcoFlyers team — Neurytika',
+ resultContact:'Request a demonstration',sent:'Your report has been submitted for email delivery to you, and your answers have been sent to our team.',
+ consent:'I understand that my contact details and quiz answers will be sent to Celeste EcoFlyers through FormSubmit to process my request, show my result and email me a copy.',
+ introPoints:['5 simple questions, about 2 minutes','Prediction, content creation or a combination','Your personalized report, on screen and by email']
+});
+Object.assign(window.NeurytikaQuizCopy.fr, {
+ contactIntro:'Renseignez vos coordonnées pour découvrir votre recommandation et la recevoir par email, avec vos prochaines étapes et un lien de démonstration.',
+ emailGreeting:'Bonjour',emailIntro:'Voici votre bilan personnalisé Neurytika AI Compass.',emailAnswers:'Vos cinq réponses',emailDemo:'Demander une démonstration',emailClosing:'L’équipe Celeste EcoFlyers — Neurytika',
+ resultContact:'Demander une démonstration',sent:'Votre bilan a été transmis pour vous être envoyé par email, et vos réponses ont été transmises à notre équipe.',
+ consent:'Je comprends que mes coordonnées et mes réponses seront transmises à Celeste EcoFlyers via FormSubmit pour traiter ma demande, afficher mon résultat et m’en envoyer une copie par email.',
+ introPoints:['5 questions simples, environ 2 minutes','Prédiction, création de contenu ou les deux','Votre bilan personnalisé, à l’écran et par email']
+});
+Object.assign(window.NeurytikaQuizCopy.es, {
+ contactIntro:'Indique sus datos para ver su recomendación y recibirla por email, con próximos pasos y un enlace para solicitar una demostración.',
+ emailGreeting:'Hola',emailIntro:'Este es su informe personalizado Neurytika AI Compass.',emailAnswers:'Sus cinco respuestas',emailDemo:'Solicitar una demostración',emailClosing:'El equipo de Celeste EcoFlyers — Neurytika',
+ resultContact:'Solicitar una demostración',sent:'Su informe se ha enviado para su entrega por email, y sus respuestas se han transmitido a nuestro equipo.',
+ consent:'Entiendo que mis datos de contacto y respuestas se enviarán a Celeste EcoFlyers mediante FormSubmit para tramitar mi solicitud, mostrar mi resultado y enviarme una copia por email.',
+ introPoints:['5 preguntas sencillas, unos 2 minutos','Predicción, creación de contenido o ambas','Su informe personalizado, en pantalla y por email']
+});
+
+window.NeurytikaQuizCopy.en.privacyText+=' A copy of the full report is also sent to the email address you provide.';
+window.NeurytikaQuizCopy.fr.privacyText+=' Une copie du bilan complet est également envoyée à l’adresse email indiquée.';
+window.NeurytikaQuizCopy.es.privacyText+=' También se envía una copia del informe completo al email indicado.';

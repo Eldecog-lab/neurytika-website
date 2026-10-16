@@ -190,6 +190,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
   </url>
   <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-embarquee-aeronautique-spatial/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-embarcada-aeroespacial/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/ia-embarquee-aeronautique-spatial/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-embarquee-aeronautique-spatial/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-embarcada-aeroespacial/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/ia-embarcada-aeroespacial/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-embarquee-aeronautique-spatial/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-embarcada-aeroespacial/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/embedded-ai-aerospace/" />
+  </url>
+  <url>
     <loc>https://eldecog-lab.github.io/neurytika-website/company/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/company/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/societe/" />

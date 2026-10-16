@@ -44,6 +44,11 @@
     "fr": "fr/ia-generative-vs-ia-predictive/",
     "es": "es/ia-generativa-vs-ia-predictiva/"
   },
+  "embedded-ai-aerospace": {
+    "en": "embedded-ai-aerospace/",
+    "fr": "fr/ia-embarquee-aeronautique-spatial/",
+    "es": "es/ia-embarcada-aeroespacial/"
+  },
   "company": {
     "en": "company/",
     "fr": "fr/societe/",
