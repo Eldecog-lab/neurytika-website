@@ -1,5 +1,6 @@
 window.NeurytikaQuizCopy = {
  en: {
+  prepareStep:'Prepare the structured record and known outcomes for prediction, alongside the sources for content creation.',
   start:'Find my path', back:'Back', next:'Continue', step:'Question', of:'of', contactStep:'Your compass is ready',
   contactTitle:'Where should we connect your project?', contactIntro:'Enter your details to reveal your tailored recommendation and send your answers to the Celeste EcoFlyers team.',
   name:'Your name',email:'Work or academic email',company:'Company or institution',
@@ -29,6 +30,7 @@ window.NeurytikaQuizCopy = {
   }
  },
  fr: {
+  prepareStep:'Préparer les données structurées et les résultats connus pour la prédiction, ainsi que les sources pour la création de contenu.',
   start:'Trouver ma voie',back:'Retour',next:'Continuer',step:'Question',of:'sur',contactStep:'Votre boussole est prête',
   contactTitle:'Faisons le lien avec votre projet.',contactIntro:'Renseignez vos coordonnées pour découvrir votre recommandation personnalisée et transmettre vos réponses à l’équipe Celeste EcoFlyers.',
   name:'Votre nom',email:'Email professionnel ou académique',company:'Entreprise ou établissement',
@@ -58,6 +60,7 @@ window.NeurytikaQuizCopy = {
   }
  },
  es: {
+  prepareStep:'Preparar los registros estructurados y resultados conocidos para la predicción, junto con las fuentes para crear contenido.',
   start:'Encontrar mi camino',back:'Atrás',next:'Continuar',step:'Pregunta',of:'de',contactStep:'Su brújula está lista',
   contactTitle:'Conectemos con su proyecto.',contactIntro:'Introduzca sus datos para descubrir su recomendación personalizada y enviar sus respuestas al equipo de Celeste EcoFlyers.',
   name:'Su nombre',email:'Email profesional o académico',company:'Empresa o institución',

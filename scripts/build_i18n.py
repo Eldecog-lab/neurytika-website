@@ -130,7 +130,7 @@ def build_page(key,source,lang):
         if key=='home':
             action=s.select_one('.hero .actions .text-link')
             if action:action['href']=quiz_href;action.string=QUIZ_CTA[lang][3]+' →'
-        s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'quiz.css?v=20261016-1',attrs={'data-i18n-ui':'quiz-style'}))
+        s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'quiz.css?v=20261016-2',attrs={'data-i18n-ui':'quiz-style'}))
         banner=BeautifulSoup('<aside class="wrap quiz-banner" data-i18n-ui="quiz-banner"><div class="quiz-banner-inner"><div class="quiz-banner-copy"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="32" cy="32" r="26"/><path d="m44 18-7 23-18 6 7-23z"/></svg><div><h2></h2><p></p></div></div><a class="button"></a></div></aside>','html.parser').aside
         banner.h2.string=QUIZ_CTA[lang][1];banner.p.string=QUIZ_CTA[lang][2];banner.a.string=QUIZ_CTA[lang][3]+' ↗';banner.a['href']=quiz_href
         contact=s.select_one('section.contact')

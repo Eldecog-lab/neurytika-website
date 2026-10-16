@@ -32,3 +32,13 @@ for(const lang of ['en','fr','es']) {
  for(const p of Object.values(copy[lang].profiles)) assert.equal(p.steps.length,3);
 }
 console.log(count+' recommendation combinations, three language catalogs and delivery acknowledgements verified.');
+const now=Date.now(),complete={goal:'fraud',output:'both',data:'documents',hosting:'local',timing:'soon'};
+const draft={version:2,at:now,answers:complete,step:5,completed:true,followup:true,submissionId:'test-id'};
+assert.equal(engine.restore(JSON.stringify(draft),now).completed,true);
+assert.equal(engine.restore(JSON.stringify({...draft,at:now-7200001}),now).step,-1);
+assert.equal(engine.restore('not json',now).step,-1);
+assert.equal(engine.restore(JSON.stringify({...draft,answers:{goal:'fraud'}}),now).completed,false);
+assert.equal(engine.restore(JSON.stringify({...draft,answers:{goal:'fraud'}}),now).step,1);
+assert.equal(engine.restore(JSON.stringify({...draft,answers:{goal:'invented'}}),now).step,0);
+assert.equal(engine.restore(JSON.stringify({...draft,answers:{...complete,email:'must not be retained'}}),now).answers.email,undefined);
+console.log('Session restoration validates choices, expiry and completeness; unrelated contact fields are excluded.');
