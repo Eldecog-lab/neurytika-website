@@ -22,11 +22,17 @@ ROUTES = {
  'on-premise-ai': {'en':'on-premise-ai/','fr':'fr/ia-sur-site/','es':'es/ia-local/'},
  'data-sovereignty-ai': {'en':'data-sovereignty-ai/','fr':'fr/souverainete-donnees-ia/','es':'es/soberania-datos-ia/'},
  'generative-ai-vs-predictive-ai': {'en':'generative-ai-vs-predictive-ai/','fr':'fr/ia-generative-vs-ia-predictive/','es':'es/ia-generativa-vs-ia-predictiva/'},
- 'company': {'en':'company/','fr':'fr/societe/','es':'es/empresa/'}
+ 'company': {'en':'company/','fr':'fr/societe/','es':'es/empresa/'},
+ 'quiz': {'en':'find-your-ai/','fr':'fr/trouver-votre-solution/','es':'es/encuentre-su-solucion/'}
 }
 CATALOG = json.loads((ROOT/'i18n/translations.json').read_text())
 LOOKUP = {BASE+r['en']: k for k,r in ROUTES.items()}
 LABELS = {'en':'Choose language','fr':'Choisir la langue','es':'Elegir idioma'}
+QUIZ_CTA={
+ 'en':('Find your AI fit','Not sure where to start?','Five simple questions. A tailored recommendation for your next project.','Take the 2-min quiz'),
+ 'fr':('Trouvez votre solution IA','Par où commencer ?','Cinq questions simples. Une recommandation personnalisée pour votre prochain projet.','Faire le quiz de 2 min'),
+ 'es':('Encuentre su solución de IA','¿Por dónde empezar?','Cinco preguntas sencillas. Una recomendación personalizada para su próximo proyecto.','Hacer el quiz de 2 min')
+}
 DIRECTORY = {
  'en': {'label':'Explore Neurytika','groups':[
   ('Business solutions',[('customer-retention','Customer retention'),('lead-qualification','Lead qualification'),('quality-control','Quality control'),('fraud-detection','Fraud detection'),('predictive-analytics','Predictive analytics & consulting')]),
@@ -112,6 +118,24 @@ def build_page(key,source,lang):
         if lang==other:link['aria-current']='true'
         selector.append(link)
     s.select_one('header.header').append(selector)
+    quiz_href=PREFIX+ROUTES['quiz'][lang]
+    quiz_nav=s.new_tag('a',href=quiz_href,attrs={'data-i18n-ui':'quiz-nav'});quiz_nav.string=QUIZ_CTA[lang][0]
+    if key=='quiz':quiz_nav['aria-current']='page'
+    s.select_one('header.header nav').append(quiz_nav)
+    # Route data is public; no contact data or receiving email appears in HTML.
+    if key=='quiz':
+        data=s.new_tag('script',type='application/json',id='quiz-routes',attrs={'data-i18n-ui':'quiz-routes'})
+        data.string=json.dumps(ROUTES,ensure_ascii=False);s.body.append(data)
+    else:
+        if key=='home':
+            action=s.select_one('.hero .actions .text-link')
+            if action:action['href']=quiz_href;action.string=QUIZ_CTA[lang][3]+' →'
+        s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'quiz.css?v=20261016-1',attrs={'data-i18n-ui':'quiz-style'}))
+        banner=BeautifulSoup('<aside class="wrap quiz-banner" data-i18n-ui="quiz-banner"><div class="quiz-banner-inner"><div class="quiz-banner-copy"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="32" cy="32" r="26"/><path d="m44 18-7 23-18 6 7-23z"/></svg><div><h2></h2><p></p></div></div><a class="button"></a></div></aside>','html.parser').aside
+        banner.h2.string=QUIZ_CTA[lang][1];banner.p.string=QUIZ_CTA[lang][2];banner.a.string=QUIZ_CTA[lang][3]+' ↗';banner.a['href']=quiz_href
+        contact=s.select_one('section.contact')
+        if contact:contact.insert_before(banner)
+        else:s.main.append(banner)
     directory=s.new_tag('nav',attrs={'id':'site-directory','class':'wrap site-directory','aria-label':DIRECTORY[lang]['label'],'data-i18n-ui':'directory'})
     for heading,items in DIRECTORY[lang]['groups']:
         group=s.new_tag('div');title=s.new_tag('h2');title.string=heading;group.append(title)
@@ -122,6 +146,8 @@ def build_page(key,source,lang):
             li=s.new_tag('li');link=s.new_tag('a',href=href);link.string=label
             if target_key==key and not fragment:link['aria-current']='page'
             li.append(link);items_list.append(li)
+        if heading=='Neurytika':
+            li=s.new_tag('li');a=s.new_tag('a',href=quiz_href);a.string=QUIZ_CTA[lang][0];li.append(a);items_list.append(li)
         group.append(items_list);directory.append(group)
     s.select_one('footer.footer').insert_before(directory)
     out=ROOT/ROUTES[key][lang]/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(str(s)+'\n')
@@ -147,6 +173,6 @@ def main():
     xml='<?xml version="1.0" encoding="utf-8"?>\n'+ET.tostring(root,encoding='unicode')+'\n'
     for name in ['sitemap.xml','sitemap-pages.xml']:(ROOT/name).write_text(xml)
     (ROOT/'sitemap.txt').write_text('\n'.join(urls)+'\n')
-    print('Built 30 static pages, reciprocal language alternatives and multilingual sitemaps.')
+    print(f'Built {len(ROUTES)*3} static pages, reciprocal language alternatives and multilingual sitemaps.')
 
 if __name__=='__main__':main()

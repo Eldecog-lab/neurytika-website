@@ -210,4 +210,25 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/empresa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/company/" />
   </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/find-your-ai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
+  </url>
 </urlset>

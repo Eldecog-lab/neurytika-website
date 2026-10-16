@@ -48,5 +48,10 @@
     "en": "company/",
     "fr": "fr/societe/",
     "es": "es/empresa/"
+  },
+  "quiz": {
+    "en": "find-your-ai/",
+    "fr": "fr/trouver-votre-solution/",
+    "es": "es/encuentre-su-solucion/"
   }
 }

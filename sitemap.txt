@@ -28,3 +28,6 @@ https://eldecog-lab.github.io/neurytika-website/es/ia-generativa-vs-ia-predictiv
 https://eldecog-lab.github.io/neurytika-website/company/
 https://eldecog-lab.github.io/neurytika-website/fr/societe/
 https://eldecog-lab.github.io/neurytika-website/es/empresa/
+https://eldecog-lab.github.io/neurytika-website/find-your-ai/
+https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/
+https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/
