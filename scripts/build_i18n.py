@@ -112,6 +112,9 @@ def build_page(key,source,lang):
         n=s.new_tag('link',rel='alternate',hreflang=other,href=BASE+ROUTES[key]['en' if other=='x-default' else other]);s.head.append(n)
     script=s.new_tag('script',src=PREFIX+'locale.js?v=20261016');s.head.insert(1,script)
     s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'locale.css?v=20261016-2'))
+    s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'analytics.css?v=20261016-1',attrs={'data-i18n-ui':'audience-style'}))
+    s.head.append(s.new_tag('script',src=PREFIX+'analytics.js?v=20261016-1',defer='',attrs={'data-i18n-ui':'audience-script'}))
+    s.head.append(s.new_tag('script',src=PREFIX+'demo-form.js?v=20261016-1',defer='',attrs={'data-i18n-ui':'demo-script'}))
     selector=s.new_tag('div',attrs={'class':'language-switch','role':'group','aria-label':LABELS[lang],'data-i18n-ui':'languages'})
     for other,name in [('en','English'),('fr','Français'),('es','Español')]:
         link=s.new_tag('a',href=PREFIX+ROUTES[key][other]+'?lang='+other,hreflang=other,lang=other,attrs={'data-language':other,'aria-label':name})

@@ -1,0 +1,31 @@
+(function(){
+ 'use strict';
+ var ID='G-SQFJCLWF18',KEY='neurytika-audience-v1',TTL=180*86400000,enabled=false,loaded=false;
+ var lang=['en','fr','es'].includes(document.documentElement.lang)?document.documentElement.lang:'en';
+ var copy={
+ en:{title:'Help us improve Neurytika',text:'With your permission, Google Analytics measures visits, pages viewed and progress towards the quiz and demonstration requests. Names, email addresses and quiz answers are excluded from this measurement. Your choice is saved for six months.',accept:'Accept audience measurement',deny:'Decline',settings:'Audience settings',privacy:'Google Analytics privacy information'},
+ fr:{title:'Aidez-nous à améliorer Neurytika',text:'Avec votre accord, Google Analytics mesure les visites, les pages consultées et les étapes vers le quiz et les demandes de démonstration. Les noms, emails et réponses du quiz sont exclus de cette mesure. Votre choix est conservé six mois.',accept:'Accepter la mesure d’audience',deny:'Refuser',settings:'Réglages d’audience',privacy:'Confidentialité de Google Analytics'},
+ es:{title:'Ayúdenos a mejorar Neurytika',text:'Con su permiso, Google Analytics mide visitas, páginas consultadas y pasos hacia el cuestionario y las solicitudes de demostración. Los nombres, emails y respuestas del cuestionario quedan excluidos de esta medición. Su elección se guarda seis meses.',accept:'Aceptar la medición de audiencia',deny:'Rechazar',settings:'Ajustes de audiencia',privacy:'Privacidad de Google Analytics'}
+ }[lang];
+ function cleanReferrer(){try{return new URL(document.referrer).origin+'/';}catch(_){return '';}}
+ function base(){return {page_location:location.origin+location.pathname,page_referrer:cleanReferrer(),page_title:document.title,page_key:document.documentElement.dataset.pageKey||'unknown',site_language:lang};}
+ function send(name,extra){if(!enabled||!loaded)return;var data=base();if(extra&&Number.isInteger(extra.step_number)&&extra.step_number>=1&&extra.step_number<=5)data.step_number=extra.step_number;window.gtag('event',name,data);}
+ function start(){
+  if(loaded||location.hostname!=='eldecog-lab.github.io')return;
+  loaded=true;window['ga-disable-'+ID]=false;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};
+  window.gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+  window.gtag('js',new Date());window.gtag('config',ID,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_path:'/neurytika-website/',cookie_expires:15552000,page_location:location.origin+location.pathname,page_referrer:cleanReferrer()});
+  var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);send('page_view');
+ }
+ function stop(){enabled=false;window['ga-disable-'+ID]=true;if(loaded)window.gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});document.cookie.split(';').forEach(function(item){var name=item.split('=')[0].trim();if(!/^_ga(?:_|$)/.test(name))return;['/','/neurytika-website/'].forEach(function(path){['','; domain='+location.hostname,'; domain=.'+location.hostname].forEach(function(domain){document.cookie=name+'=; Max-Age=0; path='+path+domain+'; SameSite=Lax';});});});}
+ function saved(){try{var v=JSON.parse(localStorage.getItem(KEY));return v&&['accept','deny'].includes(v.choice)&&Date.now()-v.at>=0&&Date.now()-v.at<TTL?v.choice:null;}catch(_){return null;}}
+ var panel=document.createElement('section');panel.className='audience-panel';panel.setAttribute('aria-label',copy.title);panel.innerHTML='<div><h2></h2><p></p><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener"></a></div><div class="audience-actions"><button type="button" data-audience="deny"></button><button type="button" data-audience="accept"></button></div>';
+ panel.querySelector('h2').textContent=copy.title;panel.querySelector('p').textContent=copy.text;panel.querySelector('a').textContent=copy.privacy+' ↗';panel.querySelector('[data-audience=deny]').textContent=copy.deny;panel.querySelector('[data-audience=accept]').textContent=copy.accept;
+ document.body.appendChild(panel);
+ var settings=document.createElement('button');settings.type='button';settings.className='audience-settings';settings.textContent=copy.settings;settings.setAttribute('aria-expanded','false');(document.querySelector('footer')||document.body).appendChild(settings);
+ settings.addEventListener('click',function(){panel.hidden=false;settings.setAttribute('aria-expanded','true');panel.querySelector('button').focus();});
+ panel.addEventListener('click',function(e){var b=e.target.closest('button[data-audience]');if(!b)return;var choice=b.dataset.audience;try{localStorage.setItem(KEY,JSON.stringify({choice:choice,at:Date.now()}));}catch(_){}panel.hidden=true;settings.setAttribute('aria-expanded','false');if(choice==='accept'){enabled=true;if(loaded){window['ga-disable-'+ID]=false;window.gtag('consent','update',{analytics_storage:'granted'});}else start();}else stop();});
+ var choice=saved();panel.hidden=!!choice;if(choice==='accept'){enabled=true;start();}
+ window.NeurytikaAudience={track:function(name,params){if(['quiz_start','quiz_step','quiz_complete','quiz_submit_error','generate_lead'].includes(name))send(name,params);}};
+ document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;try{var u=new URL(a.href,location.href);if(u.hostname!=='formsubmit.co'||u.pathname!=='/el/yecudu')return;var subject=u.searchParams.get('subject')||'';if(/privacy/i.test(subject))return;send(/academic/i.test(subject)?'academic_access_click':/demo|demonstration/i.test(subject)||a.closest('.embedded-hero')?'demo_request_click':'contact_click');}catch(_){}});
+}());
