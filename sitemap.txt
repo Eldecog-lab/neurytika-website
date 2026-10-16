@@ -3,3 +3,6 @@ https://eldecog-lab.github.io/neurytika-website/fraud-detection/
 https://eldecog-lab.github.io/neurytika-website/predictive-analytics/
 https://eldecog-lab.github.io/neurytika-website/on-premise-ai/
 https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/
+https://eldecog-lab.github.io/neurytika-website/customer-retention/
+https://eldecog-lab.github.io/neurytika-website/lead-qualification/
+https://eldecog-lab.github.io/neurytika-website/quality-control/
