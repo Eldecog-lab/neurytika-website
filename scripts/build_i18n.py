@@ -27,6 +27,20 @@ ROUTES = {
 CATALOG = json.loads((ROOT/'i18n/translations.json').read_text())
 LOOKUP = {BASE+r['en']: k for k,r in ROUTES.items()}
 LABELS = {'en':'Choose language','fr':'Choisir la langue','es':'Elegir idioma'}
+DIRECTORY = {
+ 'en': {'label':'Explore Neurytika','groups':[
+  ('Business solutions',[('customer-retention','Customer retention'),('lead-qualification','Lead qualification'),('quality-control','Quality control'),('fraud-detection','Fraud detection'),('predictive-analytics','Predictive analytics & consulting')]),
+  ('Deployment & AI',[('on-premise-ai','On-premise AI'),('data-sovereignty-ai','Data sovereignty & AI'),('generative-ai-vs-predictive-ai','Generative AI vs predictive AI')]),
+  ('Neurytika',[('home','Home'),('company','Celeste EcoFlyers — About us'),('home#publication','Research & scientific evidence'),('home#academic','Academic access'),('home#contact','Contact & demo')])]},
+ 'fr': {'label':'Explorer Neurytika','groups':[
+  ('Solutions métier',[('customer-retention','Fidélisation clients'),('lead-qualification','Qualification des prospects'),('quality-control','Contrôle qualité'),('fraud-detection','Détection de fraude'),('predictive-analytics','Analyse prédictive et conseil')]),
+  ('Déploiement et IA',[('on-premise-ai','IA sur site'),('data-sovereignty-ai','Souveraineté des données et IA'),('generative-ai-vs-predictive-ai','IA générative et IA prédictive')]),
+  ('Neurytika',[('home','Accueil'),('company','Celeste EcoFlyers — Notre société'),('home#publication','Recherche et résultats scientifiques'),('home#academic','Accès académique'),('home#contact','Contact et démonstration')])]},
+ 'es': {'label':'Explorar Neurytika','groups':[
+  ('Soluciones empresariales',[('customer-retention','Fidelización de clientes'),('lead-qualification','Calificación de leads'),('quality-control','Control de calidad'),('fraud-detection','Detección de fraude'),('predictive-analytics','Analítica predictiva y consultoría')]),
+  ('Despliegue e IA',[('on-premise-ai','IA local'),('data-sovereignty-ai','Soberanía de datos e IA'),('generative-ai-vs-predictive-ai','IA generativa e IA predictiva')]),
+  ('Neurytika',[('home','Inicio'),('company','Celeste EcoFlyers — Nuestra empresa'),('home#publication','Investigación y evidencia científica'),('home#academic','Acceso académico'),('home#contact','Contacto y demostración')])]}
+}
 
 def translated(value, lang):
     core = value.strip()
@@ -90,7 +104,7 @@ def build_page(key,source,lang):
     for other in ['en','fr','es','x-default']:
         n=s.new_tag('link',rel='alternate',hreflang=other,href=BASE+ROUTES[key]['en' if other=='x-default' else other]);s.head.append(n)
     script=s.new_tag('script',src=PREFIX+'locale.js?v=20261016');s.head.insert(1,script)
-    s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'locale.css?v=20261016'))
+    s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'locale.css?v=20261016-2'))
     selector=s.new_tag('div',attrs={'class':'language-switch','role':'group','aria-label':LABELS[lang],'data-i18n-ui':'languages'})
     for other,name in [('en','English'),('fr','Français'),('es','Español')]:
         link=s.new_tag('a',href=PREFIX+ROUTES[key][other]+'?lang='+other,hreflang=other,lang=other,attrs={'data-language':other,'aria-label':name})
@@ -98,6 +112,18 @@ def build_page(key,source,lang):
         if lang==other:link['aria-current']='true'
         selector.append(link)
     s.select_one('header.header').append(selector)
+    directory=s.new_tag('nav',attrs={'id':'site-directory','class':'wrap site-directory','aria-label':DIRECTORY[lang]['label'],'data-i18n-ui':'directory'})
+    for heading,items in DIRECTORY[lang]['groups']:
+        group=s.new_tag('div');title=s.new_tag('h2');title.string=heading;group.append(title)
+        items_list=s.new_tag('ul')
+        for dest,label in items:
+            target_key,_,fragment=dest.partition('#')
+            href=PREFIX+ROUTES[target_key][lang]+(('#'+fragment) if fragment else '')
+            li=s.new_tag('li');link=s.new_tag('a',href=href);link.string=label
+            if target_key==key and not fragment:link['aria-current']='page'
+            li.append(link);items_list.append(li)
+        group.append(items_list);directory.append(group)
+    s.select_one('footer.footer').insert_before(directory)
     out=ROOT/ROUTES[key][lang]/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(str(s)+'\n')
 
 def main():

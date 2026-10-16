@@ -6,6 +6,12 @@
 .language-switch a{padding:6px 8px;border-radius:20px;letter-spacing:.4px}
 .language-switch a[aria-current]{background:var(--ink);color:var(--paper);font-weight:700}
 .language-switch a:hover{background:#e4ebd9;color:var(--ink);text-decoration:none}
+.site-directory{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:35px;padding-top:44px;padding-bottom:44px;border-bottom:1px solid var(--line)}
+.site-directory h2{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:700;letter-spacing:0;line-height:1.5;margin:0 0 15px}
+.site-directory ul{list-style:none;margin:0;padding:0;font-size:13px;color:var(--muted)}
+.site-directory li+li{margin-top:8px}
+.site-directory a[aria-current=page]{font-weight:700;color:var(--ink)}
 html[lang=fr] .hero h1,html[lang=es] .hero h1{font-size:clamp(40px,4.7vw,64px);letter-spacing:-2.5px;overflow-wrap:break-word}
 @media(max-width:1050px){.header>nav{order:3;flex-basis:100%;justify-content:flex-start}.language-switch{margin-left:auto}.hero{padding-top:50px}}
 @media(max-width:650px){.header{flex-direction:row;align-items:center;gap:16px}.header>.brand{max-width:60%}.header>nav{font-size:12px;gap:10px 17px}.language-switch a{padding:6px 7px}html[lang=fr] .hero h1,html[lang=es] .hero h1{font-size:42px;letter-spacing:-2px}.principles>div{gap:12px;flex-wrap:wrap}.section-top{gap:15px;flex-wrap:wrap}.button{max-width:100%}.publication h3{overflow-wrap:break-word}}
+@media(max-width:650px){.site-directory{grid-template-columns:1fr;gap:28px;padding-top:35px;padding-bottom:35px}}
