@@ -1,0 +1,11 @@
+/* Allow longer translated navigation labels and keep language choices visible. */
+.header{flex-wrap:wrap;gap:18px 24px}
+.header>.brand{flex-shrink:0}
+.header>nav{flex:1;justify-content:flex-end;flex-wrap:wrap;align-items:center;gap:10px 18px}
+.language-switch{display:flex;align-items:center;gap:3px;border:1px solid var(--line);border-radius:30px;padding:3px;flex-shrink:0;font-size:11px;line-height:1.4}
+.language-switch a{padding:6px 8px;border-radius:20px;letter-spacing:.4px}
+.language-switch a[aria-current]{background:var(--ink);color:var(--paper);font-weight:700}
+.language-switch a:hover{background:#e4ebd9;color:var(--ink);text-decoration:none}
+html[lang=fr] .hero h1,html[lang=es] .hero h1{font-size:clamp(40px,4.7vw,64px);letter-spacing:-2.5px;overflow-wrap:break-word}
+@media(max-width:1050px){.header>nav{order:3;flex-basis:100%;justify-content:flex-start}.language-switch{margin-left:auto}.hero{padding-top:50px}}
+@media(max-width:650px){.header{flex-direction:row;align-items:center;gap:16px}.header>.brand{max-width:60%}.header>nav{font-size:12px;gap:10px 17px}.language-switch a{padding:6px 7px}html[lang=fr] .hero h1,html[lang=es] .hero h1{font-size:42px;letter-spacing:-2px}.principles>div{gap:12px;flex-wrap:wrap}.section-top{gap:15px;flex-wrap:wrap}.button{max-width:100%}.publication h3{overflow-wrap:break-word}}

@@ -1,14 +1,213 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://eldecog-lab.github.io/neurytika-website/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/fraud-detection/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/predictive-analytics/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/on-premise-ai/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/customer-retention/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/lead-qualification/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/quality-control/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/</loc></url>
-<url><loc>https://eldecog-lab.github.io/neurytika-website/company/</loc></url>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/customer-retention/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/customer-retention/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/fidelisation-clients/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/fidelizacion-clientes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/customer-retention/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/fidelisation-clients/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/customer-retention/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/fidelisation-clients/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/fidelizacion-clientes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/customer-retention/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/fidelizacion-clientes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/customer-retention/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/fidelisation-clients/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/fidelizacion-clientes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/customer-retention/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/lead-qualification/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/lead-qualification/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/qualification-prospects/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/calificacion-leads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/lead-qualification/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/qualification-prospects/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/lead-qualification/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/qualification-prospects/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/calificacion-leads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/lead-qualification/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/calificacion-leads/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/lead-qualification/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/qualification-prospects/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/calificacion-leads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/lead-qualification/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/quality-control/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/quality-control/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/controle-qualite/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/control-calidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/quality-control/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/controle-qualite/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/quality-control/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/controle-qualite/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/control-calidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/quality-control/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/control-calidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/quality-control/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/controle-qualite/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/control-calidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/quality-control/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fraud-detection/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/fraud-detection/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/detection-fraude/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/deteccion-fraude/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/fraud-detection/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/detection-fraude/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/fraud-detection/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/detection-fraude/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/deteccion-fraude/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/fraud-detection/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/deteccion-fraude/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/fraud-detection/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/detection-fraude/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/deteccion-fraude/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/fraud-detection/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/predictive-analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/predictive-analytics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/analyse-predictive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/analitica-predictiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/predictive-analytics/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/analyse-predictive/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/predictive-analytics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/analyse-predictive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/analitica-predictiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/predictive-analytics/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/analitica-predictiva/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/predictive-analytics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/analyse-predictive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/analitica-predictiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/predictive-analytics/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/on-premise-ai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/on-premise-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-sur-site/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-local/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/on-premise-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/ia-sur-site/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/on-premise-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-sur-site/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-local/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/on-premise-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/ia-local/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/on-premise-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-sur-site/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-local/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/on-premise-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/souverainete-donnees-ia/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/soberania-datos-ia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/souverainete-donnees-ia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/souverainete-donnees-ia/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/soberania-datos-ia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/soberania-datos-ia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/souverainete-donnees-ia/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/soberania-datos-ia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/data-sovereignty-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-generative-vs-ia-predictive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-generativa-vs-ia-predictiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/ia-generative-vs-ia-predictive/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-generative-vs-ia-predictive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-generativa-vs-ia-predictiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/ia-generativa-vs-ia-predictiva/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-generative-vs-ia-predictive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-generativa-vs-ia-predictiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/generative-ai-vs-predictive-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/company/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/company/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/societe/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/empresa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/company/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/societe/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/company/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/societe/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/empresa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/company/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/empresa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/company/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/societe/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/empresa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/company/" />
+  </url>
 </urlset>
-

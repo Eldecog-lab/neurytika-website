@@ -1,0 +1,52 @@
+{
+  "home": {
+    "en": "",
+    "fr": "fr/",
+    "es": "es/"
+  },
+  "customer-retention": {
+    "en": "customer-retention/",
+    "fr": "fr/fidelisation-clients/",
+    "es": "es/fidelizacion-clientes/"
+  },
+  "lead-qualification": {
+    "en": "lead-qualification/",
+    "fr": "fr/qualification-prospects/",
+    "es": "es/calificacion-leads/"
+  },
+  "quality-control": {
+    "en": "quality-control/",
+    "fr": "fr/controle-qualite/",
+    "es": "es/control-calidad/"
+  },
+  "fraud-detection": {
+    "en": "fraud-detection/",
+    "fr": "fr/detection-fraude/",
+    "es": "es/deteccion-fraude/"
+  },
+  "predictive-analytics": {
+    "en": "predictive-analytics/",
+    "fr": "fr/analyse-predictive/",
+    "es": "es/analitica-predictiva/"
+  },
+  "on-premise-ai": {
+    "en": "on-premise-ai/",
+    "fr": "fr/ia-sur-site/",
+    "es": "es/ia-local/"
+  },
+  "data-sovereignty-ai": {
+    "en": "data-sovereignty-ai/",
+    "fr": "fr/souverainete-donnees-ia/",
+    "es": "es/soberania-datos-ia/"
+  },
+  "generative-ai-vs-predictive-ai": {
+    "en": "generative-ai-vs-predictive-ai/",
+    "fr": "fr/ia-generative-vs-ia-predictive/",
+    "es": "es/ia-generativa-vs-ia-predictiva/"
+  },
+  "company": {
+    "en": "company/",
+    "fr": "fr/societe/",
+    "es": "es/empresa/"
+  }
+}
