@@ -20,7 +20,7 @@
   if(blocked()||loaded||location.hostname!=='eldecog-lab.github.io')return;
   loaded=true;window['ga-disable-'+ID]=false;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};
   window.gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
-  window.gtag('js',new Date());window.gtag('config',ID,{send_page_view:false,debug_mode:mode==='test',allow_google_signals:false,allow_ad_personalization_signals:false,cookie_domain:'none',cookie_path:'/neurytika-website/',cookie_expires:15552000,page_location:location.origin+location.pathname,page_referrer:cleanReferrer()});
+  window.gtag('js',new Date());window.gtag('config',ID,{send_page_view:false,debug_mode:mode==='test',allow_google_signals:false,allow_ad_personalization_signals:false,cookie_domain:'none',cookie_path:'/',cookie_expires:15552000,page_location:location.origin+location.pathname,page_referrer:cleanReferrer()});
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);send('page_view');
  }
  function stop(){enabled=false;window['ga-disable-'+ID]=true;window['ga-disable-'+PROD_ID]=true;window['ga-disable-'+TEST_ID]=true;if(loaded)window.gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});document.cookie.split(';').forEach(function(item){var name=item.split('=')[0].trim();if(!/^_ga(?:_|$)/.test(name))return;['/','/neurytika-website/'].forEach(function(path){['','; domain='+location.hostname,'; domain=.'+location.hostname].forEach(function(domain){document.cookie=name+'=; Max-Age=0; path='+path+domain+'; SameSite=Lax';});});});}
