@@ -117,7 +117,7 @@ def build_page(key,source,lang):
     script=s.new_tag('script',src=PREFIX+'locale.js?v=20261017-2');s.head.insert(1,script)
     s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'locale.css?v=20261016-2'))
     s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'analytics.css?v=20261016-2',attrs={'data-i18n-ui':'audience-style'}))
-    s.head.append(s.new_tag('script',src=PREFIX+'analytics.js?v=20261017-demo',defer='',attrs={'data-i18n-ui':'audience-script'}))
+    s.head.append(s.new_tag('script',src=PREFIX+'analytics.js?v=20261017-cookie-fix',defer='',attrs={'data-i18n-ui':'audience-script'}))
     s.head.append(s.new_tag('script',src=PREFIX+'demo-form.js?v=20261016-2',defer='',attrs={'data-i18n-ui':'demo-script'}))
     selector=s.new_tag('div',attrs={'class':'language-switch','role':'group','aria-label':LABELS[lang],'data-i18n-ui':'languages'})
     for other,name in [('en','English'),('fr','Français'),('es','Español')]:
