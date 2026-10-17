@@ -1047,10 +1047,6 @@
     "fr": "Recherche",
     "es": "Investigación"
   },
-  "Request a demo ↗": {
-    "fr": "Demander une démo ↗",
-    "es": "Solicitar una demo ↗"
-  },
   "/ Customer retention": {
     "fr": "/ Fidélisation clients",
     "es": "/ Fidelización de clientes"
@@ -1302,10 +1298,6 @@
   "Choose an installation on your own infrastructure or in your preferred cloud. The first conversation covers your objective, data availability, users and deployment needs; we then prepare a tailored proposal.": {
     "fr": "Choisissez une installation sur votre infrastructure ou dans votre cloud. Le premier échange porte sur votre objectif, vos données, vos utilisateurs et vos besoins de déploiement ; nous préparons ensuite une proposition sur mesure.",
     "es": "Elija una instalación en su infraestructura o en su nube. La primera conversación aborda su objetivo, datos, usuarios y necesidades de despliegue; después preparamos una propuesta a medida."
-  },
-  "Explore local deployment ↗": {
-    "fr": "Découvrir le déploiement local ↗",
-    "es": "Explorar el despliegue local ↗"
   },
   "THE SCIENCE BEHIND THE SOFTWARE": {
     "fr": "LA SCIENCE DERRIÈRE LE LOGICIEL",
@@ -2044,8 +2036,8 @@
     "es": "Neurytika utiliza el Evidence Ratio Classifier (ERC). El artículo revisado por pares presenta su regla de aprendizaje, protocolos experimentales y resultados de referencia, incluido el experimento de fraude sintético con tarjetas."
   },
   "Read the open-access ERC paper ↗": {
-    "fr": "Lire l’article ERC en libre accès ↗",
-    "es": "Leer el artículo ERC de acceso abierto ↗"
+    "fr": "Lire l’article ERC en accès libre ↗",
+    "es": "Leer el artículo ERC en acceso abierto ↗"
   },
   "How do we detect fraud": {
     "fr": "Comment détecter la fraude",
@@ -2590,10 +2582,6 @@
   "Your project": {
     "fr": "Votre projet",
     "es": "Su proyecto"
-  },
-  "Discuss your deployment ↗": {
-    "fr": "Parlons de votre déploiement ↗",
-    "es": "Hablemos de su despliegue ↗"
   },
   "/ Data sovereignty & AI": {
     "fr": "/ Souveraineté des données et IA",
@@ -4189,7 +4177,7 @@
   },
   "Read the open-access ERC paper": {
     "fr": "Lire l’article ERC en accès libre",
-    "es": "Leer el artículo ERC de acceso abierto"
+    "es": "Leer el artículo ERC en acceso abierto"
   },
   "YOUR EMBEDDED PILOT": {
     "fr": "VOTRE PILOTE EMBARQUÉ",
@@ -4259,345 +4247,173 @@
     "fr": "IA embarquée pour l’aérospatial ↗",
     "es": "IA embarcada aeroespacial ↗"
   },
-  "Data sovereignty & AI ↗": {
-    "fr": "Souveraineté des données et IA ↗",
-    "es": "Soberanía de datos e IA ↗"
-  },
   "Data sovereignty & AI ↓": {
     "fr": "Souveraineté des données et IA ↓",
     "es": "Soberanía de datos e IA ↓"
-  },
-  "Explainable onboard classification for telemetry, equipment health and event prioritization. Develop an embedded Neurytika pilot with Celeste EcoFlyers. ↗": {
-    "fr": "Classification embarquée explicable pour la télémétrie, la santé des équipements et la priorisation des événements. Développez un pilote Neurytika avec Celeste EcoFlyers. ↗",
-    "es": "Clasificación embarcada explicable para telemetría, estado de equipos y priorización de eventos. Desarrolle un piloto Neurytika con Celeste EcoFlyers. ↗"
   },
   "Explainable onboard classification for telemetry, equipment health and event prioritization. Develop an embedded Neurytika pilot with Celeste EcoFlyers. ↓": {
     "fr": "Classification embarquée explicable pour la télémétrie, la santé des équipements et la priorisation des événements. Développez un pilote Neurytika avec Celeste EcoFlyers. ↓",
     "es": "Clasificación embarcada explicable para telemetría, estado de equipos y priorización de eventos. Desarrolle un piloto Neurytika con Celeste EcoFlyers. ↓"
   },
-  "DRONES · AEROSPACE · SPACE ↗": {
-    "fr": "DRONES · AÉRONAUTIQUE · SPATIAL ↗",
-    "es": "DRONES · AERONÁUTICA · ESPACIO ↗"
-  },
   "DRONES · AEROSPACE · SPACE ↓": {
     "fr": "DRONES · AÉRONAUTIQUE · SPATIAL ↓",
     "es": "DRONES · AERONÁUTICA · ESPACIO ↓"
-  },
-  "Bring intelligence onboard. ↗": {
-    "fr": "Embarquez l’intelligence. ↗",
-    "es": "Lleve la inteligencia a bordo. ↗"
   },
   "Bring intelligence onboard. ↓": {
     "fr": "Embarquez l’intelligence. ↓",
     "es": "Lleve la inteligencia a bordo. ↓"
   },
-  "Keep the reasoning visible. ↗": {
-    "fr": "Gardez le raisonnement visible. ↗",
-    "es": "Mantenga el razonamiento visible. ↗"
-  },
   "Keep the reasoning visible. ↓": {
     "fr": "Gardez le raisonnement visible. ↓",
     "es": "Mantenga el razonamiento visible. ↓"
-  },
-  "Turn onboard measurements into useful categories and inspectable evidence. Work with Celeste EcoFlyers to develop an embedded Neurytika integration around your equipment, data and mission. ↗": {
-    "fr": "Transformez les mesures embarquées en catégories utiles et en preuves consultables. Avec Celeste EcoFlyers, développez une intégration embarquée de Neurytika adaptée à vos équipements, vos données et votre mission. ↗",
-    "es": "Transforme las mediciones a bordo en categorías útiles y evidencia consultable. Desarrolle con Celeste EcoFlyers una integración embarcada de Neurytika adaptada a sus equipos, datos y misión. ↗"
   },
   "Turn onboard measurements into useful categories and inspectable evidence. Work with Celeste EcoFlyers to develop an embedded Neurytika integration around your equipment, data and mission. ↓": {
     "fr": "Transformez les mesures embarquées en catégories utiles et en preuves consultables. Avec Celeste EcoFlyers, développez une intégration embarquée de Neurytika adaptée à vos équipements, vos données et votre mission. ↓",
     "es": "Transforme las mediciones a bordo en categorías útiles y evidencia consultable. Desarrolle con Celeste EcoFlyers una integración embarcada de Neurytika adaptada a sus equipos, datos y misión. ↓"
   },
-  "Discuss an embedded AI pilot ↗": {
-    "fr": "Parlons de votre pilote embarqué ↗",
-    "es": "Hablemos de su piloto embarcado ↗"
-  },
   "Discuss an embedded AI pilot ↓": {
     "fr": "Parlons de votre pilote embarqué ↓",
     "es": "Hablemos de su piloto embarcado ↓"
-  },
-  "Explore the use cases ↗": {
-    "fr": "Découvrir les cas d’usage ↗",
-    "es": "Explorar los casos de uso ↗"
   },
   "Explore the use cases ↓": {
     "fr": "Découvrir les cas d’usage ↓",
     "es": "Explorar los casos de uso ↓"
   },
-  "From telemetry to an explained result ↗": {
-    "fr": "De la télémétrie à un résultat expliqué ↗",
-    "es": "De la telemetría a un resultado explicado ↗"
-  },
   "From telemetry to an explained result ↓": {
     "fr": "De la télémétrie à un résultat expliqué ↓",
     "es": "De la telemetría a un resultado explicado ↓"
-  },
-  "An integration workflow ↗": {
-    "fr": "Un parcours d’intégration ↗",
-    "es": "Un proceso de integración ↗"
   },
   "An integration workflow ↓": {
     "fr": "Un parcours d’intégration ↓",
     "es": "Un proceso de integración ↓"
   },
-  "MEASURE ↗": {
-    "fr": "MESURER ↗",
-    "es": "MEDIR ↗"
-  },
   "MEASURE ↓": {
     "fr": "MESURER ↓",
     "es": "MEDIR ↓"
-  },
-  "Sensor & telemetry records ↗": {
-    "fr": "Mesures et télémétrie ↗",
-    "es": "Registros de sensores y telemetría ↗"
   },
   "Sensor & telemetry records ↓": {
     "fr": "Mesures et télémétrie ↓",
     "es": "Registros de sensores y telemetría ↓"
   },
-  "PREPARE ↗": {
-    "fr": "PRÉPARER ↗",
-    "es": "PREPARAR ↗"
-  },
   "PREPARE ↓": {
     "fr": "PRÉPARER ↓",
     "es": "PREPARAR ↓"
-  },
-  "Useful features & known states ↗": {
-    "fr": "Variables utiles et états connus ↗",
-    "es": "Variables útiles y estados conocidos ↗"
   },
   "Useful features & known states ↓": {
     "fr": "Variables utiles et états connus ↓",
     "es": "Variables útiles y estados conocidos ↓"
   },
-  "CLASSIFY ↗": {
-    "fr": "CLASSER ↗",
-    "es": "CLASIFICAR ↗"
-  },
   "CLASSIFY ↓": {
     "fr": "CLASSER ↓",
     "es": "CLASIFICAR ↓"
-  },
-  "ERC model on your target computer ↗": {
-    "fr": "Modèle ERC sur votre calculateur cible ↗",
-    "es": "Modelo ERC en su ordenador de destino ↗"
   },
   "ERC model on your target computer ↓": {
     "fr": "Modèle ERC sur votre calculateur cible ↓",
     "es": "Modelo ERC en su ordenador de destino ↓"
   },
-  "EXPLAIN ↗": {
-    "fr": "EXPLIQUER ↗",
-    "es": "EXPLICAR ↗"
-  },
   "EXPLAIN ↓": {
     "fr": "EXPLIQUER ↓",
     "es": "EXPLICAR ↓"
-  },
-  "A category, with supporting evidence ↗": {
-    "fr": "Une catégorie et ses éléments explicatifs ↗",
-    "es": "Una categoría y su evidencia ↗"
   },
   "A category, with supporting evidence ↓": {
     "fr": "Une catégorie et ses éléments explicatifs ↓",
     "es": "Una categoría y su evidencia ↓"
   },
-  "Illustrative integration architecture ↗": {
-    "fr": "Architecture d’intégration proposée ↗",
-    "es": "Arquitectura de integración propuesta ↗"
-  },
   "Illustrative integration architecture ↓": {
     "fr": "Architecture d’intégration proposée ↓",
     "es": "Arquitectura de integración propuesta ↓"
-  },
-  "THREE PRACTICAL STARTING POINTS ↗": {
-    "fr": "TROIS POINTS DE DÉPART CONCRETS ↗",
-    "es": "TRES PUNTOS DE PARTIDA CONCRETOS ↗"
   },
   "THREE PRACTICAL STARTING POINTS ↓": {
     "fr": "TROIS POINTS DE DÉPART CONCRETS ↓",
     "es": "TRES PUNTOS DE PARTIDA CONCRETOS ↓"
   },
-  "Make each measurement useful. ↗": {
-    "fr": "Donnez du sens à chaque mesure. ↗",
-    "es": "Dé sentido a cada medición. ↗"
-  },
   "Make each measurement useful. ↓": {
     "fr": "Donnez du sens à chaque mesure. ↓",
     "es": "Dé sentido a cada medición. ↓"
-  },
-  "Drone & aircraft equipment health ↗": {
-    "fr": "Santé des équipements de drones et aéronefs ↗",
-    "es": "Estado de equipos de drones y aeronaves ↗"
   },
   "Drone & aircraft equipment health ↓": {
     "fr": "Santé des équipements de drones et aéronefs ↓",
     "es": "Estado de equipos de drones y aeronaves ↓"
   },
-  "Use battery, propulsion or vibration features to classify recorded operating states. Give maintenance and engineering teams the contributing signals behind an inspection priority. ↗": {
-    "fr": "Exploitez les variables de batterie, de propulsion ou de vibration pour classer les états de fonctionnement observés. Donnez aux équipes de maintenance et d’ingénierie les signaux qui expliquent une priorité d’inspection. ↗",
-    "es": "Utilice variables de batería, propulsión o vibración para clasificar estados de funcionamiento registrados. Muestre a mantenimiento e ingeniería las señales que explican una prioridad de inspección. ↗"
-  },
   "Use battery, propulsion or vibration features to classify recorded operating states. Give maintenance and engineering teams the contributing signals behind an inspection priority. ↓": {
     "fr": "Exploitez les variables de batterie, de propulsion ou de vibration pour classer les états de fonctionnement observés. Donnez aux équipes de maintenance et d’ingénierie les signaux qui expliquent une priorité d’inspection. ↓",
     "es": "Utilice variables de batería, propulsión o vibración para clasificar estados de funcionamiento registrados. Muestre a mantenimiento e ingeniería las señales que explican una prioridad de inspección. ↓"
-  },
-  "Example: identify a battery operating-state category from temperature, voltage and current summaries paired with historical inspection labels. ↗": {
-    "fr": "Exemple : identifier une catégorie d’état de batterie à partir de synthèses de température, tension et courant associées aux résultats d’inspections passées. ↗",
-    "es": "Ejemplo: identificar una categoría de estado de batería mediante resúmenes de temperatura, tensión y corriente asociados a inspecciones anteriores. ↗"
   },
   "Example: identify a battery operating-state category from temperature, voltage and current summaries paired with historical inspection labels. ↓": {
     "fr": "Exemple : identifier une catégorie d’état de batterie à partir de synthèses de température, tension et courant associées aux résultats d’inspections passées. ↓",
     "es": "Ejemplo: identificar una categoría de estado de batería mediante resúmenes de temperatura, tensión y corriente asociados a inspecciones anteriores. ↓"
   },
-  "Satellite telemetry triage ↗": {
-    "fr": "Orientation des alertes de télémétrie satellite ↗",
-    "es": "Clasificación de alertas de telemetría satelital ↗"
-  },
   "Satellite telemetry triage ↓": {
     "fr": "Orientation des alertes de télémétrie satellite ↓",
     "es": "Clasificación de alertas de telemetría satelital ↓"
-  },
-  "Classify telemetry windows into defined system-state categories and attach the observed evidence. Help operators focus their review on the events that match their mission priorities. ↗": {
-    "fr": "Classez les fenêtres de télémétrie dans des catégories d’état définies et associez-y les éléments observés. Aidez les opérateurs à concentrer leur analyse sur les événements correspondant aux priorités de mission. ↗",
-    "es": "Clasifique ventanas de telemetría en categorías de estado definidas y adjunte la evidencia observada. Ayude a los operadores a centrarse en los eventos relevantes para la misión. ↗"
   },
   "Classify telemetry windows into defined system-state categories and attach the observed evidence. Help operators focus their review on the events that match their mission priorities. ↓": {
     "fr": "Classez les fenêtres de télémétrie dans des catégories d’état définies et associez-y les éléments observés. Aidez les opérateurs à concentrer leur analyse sur les événements correspondant aux priorités de mission. ↓",
     "es": "Clasifique ventanas de telemetría en categorías de estado definidas y adjunte la evidencia observada. Ayude a los operadores a centrarse en los eventos relevantes para la misión. ↓"
   },
-  "Example: route a power-subsystem event to the right engineering review using prepared electrical and thermal features. ↗": {
-    "fr": "Exemple : orienter un événement du sous-système électrique vers l’analyse appropriée à partir de variables électriques et thermiques préparées. ↗",
-    "es": "Ejemplo: dirigir un evento del subsistema eléctrico a la revisión adecuada mediante variables eléctricas y térmicas preparadas. ↗"
-  },
   "Example: route a power-subsystem event to the right engineering review using prepared electrical and thermal features. ↓": {
     "fr": "Exemple : orienter un événement du sous-système électrique vers l’analyse appropriée à partir de variables électriques et thermiques préparées. ↓",
     "es": "Ejemplo: dirigir un evento del subsistema eléctrico a la revisión adecuada mediante variables eléctricas y térmicas preparadas. ↓"
-  },
-  "Payload data & event prioritization ↗": {
-    "fr": "Priorisation des données de charge utile et événements ↗",
-    "es": "Priorización de datos de carga útil y eventos ↗"
   },
   "Payload data & event prioritization ↓": {
     "fr": "Priorisation des données de charge utile et événements ↓",
     "es": "Priorización de datos de carga útil y eventos ↓"
   },
-  "Classify prepared measurement records by quality or operational interest. Make the criteria behind a record’s priority available to the mission team and its data workflow. ↗": {
-    "fr": "Classez les mesures préparées selon leur qualité ou leur intérêt opérationnel. Rendez les critères de priorité accessibles à l’équipe de mission et à sa chaîne de traitement des données. ↗",
-    "es": "Clasifique registros de mediciones preparados según su calidad o interés operativo. Comparta los criterios de prioridad con el equipo de misión y su flujo de datos. ↗"
-  },
   "Classify prepared measurement records by quality or operational interest. Make the criteria behind a record’s priority available to the mission team and its data workflow. ↓": {
     "fr": "Classez les mesures préparées selon leur qualité ou leur intérêt opérationnel. Rendez les critères de priorité accessibles à l’équipe de mission et à sa chaîne de traitement des données. ↓",
     "es": "Clasifique registros de mediciones preparados según su calidad o interés operativo. Comparta los criterios de prioridad con el equipo de misión y su flujo de datos. ↓"
-  },
-  "Example: prioritize records for engineering review or transmission using known observation-quality labels. ↗": {
-    "fr": "Exemple : prioriser les données à examiner ou transmettre à partir de catégories connues de qualité d’observation. ↗",
-    "es": "Ejemplo: priorizar registros para revisión o transmisión utilizando categorías conocidas de calidad de observación. ↗"
   },
   "Example: prioritize records for engineering review or transmission using known observation-quality labels. ↓": {
     "fr": "Exemple : prioriser les données à examiner ou transmettre à partir de catégories connues de qualité d’observation. ↓",
     "es": "Ejemplo: priorizar registros para revisión o transmisión utilizando categorías conocidas de calidad de observación. ↓"
   },
-  "A CLEAR DIRECTION FOR THE SECTOR ↗": {
-    "fr": "UNE DIRECTION CLAIRE POUR LE SECTEUR ↗",
-    "es": "UNA DIRECCIÓN CLARA PARA EL SECTOR ↗"
-  },
   "A CLEAR DIRECTION FOR THE SECTOR ↓": {
     "fr": "UNE DIRECTION CLAIRE POUR LE SECTEUR ↓",
     "es": "UNA DIRECCIÓN CLARA PARA EL SECTOR ↓"
-  },
-  "Public programmes show the need. ↗": {
-    "fr": "Les programmes publics montrent le besoin. ↗",
-    "es": "Los programas públicos muestran la necesidad. ↗"
   },
   "Public programmes show the need. ↓": {
     "fr": "Les programmes publics montrent le besoin. ↓",
     "es": "Los programas públicos muestran la necesidad. ↓"
   },
-  "Onboard assessment, interpretable models and greater autonomy are already concrete research and engineering priorities. ↗": {
-    "fr": "L’évaluation embarquée, les modèles interprétables et l’autonomie constituent déjà des priorités concrètes de recherche et d’ingénierie. ↗",
-    "es": "La evaluación a bordo, los modelos interpretables y la autonomía ya son prioridades concretas de investigación e ingeniería. ↗"
-  },
   "Onboard assessment, interpretable models and greater autonomy are already concrete research and engineering priorities. ↓": {
     "fr": "L’évaluation embarquée, les modèles interprétables et l’autonomie constituent déjà des priorités concrètes de recherche et d’ingénierie. ↓",
     "es": "La evaluación a bordo, los modelos interpretables y la autonomía ya son prioridades concretas de investigación e ingeniería. ↓"
-  },
-  "NASA / JPL — OUTLAST ↗": {
-    "fr": "NASA / JPL — OUTLAST ↗",
-    "es": "NASA / JPL — OUTLAST ↗"
   },
   "NASA / JPL — OUTLAST ↓": {
     "fr": "NASA / JPL — OUTLAST ↓",
     "es": "NASA / JPL — OUTLAST ↓"
   },
-  "JPL developed onboard health classification from flight telemetry and event logs for future autonomous multi-flight operations. Its OUTLAST software flew aboard Ingenuity in January 2024. ↗": {
-    "fr": "Le JPL a développé une classification embarquée de l’état de santé à partir de télémétrie et de journaux de vol pour les futures opérations autonomes à vols multiples. OUTLAST a volé à bord d’Ingenuity en janvier 2024. ↗",
-    "es": "JPL desarrolló clasificación del estado del sistema a bordo a partir de telemetría y registros de vuelo para futuras operaciones autónomas con varios vuelos. OUTLAST voló a bordo de Ingenuity en enero de 2024. ↗"
-  },
   "JPL developed onboard health classification from flight telemetry and event logs for future autonomous multi-flight operations. Its OUTLAST software flew aboard Ingenuity in January 2024. ↓": {
     "fr": "Le JPL a développé une classification embarquée de l’état de santé à partir de télémétrie et de journaux de vol pour les futures opérations autonomes à vols multiples. OUTLAST a volé à bord d’Ingenuity en janvier 2024. ↓",
     "es": "JPL desarrolló clasificación del estado del sistema a bordo a partir de telemetría y registros de vuelo para futuras operaciones autónomas con varios vuelos. OUTLAST voló a bordo de Ingenuity en enero de 2024. ↓"
-  },
-  "Read the JPL project ↗": {
-    "fr": "Lire le projet du JPL ↗",
-    "es": "Leer el proyecto de JPL ↗"
   },
   "Read the JPL project ↓": {
     "fr": "Lire le projet du JPL ↓",
     "es": "Leer el proyecto de JPL ↓"
   },
-  "ESA / Airbus — ORBIT-STAR ↗": {
-    "fr": "ESA / Airbus — ORBIT-STAR ↗",
-    "es": "ESA / Airbus — ORBIT-STAR ↗"
-  },
   "ESA / Airbus — ORBIT-STAR ↓": {
     "fr": "ESA / Airbus — ORBIT-STAR ↓",
     "es": "ESA / Airbus — ORBIT-STAR ↓"
-  },
-  "ESA describes an Airbus demonstrator that analyses Columbus subsystem telemetry for fault detection and prognosis. Onboard execution is identified as a next step for future missions. ↗": {
-    "fr": "L’ESA présente un démonstrateur Airbus qui analyse la télémétrie d’un sous-système de Columbus pour détecter et anticiper les défauts. L’exécution embarquée figure parmi les prochaines étapes pour les missions futures. ↗",
-    "es": "La ESA presenta un demostrador de Airbus que analiza telemetría de un subsistema de Columbus para detectar y anticipar fallos. La ejecución a bordo es un próximo paso para futuras misiones. ↗"
   },
   "ESA describes an Airbus demonstrator that analyses Columbus subsystem telemetry for fault detection and prognosis. Onboard execution is identified as a next step for future missions. ↓": {
     "fr": "L’ESA présente un démonstrateur Airbus qui analyse la télémétrie d’un sous-système de Columbus pour détecter et anticiper les défauts. L’exécution embarquée figure parmi les prochaines étapes pour les missions futures. ↓",
     "es": "La ESA presenta un demostrador de Airbus que analiza telemetría de un subsistema de Columbus para detectar y anticipar fallos. La ejecución a bordo es un próximo paso para futuras misiones. ↓"
   },
-  "Read the ESA programme ↗": {
-    "fr": "Lire le programme de l’ESA ↗",
-    "es": "Leer el programa de la ESA ↗"
-  },
   "Read the ESA programme ↓": {
     "fr": "Lire le programme de l’ESA ↓",
     "es": "Leer el programa de la ESA ↓"
-  },
-  "WHY NEURYTIKA ↗": {
-    "fr": "L’APPORT DE NEURYTIKA ↗",
-    "es": "EL VALOR DE NEURYTIKA ↗"
   },
   "WHY NEURYTIKA ↓": {
     "fr": "L’APPORT DE NEURYTIKA ↓",
     "es": "EL VALOR DE NEURYTIKA ↓"
   },
-  "An explained category. A practical integration. ↗": {
-    "fr": "Une catégorie expliquée. Une intégration concrète. ↗",
-    "es": "Una categoría explicada. Una integración práctica. ↗"
-  },
   "An explained category. A practical integration. ↓": {
     "fr": "Une catégorie expliquée. Une intégration concrète. ↓",
     "es": "Una categoría explicada. Una integración práctica. ↓"
   },
-  "ERC learns combinations of structured features associated with target classes. This provides an engineering basis for inspecting the evidence behind a classification and discussing it with domain experts. ↗": {
-    "fr": "ERC apprend des combinaisons de variables structurées associées aux classes cibles. Cette approche permet d’examiner les éléments d’une classification et de les analyser avec les experts métier. ↗",
-    "es": "ERC aprende combinaciones de variables estructuradas asociadas a clases objetivo. Esto permite examinar la evidencia de una clasificación y analizarla con expertos del sector. ↗"
-  },
   "ERC learns combinations of structured features associated with target classes. This provides an engineering basis for inspecting the evidence behind a classification and discussing it with domain experts. ↓": {
     "fr": "ERC apprend des combinaisons de variables structurées associées aux classes cibles. Cette approche permet d’examiner les éléments d’une classification et de les analyser avec les experts métier. ↓",
     "es": "ERC aprende combinaciones de variables estructuradas asociadas a clases objetivo. Esto permite examinar la evidencia de una clasificación y analizarla con expertos del sector. ↓"
-  },
-  "Develop the model with representative historical data, then engineer and measure the inference integration on your chosen onboard computer. The pilot defines memory, processing time, interfaces and the operator’s use of each result. ↗": {
-    "fr": "Développez le modèle sur un historique représentatif, puis intégrez et mesurez l’inférence sur le calculateur embarqué choisi. Le pilote définit la mémoire, le temps de traitement, les interfaces et l’utilisation de chaque résultat par l’opérateur. ↗",
-    "es": "Desarrolle el modelo con datos históricos representativos y después integre y mida la inferencia en el ordenador de a bordo elegido. El piloto define memoria, tiempo de procesamiento, interfaces y uso de cada resultado por el operador. ↗"
   },
   "Develop the model with representative historical data, then engineer and measure the inference integration on your chosen onboard computer. The pilot defines memory, processing time, interfaces and the operator’s use of each result. ↓": {
     "fr": "Développez le modèle sur un historique représentatif, puis intégrez et mesurez l’inférence sur le calculateur embarqué choisi. Le pilote définit la mémoire, le temps de traitement, les interfaces et l’utilisation de chaque résultat par l’opérateur. ↓",
@@ -4607,81 +4423,41 @@
     "fr": "Lire l’article ERC en accès libre ↓",
     "es": "Leer el artículo ERC de acceso abierto ↓"
   },
-  "YOUR EMBEDDED PILOT ↗": {
-    "fr": "VOTRE PILOTE EMBARQUÉ ↗",
-    "es": "SU PILOTO EMBARCADO ↗"
-  },
   "YOUR EMBEDDED PILOT ↓": {
     "fr": "VOTRE PILOTE EMBARQUÉ ↓",
     "es": "SU PILOTO EMBARCADO ↓"
-  },
-  "From mission objective to target hardware. ↗": {
-    "fr": "De l’objectif de mission au matériel cible. ↗",
-    "es": "Del objetivo de misión al hardware de destino. ↗"
   },
   "From mission objective to target hardware. ↓": {
     "fr": "De l’objectif de mission au matériel cible. ↓",
     "es": "Del objetivo de misión al hardware de destino. ↓"
   },
-  "Define the useful category ↗": {
-    "fr": "Définir la catégorie utile ↗",
-    "es": "Definir la categoría útil ↗"
-  },
   "Define the useful category ↓": {
     "fr": "Définir la catégorie utile ↓",
     "es": "Definir la categoría útil ↓"
-  },
-  "Choose one equipment state or event category, its user and the moment when the result is needed. Map sensors, prepared features and historical labels. ↗": {
-    "fr": "Choisissez un état d’équipement ou une catégorie d’événement, son utilisateur et le moment utile du résultat. Identifiez capteurs, variables préparées et catégories historiques. ↗",
-    "es": "Elija un estado de equipo o categoría de evento, su usuario y el momento útil del resultado. Identifique sensores, variables preparadas y categorías históricas. ↗"
   },
   "Choose one equipment state or event category, its user and the moment when the result is needed. Map sensors, prepared features and historical labels. ↓": {
     "fr": "Choisissez un état d’équipement ou une catégorie d’événement, son utilisateur et le moment utile du résultat. Identifiez capteurs, variables préparées et catégories historiques. ↓",
     "es": "Elija un estado de equipo o categoría de evento, su usuario y el momento útil del resultado. Identifique sensores, variables preparadas y categorías históricas. ↓"
   },
-  "Evaluate on mission data ↗": {
-    "fr": "Évaluer sur les données de mission ↗",
-    "es": "Evaluar con datos de misión ↗"
-  },
   "Evaluate on mission data ↓": {
     "fr": "Évaluer sur les données de mission ↓",
     "es": "Evaluar con datos de misión ↓"
-  },
-  "Compare the model with your current approach on reserved historical records. Review category quality, useful evidence and operational acceptance criteria with your engineers. ↗": {
-    "fr": "Comparez le modèle à votre approche actuelle sur des données historiques réservées au test. Examinez la qualité des catégories, les éléments explicatifs et les critères opérationnels avec vos ingénieurs. ↗",
-    "es": "Compare el modelo con su enfoque actual usando datos históricos reservados para pruebas. Revise calidad de categorías, evidencia útil y criterios operativos con sus ingenieros. ↗"
   },
   "Compare the model with your current approach on reserved historical records. Review category quality, useful evidence and operational acceptance criteria with your engineers. ↓": {
     "fr": "Comparez le modèle à votre approche actuelle sur des données historiques réservées au test. Examinez la qualité des catégories, les éléments explicatifs et les critères opérationnels avec vos ingénieurs. ↓",
     "es": "Compare el modelo con su enfoque actual usando datos históricos reservados para pruebas. Revise calidad de categorías, evidencia útil y criterios operativos con sus ingenieros. ↓"
   },
-  "Integrate & measure onboard ↗": {
-    "fr": "Intégrer et mesurer à bord ↗",
-    "es": "Integrar y medir a bordo ↗"
-  },
   "Integrate & measure onboard ↓": {
     "fr": "Intégrer et mesurer à bord ↓",
     "es": "Integrar y medir a bordo ↓"
-  },
-  "Scope target-side inference, data interfaces and monitoring. Measure resource use and processing time on your selected computer, then define the validation and deployment plan for the intended function. ↗": {
-    "fr": "Cadrez l’inférence embarquée, les interfaces de données et le suivi. Mesurez les ressources et le temps de traitement sur votre calculateur, puis définissez le plan de validation et de déploiement de la fonction envisagée. ↗",
-    "es": "Defina inferencia embarcada, interfaces de datos y supervisión. Mida recursos y tiempo de procesamiento en su ordenador y acuerde el plan de validación y despliegue de la función prevista. ↗"
   },
   "Scope target-side inference, data interfaces and monitoring. Measure resource use and processing time on your selected computer, then define the validation and deployment plan for the intended function. ↓": {
     "fr": "Cadrez l’inférence embarquée, les interfaces de données et le suivi. Mesurez les ressources et le temps de traitement sur votre calculateur, puis définissez le plan de validation et de déploiement de la fonction envisagée. ↓",
     "es": "Defina inferencia embarcada, interfaces de datos y supervisión. Mida recursos y tiempo de procesamiento en su ordenador y acuerde el plan de validación y despliegue de la función prevista. ↓"
   },
-  "Aerospace experience. Explainable AI expertise. ↗": {
-    "fr": "Expérience aéronautique. Expertise en IA explicable. ↗",
-    "es": "Experiencia aeronáutica. Experiencia en IA explicable. ↗"
-  },
   "Aerospace experience. Explainable AI expertise. ↓": {
     "fr": "Expérience aéronautique. Expertise en IA explicable. ↓",
     "es": "Experiencia aeronáutica. Experiencia en IA explicable. ↓"
-  },
-  "Celeste EcoFlyers brings together aerospace projects and the development of Neurytika. Talk to the team about your drone, aircraft equipment or space-system monitoring project. ↗": {
-    "fr": "Celeste EcoFlyers réunit des projets aéronautiques et le développement de Neurytika. Échangez avec l’équipe sur votre projet de suivi de drones, d’équipements aéronautiques ou de systèmes spatiaux. ↗",
-    "es": "Celeste EcoFlyers combina proyectos aeronáuticos y el desarrollo de Neurytika. Hable con el equipo sobre su proyecto de supervisión de drones, equipos aeronáuticos o sistemas espaciales. ↗"
   },
   "Celeste EcoFlyers brings together aerospace projects and the development of Neurytika. Talk to the team about your drone, aircraft equipment or space-system monitoring project. ↓": {
     "fr": "Celeste EcoFlyers réunit des projets aéronautiques et le développement de Neurytika. Échangez avec l’équipe sur votre projet de suivi de drones, d’équipements aéronautiques ou de systèmes spatiaux. ↓",
@@ -4699,25 +4475,13 @@
     "fr": "Explorer le déploiement local ↓",
     "es": "Explorar el despliegue local ↓"
   },
-  "Tell us about your onboard project. ↗": {
-    "fr": "Parlez-nous de votre projet embarqué. ↗",
-    "es": "Cuéntenos su proyecto embarcado. ↗"
-  },
   "Tell us about your onboard project. ↓": {
     "fr": "Parlez-nous de votre projet embarqué. ↓",
     "es": "Cuéntenos su proyecto embarcado. ↓"
   },
-  "Share the equipment, the category you want to predict, available historical data and your target computer. We will shape a focused feasibility and integration proposal with your team. ↗": {
-    "fr": "Indiquez l’équipement, la catégorie à prédire, les données historiques disponibles et votre calculateur cible. Nous construirons avec votre équipe une proposition ciblée de faisabilité et d’intégration. ↗",
-    "es": "Indique el equipo, la categoría a predecir, los datos históricos disponibles y su ordenador de destino. Prepararemos con su equipo una propuesta de viabilidad e integración. ↗"
-  },
   "Share the equipment, the category you want to predict, available historical data and your target computer. We will shape a focused feasibility and integration proposal with your team. ↓": {
     "fr": "Indiquez l’équipement, la catégorie à prédire, les données historiques disponibles et votre calculateur cible. Nous construirons avec votre équipe une proposition ciblée de faisabilité et d’intégration. ↓",
     "es": "Indique el equipo, la categoría a predecir, los datos históricos disponibles y su ordenador de destino. Prepararemos con su equipo una propuesta de viabilidad e integración. ↓"
-  },
-  "Discuss scope & demonstration ↗": {
-    "fr": "Parlons du périmètre et d’une démonstration ↗",
-    "es": "Hablemos del alcance y de una demostración ↗"
   },
   "Discuss scope & demonstration ↓": {
     "fr": "Parlons du périmètre et d’une démonstration ↓",
@@ -4742,5 +4506,873 @@
   "04 / EXPLAIN": {
     "fr": "04 / EXPLIQUER",
     "es": "04 / EXPLICAR"
+  },
+  "Explore an Explainable AI Pilot": {
+    "fr": "Explorer un pilote d’IA explicable",
+    "es": "Explorar un piloto de IA explicable"
+  },
+  "Technology evaluation": {
+    "fr": "Évaluation technologique",
+    "es": "Evaluación tecnológica"
+  },
+  "Intelligence & decision support": {
+    "fr": "Analyse et aide à la décision",
+    "es": "Análisis y apoyo a la decisión"
+  },
+  "Maritime surveillance": {
+    "fr": "Surveillance maritime",
+    "es": "Vigilancia marítima"
+  },
+  "Evidence you can inspect. Expertise you can work with.": {
+    "fr": "Des éléments explicatifs à examiner. Une équipe pour vous accompagner.",
+    "es": "Evidencia que puede examinar. Un equipo para acompañarle."
+  },
+  "Neurytika is developed by Celeste EcoFlyers in France. Its Evidence Ratio Classifier (ERC) represents relationships between discrete feature combinations and target classes, making their statistical support available for inspection. The research is published in Neurocomputing.": {
+    "fr": "Neurytika est développé en France par Celeste EcoFlyers. Son Evidence Ratio Classifier (ERC) représente les relations entre combinaisons de caractéristiques discrètes et classes cibles, et permet d’en examiner le support statistique. Les travaux sont publiés dans Neurocomputing.",
+    "es": "Neurytika es desarrollado en Francia por Celeste EcoFlyers. Su Evidence Ratio Classifier (ERC) representa relaciones entre combinaciones de características discretas y clases objetivo, y permite examinar su respaldo estadístico. La investigación está publicada en Neurocomputing."
+  },
+  "Explore data sovereignty": {
+    "fr": "Explorer la souveraineté des données",
+    "es": "Explorar la soberanía de los datos"
+  },
+  "Your data": {
+    "fr": "Vos données",
+    "es": "Sus datos"
+  },
+  "Understand every alert. Make better-informed decisions.": {
+    "fr": "Comprendre chaque alerte. Éclairer chaque décision.",
+    "es": "Comprenda cada alerta. Tome decisiones mejor fundamentadas."
+  },
+  "Explainable alert triage": {
+    "fr": "Examen explicable des alertes",
+    "es": "Revisión explicable de alertas"
+  },
+  "Help analysis teams examine classified records and the feature combinations supporting each result. Bring useful context into their review workflow.": {
+    "fr": "Aidez les équipes d’analyse à examiner les dossiers classés et les combinaisons de caractéristiques qui soutiennent chaque résultat. Apportez un contexte utile à leur travail de revue.",
+    "es": "Ayude a los equipos de análisis a examinar los registros clasificados y las combinaciones de características que respaldan cada resultado. Aporte contexto útil a su revisión."
+  },
+  "Investigate unusual situations": {
+    "fr": "Examiner les situations atypiques",
+    "es": "Investigar situaciones atípicas"
+  },
+  "Evaluate classification against categories defined with your domain experts. Inspect unusual records, compare outcomes and examine the evidence behind incorrect alerts.": {
+    "fr": "Évaluez la classification selon des catégories définies avec vos experts métier. Examinez les dossiers atypiques, comparez les résultats et analysez les éléments à l’origine des alertes incorrectes.",
+    "es": "Evalúe la clasificación con categorías definidas junto a sus expertos. Examine registros atípicos, compare resultados y analice la evidencia de las alertas incorrectas."
+  },
+  "Human-led decisions": {
+    "fr": "Des décisions pilotées par l’humain",
+    "es": "Decisiones dirigidas por personas"
+  },
+  "Give analysts an explained classification to review alongside their domain knowledge. Scope how results, model versions and explanations will be documented in your existing systems.": {
+    "fr": "Fournissez aux analystes une classification expliquée à examiner à la lumière de leur expertise. Définissez comment documenter les résultats, versions de modèles et explications dans vos systèmes existants.",
+    "es": "Ofrezca a los analistas una clasificación explicada que puedan revisar con su conocimiento experto. Defina cómo documentar resultados, versiones del modelo y explicaciones en sus sistemas actuales."
+  },
+  "An alert with a reason to investigate": {
+    "fr": "Une alerte et des éléments à examiner",
+    "es": "Una alerta con evidencia para investigar"
+  },
+  "ILLUSTRATIVE SCENARIO · FICTIONAL EQUIPMENT DATA": {
+    "fr": "SCÉNARIO ILLUSTRATIF · DONNÉES D’ÉQUIPEMENT FICTIVES",
+    "es": "ESCENARIO ILUSTRATIVO · DATOS FICTICIOS DE EQUIPOS"
+  },
+  "A monitoring station needs an engineering review": {
+    "fr": "Une station de surveillance nécessite un examen technique",
+    "es": "Una estación de vigilancia requiere una revisión técnica"
+  },
+  "Observed record: elevated temperature, intermittent signal and a recent maintenance intervention.": {
+    "fr": "Dossier observé : température élevée, signal intermittent et intervention de maintenance récente.",
+    "es": "Registro observado: temperatura elevada, señal intermitente y una intervención de mantenimiento reciente."
+  },
+  "Evaluation question: which combinations in labelled historical records support the “engineering review” category?": {
+    "fr": "Question d’évaluation : quelles combinaisons présentes dans les dossiers historiques étiquetés soutiennent la catégorie « examen technique » ?",
+    "es": "Pregunta de evaluación: ¿qué combinaciones de los registros históricos etiquetados respaldan la categoría « revisión técnica »?"
+  },
+  "Analyst review: inspect the combinations and their statistical support, compare alternative classes, then decide the next step.": {
+    "fr": "Revue par l’analyste : examiner les combinaisons et leur support statistique, comparer les classes alternatives, puis décider de la suite.",
+    "es": "Revisión del analista: examinar las combinaciones y su respaldo estadístico, comparar clases alternativas y decidir el siguiente paso."
+  },
+  "The pilot produces the measured classifications and explanations from your representative dataset.": {
+    "fr": "Le pilote produit les classifications et explications mesurées à partir de votre jeu de données représentatif.",
+    "es": "El piloto produce las clasificaciones y explicaciones medidas a partir de su conjunto de datos representativo."
+  },
+  "An evaluation built around your analysts": {
+    "fr": "Une évaluation conçue avec vos analystes",
+    "es": "Una evaluación diseñada con sus analistas"
+  },
+  "For analysis centres, infrastructure operators and integrators: choose one structured dataset, one classification task and the decisions it should inform. Evaluate accuracy, false alerts and the usefulness of explanations with the people who will use them.": {
+    "fr": "Pour les centres d’analyse, opérateurs d’infrastructures et intégrateurs : choisissez un jeu de données structuré, une tâche de classification et les décisions à éclairer. Évaluez la précision, les fausses alertes et l’utilité des explications avec leurs futurs utilisateurs.",
+    "es": "Para centros de análisis, operadores de infraestructuras e integradores: elija un conjunto de datos estructurado, una tarea de clasificación y las decisiones que debe apoyar. Evalúe la precisión, las falsas alertas y la utilidad de las explicaciones con sus futuros usuarios."
+  },
+  "Evaluate ERC on your analysis datasets": {
+    "fr": "Évaluer ERC sur vos données d’analyse",
+    "es": "Evaluar ERC con sus datos de análisis"
+  },
+  "Explainable AI for Intelligence & Decision Support | Neurytika": {
+    "fr": "IA explicable pour l’analyse et l’aide à la décision | Neurytika",
+    "es": "IA explicable para análisis y apoyo a la decisión | Neurytika"
+  },
+  "Evaluate explainable classification for alert review, structured analysis and human-led decisions. Build an ERC pilot with Celeste EcoFlyers.": {
+    "fr": "Évaluez la classification explicable pour l’examen des alertes, l’analyse structurée et l’aide à la décision. Construisez un pilote ERC avec Celeste EcoFlyers.",
+    "es": "Evalúe la clasificación explicable para revisar alertas, analizar datos estructurados y apoyar decisiones humanas. Desarrolle un piloto ERC con Celeste EcoFlyers."
+  },
+  "Explainable AI for Intelligence & Decision Support": {
+    "fr": "IA explicable pour l’analyse et l’aide à la décision",
+    "es": "IA explicable para análisis y apoyo a la decisión"
+  },
+  "Bring the evidence behind classifications into your analysts’ workflow. Evaluate Neurytika on your structured data and give your team a clearer basis for review.": {
+    "fr": "Intégrez les éléments explicatifs des classifications au travail de vos analystes. Évaluez Neurytika sur vos données structurées et donnez à votre équipe une base plus claire pour son examen.",
+    "es": "Integre la evidencia de las clasificaciones en el trabajo de sus analistas. Evalúe Neurytika con sus datos estructurados y ofrezca a su equipo una base más clara para la revisión."
+  },
+  "Make monitoring information easier to act on": {
+    "fr": "Rendre les informations de surveillance plus utiles",
+    "es": "Facilite el uso de la información de vigilancia"
+  },
+  "Equipment & infrastructure monitoring": {
+    "fr": "Suivi des équipements et infrastructures",
+    "es": "Supervisión de equipos e infraestructuras"
+  },
+  "Explore classification of equipment states from prepared sensor and maintenance records. Help port and offshore teams understand which patterns support an inspection category.": {
+    "fr": "Explorez la classification des états d’équipements à partir de données préparées de capteurs et de maintenance. Aidez les équipes portuaires et offshore à comprendre les motifs qui soutiennent une catégorie d’inspection.",
+    "es": "Explore la clasificación de estados de equipos a partir de registros preparados de sensores y mantenimiento. Ayude a los equipos portuarios y offshore a entender los patrones que respaldan una categoría de inspección."
+  },
+  "Explainable environmental alerts": {
+    "fr": "Alertes environnementales explicables",
+    "es": "Alertas ambientales explicables"
+  },
+  "Evaluate categories defined by environmental specialists using structured observation features and historical labels. Review atypical measurements and the evidence behind each classification.": {
+    "fr": "Évaluez des catégories définies par des spécialistes de l’environnement à partir de caractéristiques d’observations structurées et d’étiquettes historiques. Examinez les mesures atypiques et les éléments explicatifs de chaque classification.",
+    "es": "Evalúe categorías definidas por especialistas ambientales con características estructuradas de observación y etiquetas históricas. Revise mediciones atípicas y la evidencia de cada clasificación."
+  },
+  "Multi-platform data workflows": {
+    "fr": "Données issues de plusieurs plateformes",
+    "es": "Datos de múltiples plataformas"
+  },
+  "Scope an integration using prepared observations from aerial, maritime or land-based sensors. Agree how records are aligned, classified and presented for an operator’s review.": {
+    "fr": "Définissez une intégration utilisant des observations préparées issues de capteurs aériens, maritimes ou terrestres. Précisez comment aligner, classer et présenter les données pour leur examen par un opérateur.",
+    "es": "Defina una integración con observaciones preparadas de sensores aéreos, marítimos o terrestres. Acuerde cómo alinear, clasificar y presentar los registros para su revisión por un operador."
+  },
+  "Start with one useful operational question": {
+    "fr": "Commencer par une question opérationnelle utile",
+    "es": "Empiece con una pregunta operativa útil"
+  },
+  "EXAMPLE PILOT · MARITIME EQUIPMENT HEALTH": {
+    "fr": "EXEMPLE DE PILOTE · ÉTAT DES ÉQUIPEMENTS MARITIMES",
+    "es": "EJEMPLO DE PILOTO · ESTADO DE EQUIPOS MARÍTIMOS"
+  },
+  "Which sensor records deserve a maintenance review?": {
+    "fr": "Quelles observations de capteurs méritent un examen de maintenance ?",
+    "es": "¿Qué registros de sensores merecen una revisión de mantenimiento?"
+  },
+  "Prepare historical temperature, vibration and signal-quality summaries with known equipment-state labels. Compare ERC with a relevant baseline on reserved records, then review the feature combinations supporting the proposed maintenance categories with your engineers.": {
+    "fr": "Préparez des historiques résumés de température, vibration et qualité du signal, associés à des états d’équipement connus. Comparez ERC à une méthode de référence sur des données réservées, puis examinez avec vos ingénieurs les combinaisons de caractéristiques soutenant les catégories de maintenance proposées.",
+    "es": "Prepare resúmenes históricos de temperatura, vibración y calidad de señal con etiquetas de estados conocidos del equipo. Compare ERC con un método de referencia sobre registros reservados y revise con sus ingenieros las combinaciones que respaldan las categorías de mantenimiento propuestas."
+  },
+  "From local analysis to future onboard integration": {
+    "fr": "De l’analyse locale à l’intégration embarquée",
+    "es": "Del análisis local a la integración embarcada"
+  },
+  "Celeste EcoFlyers connects aerospace engineering with explainable AI research. Our development direction is to bring inspectable classification into onboard monitoring and broader cognitive architectures. An embedded pilot scopes the target computer, data preparation, interfaces and measured resource use.": {
+    "fr": "Celeste EcoFlyers relie ingénierie aéronautique et recherche en IA explicable. Notre axe de développement consiste à intégrer une classification examinable au suivi embarqué et à des architectures cognitives plus larges. Un pilote embarqué définit le calculateur cible, la préparation des données, les interfaces et la mesure des ressources utilisées.",
+    "es": "Celeste EcoFlyers conecta la ingeniería aeroespacial con la investigación en IA explicable. Nuestra línea de desarrollo integra clasificación examinable en la supervisión a bordo y en arquitecturas cognitivas más amplias. Un piloto embarcado define el ordenador objetivo, la preparación de datos, las interfaces y la medición de recursos."
+  },
+  "Explore embedded AI": {
+    "fr": "Explorer l’IA embarquée",
+    "es": "Explorar la IA embarcada"
+  },
+  "Explainable AI for Maritime Surveillance & Security | Neurytika": {
+    "fr": "IA explicable pour la surveillance et la sécurité maritimes | Neurytika",
+    "es": "IA explicable para vigilancia y seguridad marítimas | Neurytika"
+  },
+  "Explore an explainable AI pilot for maritime equipment, environmental alerts and operator review. Evaluate ERC on your structured monitoring data.": {
+    "fr": "Explorez un pilote d’IA explicable pour les équipements maritimes, les alertes environnementales et la revue opérateur. Évaluez ERC sur vos données de surveillance structurées.",
+    "es": "Explore un piloto de IA explicable para equipos marítimos, alertas ambientales y revisión por operadores. Evalúe ERC con sus datos estructurados de vigilancia."
+  },
+  "Explainable AI for Maritime Surveillance & Security": {
+    "fr": "IA explicable pour la surveillance et la sécurité maritimes",
+    "es": "IA explicable para vigilancia y seguridad marítimas"
+  },
+  "Give operators useful categories and the evidence behind them. Explore a Neurytika pilot for maritime infrastructure, equipment health and environmental monitoring.": {
+    "fr": "Donnez aux opérateurs des catégories utiles et les éléments qui les expliquent. Explorez un pilote Neurytika pour les infrastructures maritimes, l’état des équipements et la surveillance environnementale.",
+    "es": "Ofrezca a los operadores categorías útiles y la evidencia que las explica. Explore un piloto de Neurytika para infraestructuras marítimas, estado de equipos y vigilancia ambiental."
+  },
+  "Frame your problem": {
+    "fr": "Cadrer votre besoin",
+    "es": "Definir su necesidad"
+  },
+  "Choose a decision to support, the users involved and the available structured data.": {
+    "fr": "Définissez la décision à éclairer, les utilisateurs concernés et les données structurées disponibles.",
+    "es": "Defina la decisión que desea apoyar, sus usuarios y los datos estructurados disponibles."
+  },
+  "Agree success criteria": {
+    "fr": "Fixer les critères de réussite",
+    "es": "Acordar criterios de éxito"
+  },
+  "Set relevant measures together: class quality, false alerts, explanation usefulness and deployment requirements.": {
+    "fr": "Fixez ensemble les mesures pertinentes : qualité des classes, fausses alertes, utilité des explications et exigences de déploiement.",
+    "es": "Fijen medidas pertinentes: calidad de clasificación, falsas alertas, utilidad de las explicaciones y requisitos de despliegue."
+  },
+  "Evaluate representative data": {
+    "fr": "Évaluer des données représentatives",
+    "es": "Evaluar datos representativos"
+  },
+  "Prepare features and labels, define a suitable evaluation split and evaluate ERC on reserved examples.": {
+    "fr": "Préparez les caractéristiques et étiquettes, définissez une séparation adaptée des données et évaluez ERC sur des exemples réservés.",
+    "es": "Prepare características y etiquetas, defina una separación adecuada de datos y evalúe ERC con ejemplos reservados."
+  },
+  "Compare relevant baselines": {
+    "fr": "Comparer des références pertinentes",
+    "es": "Comparar métodos de referencia"
+  },
+  "Compare with your current approach and suitable reference methods using the same evaluation protocol.": {
+    "fr": "Comparez votre approche actuelle et des méthodes de référence adaptées selon le même protocole d’évaluation.",
+    "es": "Compare su enfoque actual y métodos de referencia adecuados utilizando el mismo protocolo de evaluación."
+  },
+  "Review results & explanations": {
+    "fr": "Examiner les résultats et explications",
+    "es": "Revisar resultados y explicaciones"
+  },
+  "Inspect classifications, feature combinations and errors with domain experts and future users.": {
+    "fr": "Examinez les classifications, combinaisons de caractéristiques et erreurs avec les experts métier et futurs utilisateurs.",
+    "es": "Examine clasificaciones, combinaciones de características y errores con expertos y futuros usuarios."
+  },
+  "Plan your integration": {
+    "fr": "Préparer votre intégration",
+    "es": "Planificar su integración"
+  },
+  "Receive findings and a proposed next step covering interfaces, infrastructure, validation and team support.": {
+    "fr": "Recevez les conclusions et une proposition de suite couvrant interfaces, infrastructure, validation et accompagnement des équipes.",
+    "es": "Reciba conclusiones y una propuesta de próximos pasos sobre interfaces, infraestructura, validación y acompañamiento."
+  },
+  "A focused project. A clear decision at the end.": {
+    "fr": "Un projet ciblé. Une décision éclairée à l’arrivée.",
+    "es": "Un proyecto enfocado. Una decisión fundamentada al finalizar."
+  },
+  "What your team receives": {
+    "fr": "Ce que votre équipe reçoit",
+    "es": "Qué recibe su equipo"
+  },
+  "An agreed scope and evaluation protocol.": {
+    "fr": "Un périmètre et un protocole d’évaluation convenus ensemble.",
+    "es": "Un alcance y un protocolo de evaluación acordados."
+  },
+  "A results report with baseline comparisons and analysis of errors.": {
+    "fr": "Un rapport de résultats avec comparaisons de référence et analyse des erreurs.",
+    "es": "Un informe de resultados con comparaciones de referencia y análisis de errores."
+  },
+  "Explained example classifications reviewed with your experts.": {
+    "fr": "Des exemples de classifications expliquées, examinés avec vos experts.",
+    "es": "Ejemplos de clasificaciones explicadas y revisadas con sus expertos."
+  },
+  "An integration recommendation and a scoped commercial proposal for the next phase.": {
+    "fr": "Une recommandation d’intégration et une proposition commerciale définie pour la phase suivante.",
+    "es": "Una recomendación de integración y una propuesta comercial delimitada para la siguiente fase."
+  },
+  "Scope, schedule, fees and data-handling arrangements are agreed in your tailored proposal. Evaluation can be organised around client-controlled infrastructure or a preferred cloud environment.": {
+    "fr": "Le périmètre, le calendrier, les honoraires et les modalités de traitement des données sont convenus dans votre proposition personnalisée. L’évaluation peut être organisée sur une infrastructure maîtrisée par le client ou dans l’environnement cloud de son choix.",
+    "es": "El alcance, calendario, honorarios y tratamiento de datos se acuerdan en su propuesta personalizada. La evaluación puede organizarse en infraestructura controlada por el cliente o en el entorno cloud que prefiera."
+  },
+  "Choose your starting point": {
+    "fr": "Choisissez votre point de départ",
+    "es": "Elija su punto de partida"
+  },
+  "Business prediction": {
+    "fr": "Prédiction métier",
+    "es": "Predicción empresarial"
+  },
+  "LET’S DEFINE YOUR PILOT": {
+    "fr": "DÉFINISSONS VOTRE PILOTE",
+    "es": "DEFINAMOS SU PILOTO"
+  },
+  "Tell us what you want to improve.": {
+    "fr": "Dites-nous ce que vous souhaitez améliorer.",
+    "es": "Cuéntenos qué desea mejorar."
+  },
+  "Share a short project summary and the types of data available. We will use this first exchange to shape your evaluation. Dataset transfer and access arrangements are agreed together in the next step.": {
+    "fr": "Partagez un bref résumé du projet et les types de données disponibles. Ce premier échange permettra de cadrer votre évaluation. Les modalités de transfert et d’accès aux jeux de données seront convenues ensemble à l’étape suivante.",
+    "es": "Comparta un breve resumen del proyecto y los tipos de datos disponibles. Este primer intercambio servirá para definir su evaluación. El acceso y la transferencia de datos se acordarán en el siguiente paso."
+  },
+  "Your name": {
+    "fr": "Votre nom",
+    "es": "Su nombre"
+  },
+  "Company or institution": {
+    "fr": "Entreprise ou établissement",
+    "es": "Empresa o institución"
+  },
+  "Work email": {
+    "fr": "Email professionnel",
+    "es": "Email profesional"
+  },
+  "Sector of activity": {
+    "fr": "Secteur d’activité",
+    "es": "Sector de actividad"
+  },
+  "Problem to solve": {
+    "fr": "Problème à résoudre",
+    "es": "Problema que desea resolver"
+  },
+  "Available data: types, history and known outcomes": {
+    "fr": "Données disponibles : types, historique et résultats connus",
+    "es": "Datos disponibles: tipos, historial y resultados conocidos"
+  },
+  "Your preferred timeframe": {
+    "fr": "Calendrier envisagé",
+    "es": "Plazo previsto"
+  },
+  "I agree that Celeste EcoFlyers may use these details, transmitted through FormSubmit, to respond to my evaluation request.": {
+    "fr": "J’accepte que Celeste EcoFlyers utilise ces informations, transmises via FormSubmit, pour répondre à ma demande d’évaluation.",
+    "es": "Acepto que Celeste EcoFlyers utilice estos datos, transmitidos mediante FormSubmit, para responder a mi solicitud de evaluación."
+  },
+  "How FormSubmit handles your information": {
+    "fr": "Comment FormSubmit traite vos informations",
+    "es": "Cómo trata FormSubmit sus datos"
+  },
+  "Request my evaluation": {
+    "fr": "Demander mon évaluation",
+    "es": "Solicitar mi evaluación"
+  },
+  "Open the contact form": {
+    "fr": "Ouvrir le formulaire de contact",
+    "es": "Abrir el formulario de contacto"
+  },
+  "Evaluate Explainable AI on Your Own Data | Neurytika": {
+    "fr": "Évaluez l’IA explicable sur vos données | Neurytika",
+    "es": "Evalúe IA explicable con sus propios datos | Neurytika"
+  },
+  "Scope a Neurytika pilot with your data, clear success criteria, baseline comparisons and an integration plan. Request a tailored technology evaluation.": {
+    "fr": "Cadrez un pilote Neurytika avec vos données, des critères de réussite, des comparaisons et un plan d’intégration. Demandez une évaluation personnalisée.",
+    "es": "Defina un piloto Neurytika con sus datos, criterios de éxito, comparaciones y un plan de integración. Solicite una evaluación personalizada."
+  },
+  "Evaluate Explainable AI on Your Own Data": {
+    "fr": "Évaluez l’IA explicable sur vos données",
+    "es": "Evalúe IA explicable con sus propios datos"
+  },
+  "Turn a business question into a concrete evaluation. Work with our team to measure ERC on representative data, examine its explanations and plan your next step.": {
+    "fr": "Transformez une question métier en évaluation concrète. Travaillez avec notre équipe pour mesurer ERC sur des données représentatives, examiner ses explications et préparer la suite.",
+    "es": "Transforme una pregunta de negocio en una evaluación concreta. Trabaje con nuestro equipo para medir ERC con datos representativos, examinar sus explicaciones y preparar el siguiente paso."
+  },
+  "START WITH YOUR DATA": {
+    "fr": "COMMENCEZ AVEC VOS DONNÉES",
+    "es": "EMPIECE CON SUS DATOS"
+  },
+  "A focused pilot. A clear next step.": {
+    "fr": "Un pilote ciblé. Une suite concrète.",
+    "es": "Un piloto enfocado. Un siguiente paso claro."
+  },
+  "Evaluate Neurytika on a representative dataset, compare results and review the explanations with your team. Receive a practical recommendation for integration.": {
+    "fr": "Évaluez Neurytika sur un jeu de données représentatif, comparez les résultats et examinez les explications avec votre équipe. Recevez une recommandation concrète d’intégration.",
+    "es": "Evalúe Neurytika con datos representativos, compare resultados y revise las explicaciones con su equipo. Reciba una recomendación práctica de integración."
+  },
+  "Request a demo ↗ ↗": {
+    "fr": "Demander une démo ↗ ↗",
+    "es": "Solicitar una demo ↗ ↗"
+  },
+  "Explore local deployment ↗ ↗": {
+    "fr": "Découvrir le déploiement local ↗ ↗",
+    "es": "Explorar el despliegue local ↗ ↗"
+  },
+  "Quality control ↗": {
+    "fr": "Contrôle qualité ↗",
+    "es": "Control de calidad ↗"
+  },
+  "Fraud detection ↗": {
+    "fr": "Détection de fraude ↗",
+    "es": "Detección de fraude ↗"
+  },
+  "Discuss your deployment ↗ ↗": {
+    "fr": "Parlons de votre déploiement ↗ ↗",
+    "es": "Hablemos de su despliegue ↗ ↗"
+  },
+  "Data sovereignty & AI ↗ ↗": {
+    "fr": "Souveraineté des données et IA ↗ ↗",
+    "es": "Soberanía de datos e IA ↗ ↗"
+  },
+  "Explainable onboard classification for telemetry, equipment health and event prioritization. Develop an embedded Neurytika pilot with Celeste EcoFlyers. ↗ ↗": {
+    "fr": "Classification embarquée explicable pour la télémétrie, la santé des équipements et la priorisation des événements. Développez un pilote Neurytika avec Celeste EcoFlyers. ↗ ↗",
+    "es": "Clasificación embarcada explicable para telemetría, estado de equipos y priorización de eventos. Desarrolle un piloto Neurytika con Celeste EcoFlyers. ↗ ↗"
+  },
+  "DRONES · AEROSPACE · SPACE ↗ ↗": {
+    "fr": "DRONES · AÉRONAUTIQUE · SPATIAL ↗ ↗",
+    "es": "DRONES · AERONÁUTICA · ESPACIO ↗ ↗"
+  },
+  "Bring intelligence onboard. ↗ ↗": {
+    "fr": "Embarquez l’intelligence. ↗ ↗",
+    "es": "Lleve la inteligencia a bordo. ↗ ↗"
+  },
+  "Keep the reasoning visible. ↗ ↗": {
+    "fr": "Gardez le raisonnement visible. ↗ ↗",
+    "es": "Mantenga el razonamiento visible. ↗ ↗"
+  },
+  "Turn onboard measurements into useful categories and inspectable evidence. Work with Celeste EcoFlyers to develop an embedded Neurytika integration around your equipment, data and mission. ↗ ↗": {
+    "fr": "Transformez les mesures embarquées en catégories utiles et en preuves consultables. Avec Celeste EcoFlyers, développez une intégration embarquée de Neurytika adaptée à vos équipements, vos données et votre mission. ↗ ↗",
+    "es": "Transforme las mediciones a bordo en categorías útiles y evidencia consultable. Desarrolle con Celeste EcoFlyers una integración embarcada de Neurytika adaptada a sus equipos, datos y misión. ↗ ↗"
+  },
+  "Discuss an embedded AI pilot ↗ ↗": {
+    "fr": "Parlons de votre pilote embarqué ↗ ↗",
+    "es": "Hablemos de su piloto embarcado ↗ ↗"
+  },
+  "Explore the use cases ↗ ↗": {
+    "fr": "Découvrir les cas d’usage ↗ ↗",
+    "es": "Explorar los casos de uso ↗ ↗"
+  },
+  "From telemetry to an explained result ↗ ↗": {
+    "fr": "De la télémétrie à un résultat expliqué ↗ ↗",
+    "es": "De la telemetría a un resultado explicado ↗ ↗"
+  },
+  "An integration workflow ↗ ↗": {
+    "fr": "Un parcours d’intégration ↗ ↗",
+    "es": "Un proceso de integración ↗ ↗"
+  },
+  "MEASURE ↗ ↗": {
+    "fr": "MESURER ↗ ↗",
+    "es": "MEDIR ↗ ↗"
+  },
+  "Sensor & telemetry records ↗ ↗": {
+    "fr": "Mesures et télémétrie ↗ ↗",
+    "es": "Registros de sensores y telemetría ↗ ↗"
+  },
+  "PREPARE ↗ ↗": {
+    "fr": "PRÉPARER ↗ ↗",
+    "es": "PREPARAR ↗ ↗"
+  },
+  "Useful features & known states ↗ ↗": {
+    "fr": "Variables utiles et états connus ↗ ↗",
+    "es": "Variables útiles y estados conocidos ↗ ↗"
+  },
+  "CLASSIFY ↗ ↗": {
+    "fr": "CLASSER ↗ ↗",
+    "es": "CLASIFICAR ↗ ↗"
+  },
+  "ERC model on your target computer ↗ ↗": {
+    "fr": "Modèle ERC sur votre calculateur cible ↗ ↗",
+    "es": "Modelo ERC en su ordenador de destino ↗ ↗"
+  },
+  "EXPLAIN ↗ ↗": {
+    "fr": "EXPLIQUER ↗ ↗",
+    "es": "EXPLICAR ↗ ↗"
+  },
+  "A category, with supporting evidence ↗ ↗": {
+    "fr": "Une catégorie et ses éléments explicatifs ↗ ↗",
+    "es": "Una categoría y su evidencia ↗ ↗"
+  },
+  "Illustrative integration architecture ↗ ↗": {
+    "fr": "Architecture d’intégration proposée ↗ ↗",
+    "es": "Arquitectura de integración propuesta ↗ ↗"
+  },
+  "THREE PRACTICAL STARTING POINTS ↗ ↗": {
+    "fr": "TROIS POINTS DE DÉPART CONCRETS ↗ ↗",
+    "es": "TRES PUNTOS DE PARTIDA CONCRETOS ↗ ↗"
+  },
+  "Make each measurement useful. ↗ ↗": {
+    "fr": "Donnez du sens à chaque mesure. ↗ ↗",
+    "es": "Dé sentido a cada medición. ↗ ↗"
+  },
+  "Drone & aircraft equipment health ↗ ↗": {
+    "fr": "Santé des équipements de drones et aéronefs ↗ ↗",
+    "es": "Estado de equipos de drones y aeronaves ↗ ↗"
+  },
+  "Use battery, propulsion or vibration features to classify recorded operating states. Give maintenance and engineering teams the contributing signals behind an inspection priority. ↗ ↗": {
+    "fr": "Exploitez les variables de batterie, de propulsion ou de vibration pour classer les états de fonctionnement observés. Donnez aux équipes de maintenance et d’ingénierie les signaux qui expliquent une priorité d’inspection. ↗ ↗",
+    "es": "Utilice variables de batería, propulsión o vibración para clasificar estados de funcionamiento registrados. Muestre a mantenimiento e ingeniería las señales que explican una prioridad de inspección. ↗ ↗"
+  },
+  "Example: identify a battery operating-state category from temperature, voltage and current summaries paired with historical inspection labels. ↗ ↗": {
+    "fr": "Exemple : identifier une catégorie d’état de batterie à partir de synthèses de température, tension et courant associées aux résultats d’inspections passées. ↗ ↗",
+    "es": "Ejemplo: identificar una categoría de estado de batería mediante resúmenes de temperatura, tensión y corriente asociados a inspecciones anteriores. ↗ ↗"
+  },
+  "Satellite telemetry triage ↗ ↗": {
+    "fr": "Orientation des alertes de télémétrie satellite ↗ ↗",
+    "es": "Clasificación de alertas de telemetría satelital ↗ ↗"
+  },
+  "Classify telemetry windows into defined system-state categories and attach the observed evidence. Help operators focus their review on the events that match their mission priorities. ↗ ↗": {
+    "fr": "Classez les fenêtres de télémétrie dans des catégories d’état définies et associez-y les éléments observés. Aidez les opérateurs à concentrer leur analyse sur les événements correspondant aux priorités de mission. ↗ ↗",
+    "es": "Clasifique ventanas de telemetría en categorías de estado definidas y adjunte la evidencia observada. Ayude a los operadores a centrarse en los eventos relevantes para la misión. ↗ ↗"
+  },
+  "Example: route a power-subsystem event to the right engineering review using prepared electrical and thermal features. ↗ ↗": {
+    "fr": "Exemple : orienter un événement du sous-système électrique vers l’analyse appropriée à partir de variables électriques et thermiques préparées. ↗ ↗",
+    "es": "Ejemplo: dirigir un evento del subsistema eléctrico a la revisión adecuada mediante variables eléctricas y térmicas preparadas. ↗ ↗"
+  },
+  "Payload data & event prioritization ↗ ↗": {
+    "fr": "Priorisation des données de charge utile et événements ↗ ↗",
+    "es": "Priorización de datos de carga útil y eventos ↗ ↗"
+  },
+  "Classify prepared measurement records by quality or operational interest. Make the criteria behind a record’s priority available to the mission team and its data workflow. ↗ ↗": {
+    "fr": "Classez les mesures préparées selon leur qualité ou leur intérêt opérationnel. Rendez les critères de priorité accessibles à l’équipe de mission et à sa chaîne de traitement des données. ↗ ↗",
+    "es": "Clasifique registros de mediciones preparados según su calidad o interés operativo. Comparta los criterios de prioridad con el equipo de misión y su flujo de datos. ↗ ↗"
+  },
+  "Example: prioritize records for engineering review or transmission using known observation-quality labels. ↗ ↗": {
+    "fr": "Exemple : prioriser les données à examiner ou transmettre à partir de catégories connues de qualité d’observation. ↗ ↗",
+    "es": "Ejemplo: priorizar registros para revisión o transmisión utilizando categorías conocidas de calidad de observación. ↗ ↗"
+  },
+  "A CLEAR DIRECTION FOR THE SECTOR ↗ ↗": {
+    "fr": "UNE DIRECTION CLAIRE POUR LE SECTEUR ↗ ↗",
+    "es": "UNA DIRECCIÓN CLARA PARA EL SECTOR ↗ ↗"
+  },
+  "Public programmes show the need. ↗ ↗": {
+    "fr": "Les programmes publics montrent le besoin. ↗ ↗",
+    "es": "Los programas públicos muestran la necesidad. ↗ ↗"
+  },
+  "Onboard assessment, interpretable models and greater autonomy are already concrete research and engineering priorities. ↗ ↗": {
+    "fr": "L’évaluation embarquée, les modèles interprétables et l’autonomie constituent déjà des priorités concrètes de recherche et d’ingénierie. ↗ ↗",
+    "es": "La evaluación a bordo, los modelos interpretables y la autonomía ya son prioridades concretas de investigación e ingeniería. ↗ ↗"
+  },
+  "NASA / JPL — OUTLAST ↗ ↗": {
+    "fr": "NASA / JPL — OUTLAST ↗ ↗",
+    "es": "NASA / JPL — OUTLAST ↗ ↗"
+  },
+  "JPL developed onboard health classification from flight telemetry and event logs for future autonomous multi-flight operations. Its OUTLAST software flew aboard Ingenuity in January 2024. ↗ ↗": {
+    "fr": "Le JPL a développé une classification embarquée de l’état de santé à partir de télémétrie et de journaux de vol pour les futures opérations autonomes à vols multiples. OUTLAST a volé à bord d’Ingenuity en janvier 2024. ↗ ↗",
+    "es": "JPL desarrolló clasificación del estado del sistema a bordo a partir de telemetría y registros de vuelo para futuras operaciones autónomas con varios vuelos. OUTLAST voló a bordo de Ingenuity en enero de 2024. ↗ ↗"
+  },
+  "Read the JPL project ↗ ↗": {
+    "fr": "Lire le projet du JPL ↗ ↗",
+    "es": "Leer el proyecto de JPL ↗ ↗"
+  },
+  "ESA / Airbus — ORBIT-STAR ↗ ↗": {
+    "fr": "ESA / Airbus — ORBIT-STAR ↗ ↗",
+    "es": "ESA / Airbus — ORBIT-STAR ↗ ↗"
+  },
+  "ESA describes an Airbus demonstrator that analyses Columbus subsystem telemetry for fault detection and prognosis. Onboard execution is identified as a next step for future missions. ↗ ↗": {
+    "fr": "L’ESA présente un démonstrateur Airbus qui analyse la télémétrie d’un sous-système de Columbus pour détecter et anticiper les défauts. L’exécution embarquée figure parmi les prochaines étapes pour les missions futures. ↗ ↗",
+    "es": "La ESA presenta un demostrador de Airbus que analiza telemetría de un subsistema de Columbus para detectar y anticipar fallos. La ejecución a bordo es un próximo paso para futuras misiones. ↗ ↗"
+  },
+  "Read the ESA programme ↗ ↗": {
+    "fr": "Lire le programme de l’ESA ↗ ↗",
+    "es": "Leer el programa de la ESA ↗ ↗"
+  },
+  "WHY NEURYTIKA ↗ ↗": {
+    "fr": "L’APPORT DE NEURYTIKA ↗ ↗",
+    "es": "EL VALOR DE NEURYTIKA ↗ ↗"
+  },
+  "An explained category. A practical integration. ↗ ↗": {
+    "fr": "Une catégorie expliquée. Une intégration concrète. ↗ ↗",
+    "es": "Una categoría explicada. Una integración práctica. ↗ ↗"
+  },
+  "ERC learns combinations of structured features associated with target classes. This provides an engineering basis for inspecting the evidence behind a classification and discussing it with domain experts. ↗ ↗": {
+    "fr": "ERC apprend des combinaisons de variables structurées associées aux classes cibles. Cette approche permet d’examiner les éléments d’une classification et de les analyser avec les experts métier. ↗ ↗",
+    "es": "ERC aprende combinaciones de variables estructuradas asociadas a clases objetivo. Esto permite examinar la evidencia de una clasificación y analizarla con expertos del sector. ↗ ↗"
+  },
+  "Develop the model with representative historical data, then engineer and measure the inference integration on your chosen onboard computer. The pilot defines memory, processing time, interfaces and the operator’s use of each result. ↗ ↗": {
+    "fr": "Développez le modèle sur un historique représentatif, puis intégrez et mesurez l’inférence sur le calculateur embarqué choisi. Le pilote définit la mémoire, le temps de traitement, les interfaces et l’utilisation de chaque résultat par l’opérateur. ↗ ↗",
+    "es": "Desarrolle el modelo con datos históricos representativos y después integre y mida la inferencia en el ordenador de a bordo elegido. El piloto define memoria, tiempo de procesamiento, interfaces y uso de cada resultado por el operador. ↗ ↗"
+  },
+  "YOUR EMBEDDED PILOT ↗ ↗": {
+    "fr": "VOTRE PILOTE EMBARQUÉ ↗ ↗",
+    "es": "SU PILOTO EMBARCADO ↗ ↗"
+  },
+  "From mission objective to target hardware. ↗ ↗": {
+    "fr": "De l’objectif de mission au matériel cible. ↗ ↗",
+    "es": "Del objetivo de misión al hardware de destino. ↗ ↗"
+  },
+  "Define the useful category ↗ ↗": {
+    "fr": "Définir la catégorie utile ↗ ↗",
+    "es": "Definir la categoría útil ↗ ↗"
+  },
+  "Choose one equipment state or event category, its user and the moment when the result is needed. Map sensors, prepared features and historical labels. ↗ ↗": {
+    "fr": "Choisissez un état d’équipement ou une catégorie d’événement, son utilisateur et le moment utile du résultat. Identifiez capteurs, variables préparées et catégories historiques. ↗ ↗",
+    "es": "Elija un estado de equipo o categoría de evento, su usuario y el momento útil del resultado. Identifique sensores, variables preparadas y categorías históricas. ↗ ↗"
+  },
+  "Evaluate on mission data ↗ ↗": {
+    "fr": "Évaluer sur les données de mission ↗ ↗",
+    "es": "Evaluar con datos de misión ↗ ↗"
+  },
+  "Compare the model with your current approach on reserved historical records. Review category quality, useful evidence and operational acceptance criteria with your engineers. ↗ ↗": {
+    "fr": "Comparez le modèle à votre approche actuelle sur des données historiques réservées au test. Examinez la qualité des catégories, les éléments explicatifs et les critères opérationnels avec vos ingénieurs. ↗ ↗",
+    "es": "Compare el modelo con su enfoque actual usando datos históricos reservados para pruebas. Revise calidad de categorías, evidencia útil y criterios operativos con sus ingenieros. ↗ ↗"
+  },
+  "Integrate & measure onboard ↗ ↗": {
+    "fr": "Intégrer et mesurer à bord ↗ ↗",
+    "es": "Integrar y medir a bordo ↗ ↗"
+  },
+  "Scope target-side inference, data interfaces and monitoring. Measure resource use and processing time on your selected computer, then define the validation and deployment plan for the intended function. ↗ ↗": {
+    "fr": "Cadrez l’inférence embarquée, les interfaces de données et le suivi. Mesurez les ressources et le temps de traitement sur votre calculateur, puis définissez le plan de validation et de déploiement de la fonction envisagée. ↗ ↗",
+    "es": "Defina inferencia embarcada, interfaces de datos y supervisión. Mida recursos y tiempo de procesamiento en su ordenador y acuerde el plan de validación y despliegue de la función prevista. ↗ ↗"
+  },
+  "Aerospace experience. Explainable AI expertise. ↗ ↗": {
+    "fr": "Expérience aéronautique. Expertise en IA explicable. ↗ ↗",
+    "es": "Experiencia aeronáutica. Experiencia en IA explicable. ↗ ↗"
+  },
+  "Celeste EcoFlyers brings together aerospace projects and the development of Neurytika. Talk to the team about your drone, aircraft equipment or space-system monitoring project. ↗ ↗": {
+    "fr": "Celeste EcoFlyers réunit des projets aéronautiques et le développement de Neurytika. Échangez avec l’équipe sur votre projet de suivi de drones, d’équipements aéronautiques ou de systèmes spatiaux. ↗ ↗",
+    "es": "Celeste EcoFlyers combina proyectos aeronáuticos y el desarrollo de Neurytika. Hable con el equipo sobre su proyecto de supervisión de drones, equipos aeronáuticos o sistemas espaciales. ↗ ↗"
+  },
+  "Tell us about your onboard project. ↗ ↗": {
+    "fr": "Parlez-nous de votre projet embarqué. ↗ ↗",
+    "es": "Cuéntenos su proyecto embarcado. ↗ ↗"
+  },
+  "Share the equipment, the category you want to predict, available historical data and your target computer. We will shape a focused feasibility and integration proposal with your team. ↗ ↗": {
+    "fr": "Indiquez l’équipement, la catégorie à prédire, les données historiques disponibles et votre calculateur cible. Nous construirons avec votre équipe une proposition ciblée de faisabilité et d’intégration. ↗ ↗",
+    "es": "Indique el equipo, la categoría a predecir, los datos históricos disponibles y su ordenador de destino. Prepararemos con su equipo una propuesta de viabilidad e integración. ↗ ↗"
+  },
+  "Discuss scope & demonstration ↗ ↗": {
+    "fr": "Parlons du périmètre et d’une démonstration ↗ ↗",
+    "es": "Hablemos del alcance y de una demostración ↗ ↗"
+  },
+  "Explore an Explainable AI Pilot ↗": {
+    "fr": "Explorer un pilote d’IA explicable ↗",
+    "es": "Explorar un piloto de IA explicable ↗"
+  },
+  "Technology evaluation ↗": {
+    "fr": "Évaluation technologique ↗",
+    "es": "Evaluación tecnológica ↗"
+  },
+  "Intelligence & decision support ↗": {
+    "fr": "Analyse et aide à la décision ↗",
+    "es": "Análisis y apoyo a la decisión ↗"
+  },
+  "Maritime surveillance ↗": {
+    "fr": "Surveillance maritime ↗",
+    "es": "Vigilancia marítima ↗"
+  },
+  "Explore data sovereignty ↗": {
+    "fr": "Explorer la souveraineté des données ↗",
+    "es": "Explorar la soberanía de los datos ↗"
+  },
+  "Evaluate ERC on your analysis datasets ↗": {
+    "fr": "Évaluer ERC sur vos données d’analyse ↗",
+    "es": "Evaluar ERC con sus datos de análisis ↗"
+  },
+  "Explore embedded AI ↗": {
+    "fr": "Explorer l’IA embarquée ↗",
+    "es": "Explorar la IA embarcada ↗"
+  },
+  "Business prediction ↗": {
+    "fr": "Prédiction métier ↗",
+    "es": "Predicción empresarial ↗"
+  },
+  "Request a demo ↗": {
+    "fr": "Demander une démo ↗",
+    "es": "Solicitar una demo ↗"
+  },
+  "Explore local deployment ↗": {
+    "fr": "Découvrir le déploiement local ↗",
+    "es": "Explorar el despliegue local ↗"
+  },
+  "Discuss your deployment ↗": {
+    "fr": "Parlons de votre déploiement ↗",
+    "es": "Hablemos de su despliegue ↗"
+  },
+  "Data sovereignty & AI ↗": {
+    "fr": "Souveraineté des données et IA ↗",
+    "es": "Soberanía de datos e IA ↗"
+  },
+  "Explainable onboard classification for telemetry, equipment health and event prioritization. Develop an embedded Neurytika pilot with Celeste EcoFlyers. ↗": {
+    "fr": "Classification embarquée explicable pour la télémétrie, la santé des équipements et la priorisation des événements. Développez un pilote Neurytika avec Celeste EcoFlyers. ↗",
+    "es": "Clasificación embarcada explicable para telemetría, estado de equipos y priorización de eventos. Desarrolle un piloto Neurytika con Celeste EcoFlyers. ↗"
+  },
+  "DRONES · AEROSPACE · SPACE ↗": {
+    "fr": "DRONES · AÉRONAUTIQUE · SPATIAL ↗",
+    "es": "DRONES · AERONÁUTICA · ESPACIO ↗"
+  },
+  "Bring intelligence onboard. ↗": {
+    "fr": "Embarquez l’intelligence. ↗",
+    "es": "Lleve la inteligencia a bordo. ↗"
+  },
+  "Keep the reasoning visible. ↗": {
+    "fr": "Gardez le raisonnement visible. ↗",
+    "es": "Mantenga el razonamiento visible. ↗"
+  },
+  "Turn onboard measurements into useful categories and inspectable evidence. Work with Celeste EcoFlyers to develop an embedded Neurytika integration around your equipment, data and mission. ↗": {
+    "fr": "Transformez les mesures embarquées en catégories utiles et en preuves consultables. Avec Celeste EcoFlyers, développez une intégration embarquée de Neurytika adaptée à vos équipements, vos données et votre mission. ↗",
+    "es": "Transforme las mediciones a bordo en categorías útiles y evidencia consultable. Desarrolle con Celeste EcoFlyers una integración embarcada de Neurytika adaptada a sus equipos, datos y misión. ↗"
+  },
+  "Discuss an embedded AI pilot ↗": {
+    "fr": "Parlons de votre pilote embarqué ↗",
+    "es": "Hablemos de su piloto embarcado ↗"
+  },
+  "Explore the use cases ↗": {
+    "fr": "Découvrir les cas d’usage ↗",
+    "es": "Explorar los casos de uso ↗"
+  },
+  "From telemetry to an explained result ↗": {
+    "fr": "De la télémétrie à un résultat expliqué ↗",
+    "es": "De la telemetría a un resultado explicado ↗"
+  },
+  "An integration workflow ↗": {
+    "fr": "Un parcours d’intégration ↗",
+    "es": "Un proceso de integración ↗"
+  },
+  "MEASURE ↗": {
+    "fr": "MESURER ↗",
+    "es": "MEDIR ↗"
+  },
+  "Sensor & telemetry records ↗": {
+    "fr": "Mesures et télémétrie ↗",
+    "es": "Registros de sensores y telemetría ↗"
+  },
+  "PREPARE ↗": {
+    "fr": "PRÉPARER ↗",
+    "es": "PREPARAR ↗"
+  },
+  "Useful features & known states ↗": {
+    "fr": "Variables utiles et états connus ↗",
+    "es": "Variables útiles y estados conocidos ↗"
+  },
+  "CLASSIFY ↗": {
+    "fr": "CLASSER ↗",
+    "es": "CLASIFICAR ↗"
+  },
+  "ERC model on your target computer ↗": {
+    "fr": "Modèle ERC sur votre calculateur cible ↗",
+    "es": "Modelo ERC en su ordenador de destino ↗"
+  },
+  "EXPLAIN ↗": {
+    "fr": "EXPLIQUER ↗",
+    "es": "EXPLICAR ↗"
+  },
+  "A category, with supporting evidence ↗": {
+    "fr": "Une catégorie et ses éléments explicatifs ↗",
+    "es": "Una categoría y su evidencia ↗"
+  },
+  "Illustrative integration architecture ↗": {
+    "fr": "Architecture d’intégration proposée ↗",
+    "es": "Arquitectura de integración propuesta ↗"
+  },
+  "THREE PRACTICAL STARTING POINTS ↗": {
+    "fr": "TROIS POINTS DE DÉPART CONCRETS ↗",
+    "es": "TRES PUNTOS DE PARTIDA CONCRETOS ↗"
+  },
+  "Make each measurement useful. ↗": {
+    "fr": "Donnez du sens à chaque mesure. ↗",
+    "es": "Dé sentido a cada medición. ↗"
+  },
+  "Drone & aircraft equipment health ↗": {
+    "fr": "Santé des équipements de drones et aéronefs ↗",
+    "es": "Estado de equipos de drones y aeronaves ↗"
+  },
+  "Use battery, propulsion or vibration features to classify recorded operating states. Give maintenance and engineering teams the contributing signals behind an inspection priority. ↗": {
+    "fr": "Exploitez les variables de batterie, de propulsion ou de vibration pour classer les états de fonctionnement observés. Donnez aux équipes de maintenance et d’ingénierie les signaux qui expliquent une priorité d’inspection. ↗",
+    "es": "Utilice variables de batería, propulsión o vibración para clasificar estados de funcionamiento registrados. Muestre a mantenimiento e ingeniería las señales que explican una prioridad de inspección. ↗"
+  },
+  "Example: identify a battery operating-state category from temperature, voltage and current summaries paired with historical inspection labels. ↗": {
+    "fr": "Exemple : identifier une catégorie d’état de batterie à partir de synthèses de température, tension et courant associées aux résultats d’inspections passées. ↗",
+    "es": "Ejemplo: identificar una categoría de estado de batería mediante resúmenes de temperatura, tensión y corriente asociados a inspecciones anteriores. ↗"
+  },
+  "Satellite telemetry triage ↗": {
+    "fr": "Orientation des alertes de télémétrie satellite ↗",
+    "es": "Clasificación de alertas de telemetría satelital ↗"
+  },
+  "Classify telemetry windows into defined system-state categories and attach the observed evidence. Help operators focus their review on the events that match their mission priorities. ↗": {
+    "fr": "Classez les fenêtres de télémétrie dans des catégories d’état définies et associez-y les éléments observés. Aidez les opérateurs à concentrer leur analyse sur les événements correspondant aux priorités de mission. ↗",
+    "es": "Clasifique ventanas de telemetría en categorías de estado definidas y adjunte la evidencia observada. Ayude a los operadores a centrarse en los eventos relevantes para la misión. ↗"
+  },
+  "Example: route a power-subsystem event to the right engineering review using prepared electrical and thermal features. ↗": {
+    "fr": "Exemple : orienter un événement du sous-système électrique vers l’analyse appropriée à partir de variables électriques et thermiques préparées. ↗",
+    "es": "Ejemplo: dirigir un evento del subsistema eléctrico a la revisión adecuada mediante variables eléctricas y térmicas preparadas. ↗"
+  },
+  "Payload data & event prioritization ↗": {
+    "fr": "Priorisation des données de charge utile et événements ↗",
+    "es": "Priorización de datos de carga útil y eventos ↗"
+  },
+  "Classify prepared measurement records by quality or operational interest. Make the criteria behind a record’s priority available to the mission team and its data workflow. ↗": {
+    "fr": "Classez les mesures préparées selon leur qualité ou leur intérêt opérationnel. Rendez les critères de priorité accessibles à l’équipe de mission et à sa chaîne de traitement des données. ↗",
+    "es": "Clasifique registros de mediciones preparados según su calidad o interés operativo. Comparta los criterios de prioridad con el equipo de misión y su flujo de datos. ↗"
+  },
+  "Example: prioritize records for engineering review or transmission using known observation-quality labels. ↗": {
+    "fr": "Exemple : prioriser les données à examiner ou transmettre à partir de catégories connues de qualité d’observation. ↗",
+    "es": "Ejemplo: priorizar registros para revisión o transmisión utilizando categorías conocidas de calidad de observación. ↗"
+  },
+  "A CLEAR DIRECTION FOR THE SECTOR ↗": {
+    "fr": "UNE DIRECTION CLAIRE POUR LE SECTEUR ↗",
+    "es": "UNA DIRECCIÓN CLARA PARA EL SECTOR ↗"
+  },
+  "Public programmes show the need. ↗": {
+    "fr": "Les programmes publics montrent le besoin. ↗",
+    "es": "Los programas públicos muestran la necesidad. ↗"
+  },
+  "Onboard assessment, interpretable models and greater autonomy are already concrete research and engineering priorities. ↗": {
+    "fr": "L’évaluation embarquée, les modèles interprétables et l’autonomie constituent déjà des priorités concrètes de recherche et d’ingénierie. ↗",
+    "es": "La evaluación a bordo, los modelos interpretables y la autonomía ya son prioridades concretas de investigación e ingeniería. ↗"
+  },
+  "NASA / JPL — OUTLAST ↗": {
+    "fr": "NASA / JPL — OUTLAST ↗",
+    "es": "NASA / JPL — OUTLAST ↗"
+  },
+  "JPL developed onboard health classification from flight telemetry and event logs for future autonomous multi-flight operations. Its OUTLAST software flew aboard Ingenuity in January 2024. ↗": {
+    "fr": "Le JPL a développé une classification embarquée de l’état de santé à partir de télémétrie et de journaux de vol pour les futures opérations autonomes à vols multiples. OUTLAST a volé à bord d’Ingenuity en janvier 2024. ↗",
+    "es": "JPL desarrolló clasificación del estado del sistema a bordo a partir de telemetría y registros de vuelo para futuras operaciones autónomas con varios vuelos. OUTLAST voló a bordo de Ingenuity en enero de 2024. ↗"
+  },
+  "Read the JPL project ↗": {
+    "fr": "Lire le projet du JPL ↗",
+    "es": "Leer el proyecto de JPL ↗"
+  },
+  "ESA / Airbus — ORBIT-STAR ↗": {
+    "fr": "ESA / Airbus — ORBIT-STAR ↗",
+    "es": "ESA / Airbus — ORBIT-STAR ↗"
+  },
+  "ESA describes an Airbus demonstrator that analyses Columbus subsystem telemetry for fault detection and prognosis. Onboard execution is identified as a next step for future missions. ↗": {
+    "fr": "L’ESA présente un démonstrateur Airbus qui analyse la télémétrie d’un sous-système de Columbus pour détecter et anticiper les défauts. L’exécution embarquée figure parmi les prochaines étapes pour les missions futures. ↗",
+    "es": "La ESA presenta un demostrador de Airbus que analiza telemetría de un subsistema de Columbus para detectar y anticipar fallos. La ejecución a bordo es un próximo paso para futuras misiones. ↗"
+  },
+  "Read the ESA programme ↗": {
+    "fr": "Lire le programme de l’ESA ↗",
+    "es": "Leer el programa de la ESA ↗"
+  },
+  "WHY NEURYTIKA ↗": {
+    "fr": "L’APPORT DE NEURYTIKA ↗",
+    "es": "EL VALOR DE NEURYTIKA ↗"
+  },
+  "An explained category. A practical integration. ↗": {
+    "fr": "Une catégorie expliquée. Une intégration concrète. ↗",
+    "es": "Una categoría explicada. Una integración práctica. ↗"
+  },
+  "ERC learns combinations of structured features associated with target classes. This provides an engineering basis for inspecting the evidence behind a classification and discussing it with domain experts. ↗": {
+    "fr": "ERC apprend des combinaisons de variables structurées associées aux classes cibles. Cette approche permet d’examiner les éléments d’une classification et de les analyser avec les experts métier. ↗",
+    "es": "ERC aprende combinaciones de variables estructuradas asociadas a clases objetivo. Esto permite examinar la evidencia de una clasificación y analizarla con expertos del sector. ↗"
+  },
+  "Develop the model with representative historical data, then engineer and measure the inference integration on your chosen onboard computer. The pilot defines memory, processing time, interfaces and the operator’s use of each result. ↗": {
+    "fr": "Développez le modèle sur un historique représentatif, puis intégrez et mesurez l’inférence sur le calculateur embarqué choisi. Le pilote définit la mémoire, le temps de traitement, les interfaces et l’utilisation de chaque résultat par l’opérateur. ↗",
+    "es": "Desarrolle el modelo con datos históricos representativos y después integre y mida la inferencia en el ordenador de a bordo elegido. El piloto define memoria, tiempo de procesamiento, interfaces y uso de cada resultado por el operador. ↗"
+  },
+  "YOUR EMBEDDED PILOT ↗": {
+    "fr": "VOTRE PILOTE EMBARQUÉ ↗",
+    "es": "SU PILOTO EMBARCADO ↗"
+  },
+  "From mission objective to target hardware. ↗": {
+    "fr": "De l’objectif de mission au matériel cible. ↗",
+    "es": "Del objetivo de misión al hardware de destino. ↗"
+  },
+  "Define the useful category ↗": {
+    "fr": "Définir la catégorie utile ↗",
+    "es": "Definir la categoría útil ↗"
+  },
+  "Choose one equipment state or event category, its user and the moment when the result is needed. Map sensors, prepared features and historical labels. ↗": {
+    "fr": "Choisissez un état d’équipement ou une catégorie d’événement, son utilisateur et le moment utile du résultat. Identifiez capteurs, variables préparées et catégories historiques. ↗",
+    "es": "Elija un estado de equipo o categoría de evento, su usuario y el momento útil del resultado. Identifique sensores, variables preparadas y categorías históricas. ↗"
+  },
+  "Evaluate on mission data ↗": {
+    "fr": "Évaluer sur les données de mission ↗",
+    "es": "Evaluar con datos de misión ↗"
+  },
+  "Compare the model with your current approach on reserved historical records. Review category quality, useful evidence and operational acceptance criteria with your engineers. ↗": {
+    "fr": "Comparez le modèle à votre approche actuelle sur des données historiques réservées au test. Examinez la qualité des catégories, les éléments explicatifs et les critères opérationnels avec vos ingénieurs. ↗",
+    "es": "Compare el modelo con su enfoque actual usando datos históricos reservados para pruebas. Revise calidad de categorías, evidencia útil y criterios operativos con sus ingenieros. ↗"
+  },
+  "Integrate & measure onboard ↗": {
+    "fr": "Intégrer et mesurer à bord ↗",
+    "es": "Integrar y medir a bordo ↗"
+  },
+  "Scope target-side inference, data interfaces and monitoring. Measure resource use and processing time on your selected computer, then define the validation and deployment plan for the intended function. ↗": {
+    "fr": "Cadrez l’inférence embarquée, les interfaces de données et le suivi. Mesurez les ressources et le temps de traitement sur votre calculateur, puis définissez le plan de validation et de déploiement de la fonction envisagée. ↗",
+    "es": "Defina inferencia embarcada, interfaces de datos y supervisión. Mida recursos y tiempo de procesamiento en su ordenador y acuerde el plan de validación y despliegue de la función prevista. ↗"
+  },
+  "Aerospace experience. Explainable AI expertise. ↗": {
+    "fr": "Expérience aéronautique. Expertise en IA explicable. ↗",
+    "es": "Experiencia aeronáutica. Experiencia en IA explicable. ↗"
+  },
+  "Celeste EcoFlyers brings together aerospace projects and the development of Neurytika. Talk to the team about your drone, aircraft equipment or space-system monitoring project. ↗": {
+    "fr": "Celeste EcoFlyers réunit des projets aéronautiques et le développement de Neurytika. Échangez avec l’équipe sur votre projet de suivi de drones, d’équipements aéronautiques ou de systèmes spatiaux. ↗",
+    "es": "Celeste EcoFlyers combina proyectos aeronáuticos y el desarrollo de Neurytika. Hable con el equipo sobre su proyecto de supervisión de drones, equipos aeronáuticos o sistemas espaciales. ↗"
+  },
+  "Tell us about your onboard project. ↗": {
+    "fr": "Parlez-nous de votre projet embarqué. ↗",
+    "es": "Cuéntenos su proyecto embarcado. ↗"
+  },
+  "Share the equipment, the category you want to predict, available historical data and your target computer. We will shape a focused feasibility and integration proposal with your team. ↗": {
+    "fr": "Indiquez l’équipement, la catégorie à prédire, les données historiques disponibles et votre calculateur cible. Nous construirons avec votre équipe une proposition ciblée de faisabilité et d’intégration. ↗",
+    "es": "Indique el equipo, la categoría a predecir, los datos históricos disponibles y su ordenador de destino. Prepararemos con su equipo una propuesta de viabilidad e integración. ↗"
+  },
+  "Discuss scope & demonstration ↗": {
+    "fr": "Parlons du périmètre et d’une démonstration ↗",
+    "es": "Hablemos del alcance y de una demostración ↗"
   }
 }

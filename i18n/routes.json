@@ -54,6 +54,21 @@
     "fr": "fr/societe/",
     "es": "es/empresa/"
   },
+  "technology-evaluation": {
+    "en": "technology-evaluation/",
+    "fr": "fr/evaluation-technologique/",
+    "es": "es/evaluacion-tecnologica/"
+  },
+  "intelligence-decision-support": {
+    "en": "intelligence-decision-support/",
+    "fr": "fr/analyse-aide-decision/",
+    "es": "es/analisis-apoyo-decision/"
+  },
+  "maritime-surveillance-ai": {
+    "en": "maritime-surveillance-ai/",
+    "fr": "fr/surveillance-maritime/",
+    "es": "es/vigilancia-maritima/"
+  },
   "quiz": {
     "en": "find-your-ai/",
     "fr": "fr/trouver-votre-solution/",

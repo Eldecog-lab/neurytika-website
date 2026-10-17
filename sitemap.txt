@@ -31,6 +31,15 @@ https://eldecog-lab.github.io/neurytika-website/es/ia-embarcada-aeroespacial/
 https://eldecog-lab.github.io/neurytika-website/company/
 https://eldecog-lab.github.io/neurytika-website/fr/societe/
 https://eldecog-lab.github.io/neurytika-website/es/empresa/
+https://eldecog-lab.github.io/neurytika-website/technology-evaluation/
+https://eldecog-lab.github.io/neurytika-website/fr/evaluation-technologique/
+https://eldecog-lab.github.io/neurytika-website/es/evaluacion-tecnologica/
+https://eldecog-lab.github.io/neurytika-website/intelligence-decision-support/
+https://eldecog-lab.github.io/neurytika-website/fr/analyse-aide-decision/
+https://eldecog-lab.github.io/neurytika-website/es/analisis-apoyo-decision/
+https://eldecog-lab.github.io/neurytika-website/maritime-surveillance-ai/
+https://eldecog-lab.github.io/neurytika-website/fr/surveillance-maritime/
+https://eldecog-lab.github.io/neurytika-website/es/vigilancia-maritima/
 https://eldecog-lab.github.io/neurytika-website/find-your-ai/
 https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/
 https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/

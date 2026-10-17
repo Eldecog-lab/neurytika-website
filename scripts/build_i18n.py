@@ -24,6 +24,9 @@ ROUTES = {
  'generative-ai-vs-predictive-ai': {'en':'generative-ai-vs-predictive-ai/','fr':'fr/ia-generative-vs-ia-predictive/','es':'es/ia-generativa-vs-ia-predictiva/'},
  'embedded-ai-aerospace': {'en':'embedded-ai-aerospace/','fr':'fr/ia-embarquee-aeronautique-spatial/','es':'es/ia-embarcada-aeroespacial/'},
  'company': {'en':'company/','fr':'fr/societe/','es':'es/empresa/'},
+ 'technology-evaluation': {'en':'technology-evaluation/','fr':'fr/evaluation-technologique/','es':'es/evaluacion-tecnologica/'},
+ 'intelligence-decision-support': {'en':'intelligence-decision-support/','fr':'fr/analyse-aide-decision/','es':'es/analisis-apoyo-decision/'},
+ 'maritime-surveillance-ai': {'en':'maritime-surveillance-ai/','fr':'fr/surveillance-maritime/','es':'es/vigilancia-maritima/'},
  'quiz': {'en':'find-your-ai/','fr':'fr/trouver-votre-solution/','es':'es/encuentre-su-solucion/'}
 }
 CATALOG = json.loads((ROOT/'i18n/translations.json').read_text())
@@ -36,15 +39,15 @@ QUIZ_CTA={
 }
 DIRECTORY = {
  'en': {'label':'Explore Neurytika','groups':[
-  ('Business solutions',[('customer-retention','Customer retention'),('lead-qualification','Lead qualification'),('quality-control','Quality control'),('fraud-detection','Fraud detection'),('predictive-analytics','Predictive analytics & consulting')]),
+  ('Business solutions',[('technology-evaluation', 'Technology evaluation'),('intelligence-decision-support', 'Intelligence & decision support'),('maritime-surveillance-ai', 'Maritime surveillance'),('customer-retention','Customer retention'),('lead-qualification','Lead qualification'),('quality-control','Quality control'),('fraud-detection','Fraud detection'),('predictive-analytics','Predictive analytics & consulting')]),
   ('Deployment & AI',[('on-premise-ai','On-premise AI'),('data-sovereignty-ai','Data sovereignty & AI'),('generative-ai-vs-predictive-ai','Generative AI vs predictive AI'),('embedded-ai-aerospace','Embedded AI for aerospace')]),
   ('Neurytika',[('home','Home'),('company','Celeste EcoFlyers — About us'),('home#publication','Research & scientific evidence'),('home#academic','Academic access'),('home#contact','Contact & demo')])]},
  'fr': {'label':'Explorer Neurytika','groups':[
-  ('Solutions métier',[('customer-retention','Fidélisation clients'),('lead-qualification','Qualification des prospects'),('quality-control','Contrôle qualité'),('fraud-detection','Détection de fraude'),('predictive-analytics','Analyse prédictive et conseil')]),
+  ('Solutions métier',[('technology-evaluation', 'Évaluation technologique'),('intelligence-decision-support', 'Analyse et aide à la décision'),('maritime-surveillance-ai', 'Surveillance maritime'),('customer-retention','Fidélisation clients'),('lead-qualification','Qualification des prospects'),('quality-control','Contrôle qualité'),('fraud-detection','Détection de fraude'),('predictive-analytics','Analyse prédictive et conseil')]),
   ('Déploiement et IA',[('on-premise-ai','IA sur site'),('data-sovereignty-ai','Souveraineté des données et IA'),('generative-ai-vs-predictive-ai','IA générative et IA prédictive'),('embedded-ai-aerospace','IA embarquée pour l’aérospatial')]),
   ('Neurytika',[('home','Accueil'),('company','Celeste EcoFlyers — Notre société'),('home#publication','Recherche et résultats scientifiques'),('home#academic','Accès académique'),('home#contact','Contact et démonstration')])]},
  'es': {'label':'Explorar Neurytika','groups':[
-  ('Soluciones empresariales',[('customer-retention','Fidelización de clientes'),('lead-qualification','Calificación de leads'),('quality-control','Control de calidad'),('fraud-detection','Detección de fraude'),('predictive-analytics','Analítica predictiva y consultoría')]),
+  ('Soluciones empresariales',[('technology-evaluation', 'Evaluación tecnológica'),('intelligence-decision-support', 'Análisis y apoyo a la decisión'),('maritime-surveillance-ai', 'Vigilancia marítima'),('customer-retention','Fidelización de clientes'),('lead-qualification','Calificación de leads'),('quality-control','Control de calidad'),('fraud-detection','Detección de fraude'),('predictive-analytics','Analítica predictiva y consultoría')]),
   ('Despliegue e IA',[('on-premise-ai','IA local'),('data-sovereignty-ai','Soberanía de datos e IA'),('generative-ai-vs-predictive-ai','IA generativa e IA predictiva'),('embedded-ai-aerospace','IA embarcada aeroespacial')]),
   ('Neurytika',[('home','Inicio'),('company','Celeste EcoFlyers — Nuestra empresa'),('home#publication','Investigación y evidencia científica'),('home#academic','Acceso académico'),('home#contact','Contacto y demostración')])]}
 }
@@ -110,7 +113,7 @@ def build_page(key,source,lang):
         n.string=json.dumps(schema_walk(json.loads(n.string),original,lang),ensure_ascii=False)
     for other in ['en','fr','es','x-default']:
         n=s.new_tag('link',rel='alternate',hreflang=other,href=BASE+ROUTES[key]['en' if other=='x-default' else other]);s.head.append(n)
-    script=s.new_tag('script',src=PREFIX+'locale.js?v=20261016');s.head.insert(1,script)
+    script=s.new_tag('script',src=PREFIX+'locale.js?v=20261017');s.head.insert(1,script)
     s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'locale.css?v=20261016-2'))
     s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'analytics.css?v=20261016-2',attrs={'data-i18n-ui':'audience-style'}))
     s.head.append(s.new_tag('script',src=PREFIX+'analytics.js?v=20261016-2',defer='',attrs={'data-i18n-ui':'audience-script'}))
