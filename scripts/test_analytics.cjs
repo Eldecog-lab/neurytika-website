@@ -24,3 +24,10 @@ let marked=setup('accept','eldecog-lab.github.io',null,'?audience=internal');ass
 let reset=setup('accept','eldecog-lab.github.io','internal','?audience=public');assert(reset.ctx.window.dataLayer);assert(!reset.local.has('neurytika-audience-mode-v1'));
 let broadcast=setup('accept');count=broadcast.ctx.window.dataLayer.filter(x=>x[0]==='event').length;broadcast.local.set('neurytika-audience-mode-v1','internal');broadcast.handlers.storage({key:'neurytika-audience-mode-v1',newValue:'internal'});broadcast.ctx.window.NeurytikaAudience.track('quiz_complete');assert.equal(broadcast.ctx.window.dataLayer.filter(x=>x[0]==='event').length,count);
 console.log('Internal browsers send nothing; QA events use only the separate test property; mode persists, cross-tab exclusion works, recognized synthetic submissions cannot become production leads, real visitors remain measurable.');
+for(const mode of ['public','internal','test']){
+ const w=setup('accept','eldecog-lab.github.io',mode);
+ for(const name of ['demo_start','demo_step','demo_complete','demo_pilot_click'])w.ctx.window.NeurytikaAudience.track(name,{step_number:2,email:'NEVER-SEND@example.org'});
+ const sent=(w.ctx.window.dataLayer||[]).filter(x=>x[0]==='event'&&/^demo_(start|step|complete|pilot_click)$/.test(x[1]));
+ assert.equal(sent.length,mode==='internal'?0:4);for(const e of sent){assert.equal(e[2].send_to,mode==='test'?'G-SQFJCLWF18':'G-B31298QHG3');assert(!JSON.stringify(e).includes('NEVER-SEND'));}
+}
+console.log('Interactive demo events respect consent routing, internal exclusions and personal-data filtering.');

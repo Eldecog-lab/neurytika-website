@@ -295,6 +295,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/maritime-surveillance-ai/" />
   </url>
   <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/interactive-demo/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/demonstration-interactive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/demostracion-interactiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/demonstration-interactive/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/demonstration-interactive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/demostracion-interactiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/demostracion-interactiva/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/demonstration-interactive/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/demostracion-interactiva/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
+  </url>
+  <url>
     <loc>https://eldecog-lab.github.io/neurytika-website/find-your-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/" />

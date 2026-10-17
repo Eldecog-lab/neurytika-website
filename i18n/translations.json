@@ -5374,5 +5374,177 @@
   "Discuss scope & demonstration ↗": {
     "fr": "Parlons du périmètre et d’une démonstration ↗",
     "es": "Hablemos del alcance y de una demostración ↗"
+  },
+  "See Explainable AI in Action — Interactive Demo | Neurytika": {
+    "fr": "Découvrez l’IA explicable — Démonstration interactive | Neurytika",
+    "es": "Descubra la IA explicable — Demostración interactiva | Neurytika"
+  },
+  "A one-minute guided example: choose an equipment record, inspect the evidence and plan a useful next action. Explore a Neurytika pilot on your data.": {
+    "fr": "Un exemple guidé d’une minute : choisissez un relevé d’équipement, examinez les éléments explicatifs et préparez une action utile. Explorez un pilote Neurytika sur vos données.",
+    "es": "Un ejemplo guiado de un minuto: elija un registro de equipo, examine la evidencia y prepare una acción útil. Explore un piloto Neurytika con sus datos."
+  },
+  "Explore the 60-second example": {
+    "fr": "Explorer l’exemple en 60 secondes",
+    "es": "Explorar el ejemplo en 60 segundos"
+  },
+  "ONE MINUTE · THREE STEPS · YOUR NEXT IDEA": {
+    "fr": "UNE MINUTE · TROIS ÉTAPES · VOTRE PROCHAINE IDÉE",
+    "es": "UN MINUTO · TRES PASOS · SU PRÓXIMA IDEA"
+  },
+  "From an alert to a decision you can explain.": {
+    "fr": "D’une alerte à une décision que vous pouvez expliquer.",
+    "es": "De una alerta a una decisión que puede explicar."
+  },
+  "Your team monitors equipment. A measurement stands out. See how inspecting a combination of signals can help your team choose the next review.": {
+    "fr": "Votre équipe surveille des équipements. Une mesure attire l’attention. Découvrez comment examiner une combinaison de signaux aide à choisir la prochaine action.",
+    "es": "Su equipo supervisa equipos. Una medición llama la atención. Descubra cómo examinar una combinación de señales ayuda a elegir la siguiente revisión."
+  },
+  "Interactive illustration inspired by ERC’s feature combinations · Fictional equipment records": {
+    "fr": "Illustration interactive inspirée des combinaisons de caractéristiques d’ERC · Relevés d’équipements fictifs",
+    "es": "Ilustración interactiva inspirada en las combinaciones de características de ERC · Registros ficticios de equipos"
+  },
+  "Interactive example": {
+    "fr": "Exemple interactif",
+    "es": "Ejemplo interactivo"
+  },
+  "01 · Your data": {
+    "fr": "01 · Vos données",
+    "es": "01 · Sus datos"
+  },
+  "02 · The evidence": {
+    "fr": "02 · Les éléments explicatifs",
+    "es": "02 · La evidencia"
+  },
+  "03 · Your action": {
+    "fr": "03 · Votre action",
+    "es": "03 · Su acción"
+  },
+  "HARBOUR EQUIPMENT": {
+    "fr": "ÉQUIPEMENTS PORTUAIRES",
+    "es": "EQUIPOS PORTUARIOS"
+  },
+  "Three pumps. Different contexts.": {
+    "fr": "Trois pompes. Des contextes différents.",
+    "es": "Tres bombas. Contextos diferentes."
+  },
+  "Select a record to explore.": {
+    "fr": "Choisissez un relevé à explorer.",
+    "es": "Seleccione un registro para explorar."
+  },
+  "Fictional example data · 12 historical records": {
+    "fr": "Données d’exemple fictives · 12 relevés historiques",
+    "es": "Datos ficticios de ejemplo · 12 registros históricos"
+  },
+  "Example: compare elevated temperature together with vibration, review the associated historical labels, then choose an engineering review. Explore the pilot below to evaluate ERC on your own records.": {
+    "fr": "Exemple : comparez une température élevée avec la vibration, examinez les étiquettes historiques associées, puis choisissez un examen technique. Explorez le pilote ci-dessous pour évaluer ERC sur vos relevés.",
+    "es": "Ejemplo: compare temperatura elevada junto con vibración, revise las etiquetas históricas asociadas y elija una revisión técnica. Explore el piloto más abajo para evaluar ERC con sus registros."
+  },
+  "WHAT THIS BRINGS TO YOUR TEAM": {
+    "fr": "CE QUE CELA APPORTE À VOTRE ÉQUIPE",
+    "es": "QUÉ APORTA A SU EQUIPO"
+  },
+  "A clearer review": {
+    "fr": "Un examen plus clair",
+    "es": "Una revisión más clara"
+  },
+  "Inspect the signals together and understand which pattern supports a proposed category.": {
+    "fr": "Examinez les signaux ensemble et comprenez quel motif soutient une catégorie proposée.",
+    "es": "Examine las señales juntas y comprenda qué patrón respalda una categoría propuesta."
+  },
+  "A useful handover": {
+    "fr": "Une transmission utile",
+    "es": "Un traspaso útil"
+  },
+  "Share the record, its explanation and the proposed next step with the right colleague.": {
+    "fr": "Partagez le relevé, son explication et la prochaine étape proposée avec le bon interlocuteur.",
+    "es": "Comparta el registro, su explicación y el siguiente paso propuesto con la persona adecuada."
+  },
+  "A measurable pilot": {
+    "fr": "Un pilote mesurable",
+    "es": "Un piloto medible"
+  },
+  "Evaluate ERC on your data, compare it with your current approach and review the explanations with your users.": {
+    "fr": "Évaluez ERC sur vos données, comparez-le à votre approche actuelle et examinez les explications avec vos utilisateurs.",
+    "es": "Evalúe ERC con sus datos, compárelo con su enfoque actual y revise las explicaciones con sus usuarios."
+  },
+  "Put your own data in the picture.": {
+    "fr": "Placez vos propres données au cœur du projet.",
+    "es": "Ponga sus propios datos en el centro del proyecto."
+  },
+  "Your pilot runs ERC on representative records, with the categories, baselines and success criteria agreed with your team. Start with one useful decision.": {
+    "fr": "Votre pilote exécute ERC sur des relevés représentatifs, avec les catégories, méthodes de référence et critères de réussite convenus avec votre équipe. Commencez par une décision utile.",
+    "es": "Su piloto ejecuta ERC con registros representativos, con categorías, métodos de referencia y criterios de éxito acordados con su equipo. Empiece con una decisión útil."
+  },
+  "FOR OPERATORS & END USERS": {
+    "fr": "POUR LES OPÉRATEURS ET UTILISATEURS FINAUX",
+    "es": "PARA OPERADORES Y USUARIOS FINALES"
+  },
+  "Improve a workflow your team owns.": {
+    "fr": "Améliorez un processus de votre équipe.",
+    "es": "Mejore un proceso de su equipo."
+  },
+  "Bring an equipment-monitoring or analysis problem, available historical records and the people who review the results. We scope a focused evaluation with you.": {
+    "fr": "Apportez un besoin de suivi d’équipements ou d’analyse, les historiques disponibles et les personnes qui examinent les résultats. Nous cadrons avec vous une évaluation ciblée.",
+    "es": "Aporte una necesidad de supervisión o análisis, registros históricos disponibles y las personas que revisan los resultados. Definiremos juntos una evaluación enfocada."
+  },
+  "Discuss my pilot": {
+    "fr": "Discuter de mon pilote",
+    "es": "Hablar de mi piloto"
+  },
+  "FOR SYSTEMS INTEGRATORS": {
+    "fr": "POUR LES INTÉGRATEURS DE SYSTÈMES",
+    "es": "PARA INTEGRADORES DE SISTEMAS"
+  },
+  "Add an explained result to your solution.": {
+    "fr": "Ajoutez un résultat expliqué à votre solution.",
+    "es": "Añada un resultado explicado a su solución."
+  },
+  "Define the end user’s task, the data interface and the deployment environment. Explore how Neurytika can fit into your existing workflow.": {
+    "fr": "Définissez la tâche de l’utilisateur final, l’interface de données et l’environnement de déploiement. Explorez comment intégrer Neurytika à votre processus existant.",
+    "es": "Defina la tarea del usuario final, la interfaz de datos y el entorno de despliegue. Explore cómo integrar Neurytika en su proceso actual."
+  },
+  "Discuss an integration": {
+    "fr": "Discuter d’une intégration",
+    "es": "Hablar de una integración"
+  },
+  "Maritime applications": {
+    "fr": "Applications maritimes",
+    "es": "Aplicaciones marítimas"
+  },
+  "Industrial quality": {
+    "fr": "Qualité industrielle",
+    "es": "Calidad industrial"
+  },
+  "The ERC research": {
+    "fr": "La recherche ERC",
+    "es": "La investigación ERC"
+  },
+  "See the 60-second example": {
+    "fr": "Voir l’exemple en 60 secondes",
+    "es": "Ver el ejemplo en 60 segundos"
+  },
+  "See the 60-second example →": {
+    "fr": "Voir l’exemple en 60 secondes →",
+    "es": "Ver el ejemplo en 60 segundos →"
+  },
+  "Discuss my pilot ↗": {
+    "fr": "Discuter de mon pilote ↗",
+    "es": "Hablar de mi piloto ↗"
+  },
+  "Discuss an integration ↗": {
+    "fr": "Discuter d’une intégration ↗",
+    "es": "Hablar de una integración ↗"
+  },
+  "Maritime applications ↗": {
+    "fr": "Applications maritimes ↗",
+    "es": "Aplicaciones marítimas ↗"
+  },
+  "Industrial quality ↗": {
+    "fr": "Qualité industrielle ↗",
+    "es": "Calidad industrial ↗"
+  },
+  "The ERC research ↗": {
+    "fr": "La recherche ERC ↗",
+    "es": "La investigación ERC ↗"
   }
 }

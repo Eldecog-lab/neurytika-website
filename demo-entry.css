@@ -1,0 +1,1 @@
+.demo-entry{display:inline-block;margin-top:20px;margin-left:20px}.hero .actions .demo-entry{margin:0}.hero .actions{flex-wrap:wrap}@media(max-width:650px){.demo-entry{margin-left:0;display:block}.hero .actions .demo-entry{flex-basis:100%}}

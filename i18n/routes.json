@@ -69,6 +69,11 @@
     "fr": "fr/surveillance-maritime/",
     "es": "es/vigilancia-maritima/"
   },
+  "interactive-demo": {
+    "en": "interactive-demo/",
+    "fr": "fr/demonstration-interactive/",
+    "es": "es/demostracion-interactiva/"
+  },
   "quiz": {
     "en": "find-your-ai/",
     "fr": "fr/trouver-votre-solution/",
