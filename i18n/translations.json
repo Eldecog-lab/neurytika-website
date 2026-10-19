@@ -5525,7 +5525,7 @@
   },
   "See the 60-second example →": {
     "fr": "Voir l’exemple en 60 secondes →",
-    "es": "Ver el ejemplo en 60 segundos →"
+    "es": "Ver el ejemplo de 60 segundos →"
   },
   "Discuss my pilot ↗": {
     "fr": "Discuter de mon pilote ↗",
@@ -5546,5 +5546,121 @@
   "The ERC research ↗": {
     "fr": "La recherche ERC ↗",
     "es": "La investigación ERC ↗"
+  },
+  "YOUR FIRST PILOT, MADE CONCRETE": {
+    "fr": "VOTRE PREMIER PILOTE, CONCRÈTEMENT",
+    "es": "SU PRIMER PILOTO, EN CONCRETO"
+  },
+  "01 / Your starting data": {
+    "fr": "01 / Vos données de départ",
+    "es": "01 / Sus datos de partida"
+  },
+  "02 / What your team receives": {
+    "fr": "02 / Ce que reçoit votre équipe",
+    "es": "02 / Qué recibe su equipo"
+  },
+  "03 / How we measure value": {
+    "fr": "03 / Comment mesurer la valeur",
+    "es": "03 / Cómo medimos el valor"
+  },
+  "Explore a pilot on your data →": {
+    "fr": "Découvrir un pilote sur vos données →",
+    "es": "Descubra un piloto con sus datos →"
+  },
+  "Discuss my use case": {
+    "fr": "Parlons de mon cas d’usage",
+    "es": "Hablemos de mi caso de uso"
+  },
+  "Start with a conversation about your objective and available records. Data access, scope, schedule and fees are agreed in your proposal.": {
+    "fr": "Commencez par un échange sur votre objectif et les données disponibles. L’accès aux données, le périmètre, le calendrier et les honoraires sont définis dans votre proposition.",
+    "es": "Empiece con una conversación sobre su objetivo y los datos disponibles. El acceso a los datos, el alcance, el calendario y los honorarios se acuerdan en su propuesta."
+  },
+  "Predictive analytics software. Decisions your team can explain.": {
+    "fr": "Logiciel d’analyse prédictive. Des décisions que votre équipe peut expliquer.",
+    "es": "Software de analítica predictiva. Decisiones que su equipo puede explicar."
+  },
+  "Turn your business records into clear priorities: which customer to contact, which case to review, which quality outcome to investigate.": {
+    "fr": "Transformez vos données métier en priorités claires : quel client contacter, quel dossier examiner, quel résultat qualité analyser.",
+    "es": "Convierta sus datos de negocio en prioridades claras: a qué cliente contactar, qué expediente revisar y qué resultado de calidad analizar."
+  },
+  "From a business question to a working prediction model.": {
+    "fr": "D’une question métier à un modèle de prédiction concret.",
+    "es": "De una pregunta de negocio a un modelo predictivo concreto."
+  },
+  "Bring structured historical records and the outcome you want to predict: a renewal, a confirmed incident or an inspection result. We define the target category and prepare the dataset with you.": {
+    "fr": "Apportez un historique structuré et le résultat à prédire : un renouvellement, un incident confirmé ou un résultat d’inspection. Nous définissons la catégorie cible et préparons les données avec vous.",
+    "es": "Aporte registros históricos estructurados y el resultado que desea predecir: una renovación, un incidente confirmado o una inspección. Definimos la categoría objetivo y preparamos los datos con usted."
+  },
+  "A configured model, explained example predictions and an evaluation report. Your team can examine the feature combinations supporting a result and discuss how to integrate it into daily work.": {
+    "fr": "Un modèle configuré, des exemples de prédictions expliquées et un rapport d’évaluation. Votre équipe peut examiner les combinaisons de variables qui étayent un résultat et préparer son intégration au quotidien.",
+    "es": "Un modelo configurado, ejemplos de predicciones explicadas y un informe de evaluación. Su equipo puede examinar las combinaciones de variables que respaldan un resultado y preparar su integración en el trabajo diario."
+  },
+  "Compare predictions with known outcomes on reserved data and with your current approach. Review classification quality, explanation usefulness and deployment needs before scoping implementation.": {
+    "fr": "Comparez les prédictions aux résultats connus sur des données réservées et à votre approche actuelle. Examinez la qualité de classification, l’utilité des explications et les besoins de déploiement pour cadrer la mise en place.",
+    "es": "Compare las predicciones con resultados conocidos en datos reservados y con su enfoque actual. Revise la calidad de clasificación, la utilidad de las explicaciones y los requisitos de despliegue para definir la implementación."
+  },
+  "Predictive analytics software and consulting for your business data. Explore explained predictions, a focused pilot, and on-premise or cloud deployment.": {
+    "fr": "Logiciel d’analyse prédictive et conseil sur vos données métier. Découvrez des prédictions expliquées, un pilote ciblé et un déploiement local ou cloud.",
+    "es": "Software de analítica predictiva y consultoría para sus datos. Descubra predicciones explicadas, un piloto y despliegue local o en la nube."
+  },
+  "Fraud detection software. Explain why a case needs review.": {
+    "fr": "Logiciel de détection de fraude. Expliquez pourquoi un dossier mérite un contrôle.",
+    "es": "Software de detección de fraude. Explique por qué revisar un expediente."
+  },
+  "Give banking, insurance and public-sector investigators a clear starting point: a proposed review and the data patterns behind it.": {
+    "fr": "Donnez aux équipes de contrôle des banques, assurances et administrations un point de départ clair : un dossier proposé au contrôle et les motifs qui l’étayent.",
+    "es": "Ofrezca a los equipos de bancos, aseguradoras y administraciones un punto de partida claro: un expediente propuesto para revisión y los patrones que lo respaldan."
+  },
+  "Build your pilot around the cases your investigators know.": {
+    "fr": "Construisez votre pilote sur les dossiers que vos équipes connaissent.",
+    "es": "Construya su piloto con los expedientes que su equipo conoce."
+  },
+  "Use historical transactions, claims or administrative files with known investigation outcomes. Select the information available at review time and define the categories with your investigators.": {
+    "fr": "Utilisez des transactions, sinistres ou dossiers administratifs historiques dont l’issue du contrôle est connue. Sélectionnez les informations disponibles au moment de la revue et définissez les catégories avec vos équipes.",
+    "es": "Utilice transacciones, siniestros o expedientes históricos con resultados de investigación conocidos. Seleccione la información disponible en el momento de la revisión y defina las categorías con su equipo."
+  },
+  "Review example flagged cases alongside the combinations of fields and historical support contributing to each classification. Investigators retain the decision and can document the reasons they examined a case.": {
+    "fr": "Examinez des exemples de dossiers signalés, les combinaisons de champs et les observations historiques qui contribuent à leur classification. Les contrôleurs conservent la décision et peuvent documenter les raisons de l’examen.",
+    "es": "Examine ejemplos de expedientes señalados junto con las combinaciones de campos y el respaldo histórico de cada clasificación. Los investigadores conservan la decisión y pueden documentar los motivos de la revisión."
+  },
+  "Evaluate detected fraud cases, false alerts and cases missed on reserved historical data. Compare the findings with your current rules and the review capacity of your team.": {
+    "fr": "Évaluez les fraudes détectées, les fausses alertes et les cas manqués sur un historique réservé. Comparez les résultats à vos règles actuelles et à la capacité de contrôle de votre équipe.",
+    "es": "Evalúe los fraudes detectados, las falsas alertas y los casos no detectados en datos históricos reservados. Compare los resultados con sus reglas actuales y la capacidad de revisión de su equipo."
+  },
+  "Explainable fraud detection software for banks, insurers and public agencies. Review flagged cases with clear evidence. Explore a pilot on your historical data.": {
+    "fr": "Logiciel de détection de fraude explicable pour banques, assurances et administrations. Expliquez les signalements et préparez un pilote sur vos données.",
+    "es": "Software de detección de fraude explicable para bancos, aseguradoras y administraciones. Revise las alertas con evidencia y explore un piloto con sus datos."
+  },
+  "Customer retention software. Know who to contact and why.": {
+    "fr": "Logiciel de fidélisation client. Sachez qui contacter et pourquoi.",
+    "es": "Software de fidelización de clientes. Sepa a quién contactar y por qué."
+  },
+  "Help account managers and customer success teams prepare their next conversation with churn predictions and the patterns supporting them.": {
+    "fr": "Aidez vos responsables de comptes et équipes de fidélisation à préparer leur prochain échange grâce aux prédictions de départ et aux motifs qui les étayent.",
+    "es": "Ayude a sus responsables de cuentas y equipos de fidelización a preparar su próxima conversación con predicciones de abandono y los patrones que las respaldan."
+  },
+  "Turn customer history into a practical retention pilot.": {
+    "fr": "Transformez votre historique client en pilote de fidélisation concret.",
+    "es": "Convierta su historial de clientes en un piloto de fidelización concreto."
+  },
+  "Start with dated customer records: subscriptions or purchases, product usage, support activity and known renewal or churn outcomes. Agree a prediction horizon and use the information available before that outcome.": {
+    "fr": "Partez de données clients datées : abonnements ou achats, usage du produit, activité de support et renouvellements ou départs connus. Définissez un horizon de prédiction et utilisez les informations disponibles avant ce résultat.",
+    "es": "Parta de registros de clientes con fecha: suscripciones o compras, uso del producto, actividad de soporte y renovaciones o bajas conocidas. Acuerde un horizonte predictivo y utilice la información disponible antes del resultado."
+  },
+  "Review example customer classifications and the combinations of signals behind them. Plan how these explanations will support account reviews and fit into your CRM workflow with our implementation team.": {
+    "fr": "Examinez des exemples de classifications clients et les combinaisons de signaux qui les expliquent. Préparez avec notre équipe leur utilisation dans les revues de comptes et leur intégration à votre processus CRM.",
+    "es": "Revise ejemplos de clasificaciones de clientes y las combinaciones de señales que los explican. Planifique con nuestro equipo su uso en revisiones de cuentas y su integración en el flujo de trabajo de su CRM."
+  },
+  "Evaluate predictions on a later, reserved period and compare them with your current targeting. Agree how a subsequent operational trial will measure contact outcomes, retained customers and the value of the actions taken.": {
+    "fr": "Évaluez les prédictions sur une période ultérieure réservée et comparez-les à votre ciblage actuel. Définissez comment une expérimentation opérationnelle mesurera les résultats des contacts, les clients conservés et la valeur des actions menées.",
+    "es": "Evalúe las predicciones en un período posterior reservado y compárelas con su selección actual. Defina cómo una prueba operativa medirá los resultados de los contactos, los clientes retenidos y el valor de las acciones realizadas."
+  },
+  "Customer retention and churn prediction software with clear explanations. Turn customer history into outreach priorities. Explore a tailored Neurytika pilot.": {
+    "fr": "Logiciel de fidélisation et de prédiction du départ client avec des explications claires. Priorisez vos contacts et découvrez un pilote Neurytika sur vos données.",
+    "es": "Software de fidelización y predicción de abandono con explicaciones claras. Priorice sus contactos y explore un piloto Neurytika con sus datos."
+  },
+  "Discuss my use case ↗": {
+    "fr": "Parlons de mon cas d’usage ↗",
+    "es": "Hablemos de mi caso de uso ↗"
   }
 }
