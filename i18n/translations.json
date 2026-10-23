@@ -5662,5 +5662,285 @@
   "Discuss my use case ↗": {
     "fr": "Parlons de mon cas d’usage ↗",
     "es": "Hablemos de mi caso de uso ↗"
+  },
+  "Explainable AI alongside your experts": {
+    "fr": "Une IA explicable aux côtés de vos experts",
+    "es": "Una IA explicable junto a sus expertos"
+  },
+  "An investment committee must decide which grid assets deserve a closer review. Explore the evidence, challenge a proposal and make the final decision.": {
+    "fr": "Un comité d’investissement doit décider quels équipements du réseau examiner en priorité. Explorez les éléments explicatifs, discutez la proposition et prenez la décision finale.",
+    "es": "Un comité de inversión debe decidir qué activos de la red examinar primero. Explore la evidencia, cuestione la propuesta y tome la decisión final."
+  },
+  "POWER GRID · EXPERT DECISION SUPPORT": {
+    "fr": "RÉSEAU ÉLECTRIQUE · AIDE À LA DÉCISION",
+    "es": "RED ELÉCTRICA · APOYO A LA DECISIÓN"
+  },
+  "Illustrative workflow with fictional data and scripted proposals. Discover the expert review process that a Neurytika pilot can evaluate on your data.": {
+    "fr": "Parcours illustratif avec des données fictives et des propositions scénarisées. Découvrez le processus de revue experte qu’un pilote Neurytika peut évaluer sur vos données.",
+    "es": "Recorrido ilustrativo con datos ficticios y propuestas predefinidas. Descubra el proceso de revisión experta que un piloto Neurytika puede evaluar con sus datos."
+  },
+  "Understand": {
+    "fr": "Comprendre",
+    "es": "Comprender"
+  },
+  "Examine": {
+    "fr": "Examiner",
+    "es": "Examinar"
+  },
+  "Discuss": {
+    "fr": "Discuter",
+    "es": "Debatir"
+  },
+  "Decide": {
+    "fr": "Décider",
+    "es": "Decidir"
+  },
+  "A decision worth explaining": {
+    "fr": "Une décision qui mérite une explication",
+    "es": "Una decisión que merece una explicación"
+  },
+  "What supports the proposal?": {
+    "fr": "Quels éléments soutiennent la proposition ?",
+    "es": "¿Qué respalda la propuesta?"
+  },
+  "Your expertise changes the context": {
+    "fr": "Votre expertise change le contexte",
+    "es": "Su experiencia cambia el contexto"
+  },
+  "You make the final decision": {
+    "fr": "Vous gardez la décision finale",
+    "es": "Usted toma la decisión final"
+  },
+  "North substation": {
+    "fr": "Poste électrique Nord",
+    "es": "Subestación Norte"
+  },
+  "Case GRID-014 · Investment review": {
+    "fr": "Dossier GRID-014 · Revue des investissements",
+    "es": "Expediente GRID-014 · Revisión de inversiones"
+  },
+  "Fictional regional power grid": {
+    "fr": "Réseau électrique régional fictif",
+    "es": "Red eléctrica regional ficticia"
+  },
+  "Which case should receive an in-depth engineering review before the committee meets?": {
+    "fr": "Quel dossier mérite une expertise approfondie avant le comité ?",
+    "es": "¿Qué expediente necesita un análisis técnico detallado antes del comité?"
+  },
+  "3 incidents in 12 months": {
+    "fr": "3 incidents sur 12 mois",
+    "es": "3 incidentes en 12 meses"
+  },
+  "Limited alternative supply": {
+    "fr": "Peu de possibilités de report de charge",
+    "es": "Pocas alternativas de suministro"
+  },
+  "Condition report predates renovation": {
+    "fr": "Rapport d’état antérieur à la rénovation",
+    "es": "Informe de estado anterior a la renovación"
+  },
+  "Incident register · example": {
+    "fr": "Registre d’incidents · exemple",
+    "es": "Registro de incidentes · ejemplo"
+  },
+  "Network study · example": {
+    "fr": "Étude du réseau · exemple",
+    "es": "Estudio de red · ejemplo"
+  },
+  "Inspection report · example": {
+    "fr": "Rapport d’inspection · exemple",
+    "es": "Informe de inspección · ejemplo"
+  },
+  "Prepare a reasoned review, with the engineering team in control of the investment decision.": {
+    "fr": "Préparer un examen argumenté, avec une équipe d’ingénieurs qui conserve la décision d’investissement.",
+    "es": "Preparar una revisión fundamentada, manteniendo la decisión de inversión en manos del equipo técnico."
+  },
+  "Illustrative AI proposal": {
+    "fr": "Proposition IA illustrative",
+    "es": "Propuesta ilustrativa de IA"
+  },
+  "In-depth engineering review": {
+    "fr": "Expertise approfondie",
+    "es": "Análisis técnico detallado"
+  },
+  "Targeted post-renovation verification": {
+    "fr": "Vérification ciblée après rénovation",
+    "es": "Verificación específica tras la renovación"
+  },
+  "Recurring incidents + limited alternative supply + an older condition assessment support closer review. Read these signals together.": {
+    "fr": "Des incidents répétés, un report de charge limité et un ancien diagnostic d’état soutiennent un examen approfondi. Ces signaux se lisent ensemble.",
+    "es": "La repetición de incidentes, las pocas alternativas de suministro y una evaluación antigua respaldan una revisión detallada. Estas señales se interpretan conjuntamente."
+  },
+  "A recent renovation could change the assessment. Its completion report is missing from this version of the case.": {
+    "fr": "Une rénovation récente peut modifier l’analyse. Son compte rendu manque dans cette version du dossier.",
+    "es": "Una renovación reciente puede cambiar el análisis. Su informe de finalización falta en esta versión del expediente."
+  },
+  "A point for the expert to verify": {
+    "fr": "Un point à vérifier par l’expert",
+    "es": "Un punto que debe verificar el experto"
+  },
+  "Inspect the inputs": {
+    "fr": "Examiner les données d’entrée",
+    "es": "Examinar los datos de entrada"
+  },
+  "The engineer knows that renovation work has been completed. Add this context to the case before reviewing the proposal again.": {
+    "fr": "L’ingénieur sait que des travaux de rénovation ont été achevés. Ajoutez ce contexte au dossier avant de réexaminer la proposition.",
+    "es": "El ingeniero sabe que se han completado obras de renovación. Añada este contexto al expediente antes de revisar la propuesta."
+  },
+  "Completion report checked: renovation completed after the recorded incidents.": {
+    "fr": "Compte rendu vérifié : rénovation achevée après les incidents enregistrés.",
+    "es": "Informe comprobado: renovación completada después de los incidentes registrados."
+  },
+  "Update the illustrative analysis": {
+    "fr": "Actualiser l’analyse illustrative",
+    "es": "Actualizar el análisis ilustrativo"
+  },
+  "The initial proposal remains visible until the new information is checked and the analysis is updated.": {
+    "fr": "La proposition initiale reste affichée jusqu’à la vérification de l’information et l’actualisation de l’analyse.",
+    "es": "La propuesta inicial permanece visible hasta verificar la información y actualizar el análisis."
+  },
+  "What changes": {
+    "fr": "Ce qui change",
+    "es": "Qué cambia"
+  },
+  "The older condition assessment is put in context by the completed renovation. The next review focuses on post-renovation checks.": {
+    "fr": "L’ancien diagnostic d’état est remis en contexte par la rénovation achevée. L’examen proposé porte désormais sur les vérifications après travaux.",
+    "es": "La renovación completada contextualiza la evaluación antigua. La revisión propuesta se centra ahora en las verificaciones posteriores a las obras."
+  },
+  "What still matters": {
+    "fr": "Ce qui reste important",
+    "es": "Qué sigue siendo importante"
+  },
+  "Alternative supply remains limited. The expert still needs post-renovation evidence before recommending an investment decision.": {
+    "fr": "Le report de charge reste limité. L’expert doit examiner les éléments après travaux avant de recommander une décision d’investissement.",
+    "es": "Las alternativas de suministro siguen siendo limitadas. El experto debe examinar la evidencia posterior a las obras antes de recomendar una decisión de inversión."
+  },
+  "Your expert decision": {
+    "fr": "Votre décision d’expert",
+    "es": "Su decisión como experto"
+  },
+  "Request a targeted verification": {
+    "fr": "Demander une vérification ciblée",
+    "es": "Solicitar una verificación específica"
+  },
+  "Keep the in-depth review": {
+    "fr": "Maintenir l’expertise approfondie",
+    "es": "Mantener el análisis detallado"
+  },
+  "Request more information": {
+    "fr": "Demander des informations complémentaires",
+    "es": "Solicitar más información"
+  },
+  "Your reasoning": {
+    "fr": "Votre motivation",
+    "es": "Su justificación"
+  },
+  "What supports your decision? What should the committee know?": {
+    "fr": "Qu’est-ce qui motive votre choix ? Que doit savoir le comité ?",
+    "es": "¿Qué fundamenta su decisión? ¿Qué debe saber el comité?"
+  },
+  "Check post-renovation results while retaining a review of supply continuity.": {
+    "fr": "Vérifier les résultats après travaux tout en conservant une revue de la continuité d’alimentation.",
+    "es": "Comprobar los resultados posteriores a las obras y revisar la continuidad del suministro."
+  },
+  "Retain a full review because the consequences of a supply interruption need a broader assessment.": {
+    "fr": "Maintenir une revue complète car les conséquences d’une interruption nécessitent une analyse plus large.",
+    "es": "Mantener una revisión completa porque las consecuencias de una interrupción requieren un análisis más amplio."
+  },
+  "Request the post-renovation test results before making a recommendation.": {
+    "fr": "Obtenir les résultats des essais après rénovation avant de formuler une recommandation.",
+    "es": "Solicitar los resultados de las pruebas posteriores a la renovación antes de formular una recomendación."
+  },
+  "Use an example rationale": {
+    "fr": "Utiliser un exemple de motivation",
+    "es": "Usar una justificación de ejemplo"
+  },
+  "Record my decision": {
+    "fr": "Consigner ma décision",
+    "es": "Registrar mi decisión"
+  },
+  "Choose a decision and enter your reasoning.": {
+    "fr": "Choisissez une décision et indiquez votre motivation.",
+    "es": "Elija una decisión e indique su justificación."
+  },
+  "Your decision is recorded in this demonstration": {
+    "fr": "Votre décision est consignée dans cette démonstration",
+    "es": "Su decisión queda registrada en esta demostración"
+  },
+  "Your notes stay in this tab. Download the record to keep it; refreshing the page clears the demonstration.": {
+    "fr": "Vos notes restent dans cet onglet. Téléchargez la fiche pour la conserver ; un rechargement efface la démonstration.",
+    "es": "Sus notas permanecen en esta pestaña. Descargue la ficha para conservarla; al recargar se borra la demostración."
+  },
+  "Download the decision record": {
+    "fr": "Télécharger la fiche de décision",
+    "es": "Descargar la ficha de decisión"
+  },
+  "Continue": {
+    "fr": "Continuer",
+    "es": "Continuar"
+  },
+  "Back": {
+    "fr": "Retour",
+    "es": "Volver"
+  },
+  "Start again": {
+    "fr": "Recommencer",
+    "es": "Volver a empezar"
+  },
+  "Renovation verified and analysis updated": {
+    "fr": "Rénovation vérifiée et analyse actualisée",
+    "es": "Renovación verificada y análisis actualizado"
+  },
+  "Original context retained": {
+    "fr": "Contexte initial conservé",
+    "es": "Contexto inicial conservado"
+  },
+  "Decision record · fictional demonstration": {
+    "fr": "Fiche de décision · démonstration fictive",
+    "es": "Ficha de decisión · demostración ficticia"
+  },
+  "Understand the proposal": {
+    "fr": "Comprendre la proposition",
+    "es": "Comprender la propuesta"
+  },
+  "Challenge it with your expertise": {
+    "fr": "La discuter avec votre expertise",
+    "es": "Debatirla con su experiencia"
+  },
+  "Keep a reasoned decision": {
+    "fr": "Conserver une décision motivée",
+    "es": "Conservar una decisión justificada"
+  },
+  "Read the supporting signals and their sources together.": {
+    "fr": "Lire ensemble les signaux explicatifs et leurs sources.",
+    "es": "Leer conjuntamente las señales explicativas y sus fuentes."
+  },
+  "Bring missing context into the discussion and review the resulting proposal.": {
+    "fr": "Apporter le contexte manquant et réexaminer la proposition qui en découle.",
+    "es": "Aportar el contexto que falta y revisar la propuesta resultante."
+  },
+  "Separate the analytical proposal from the decision and reasoning of the expert.": {
+    "fr": "Distinguer la proposition analytique de la décision et de la motivation de l’expert.",
+    "es": "Distinguir la propuesta analítica de la decisión y la justificación del experto."
+  },
+  "Evaluate this workflow with your experts": {
+    "fr": "Évaluez ce parcours avec vos experts",
+    "es": "Evalúe este proceso con sus expertos"
+  },
+  "Choose a decision your team must explain. Together, we define the data, comparison criteria, expert review process and deployment environment: on your infrastructure or in the cloud.": {
+    "fr": "Choisissez une décision que votre équipe doit expliquer. Ensemble, nous définissons les données, les critères de comparaison, le parcours de revue experte et l’environnement de déploiement : sur votre infrastructure ou dans le cloud.",
+    "es": "Elija una decisión que su equipo deba explicar. Juntos definimos los datos, los criterios de comparación, el proceso de revisión experta y el entorno de despliegue: en su infraestructura o en la nube."
+  },
+  "Discuss an expert-led pilot": {
+    "fr": "Discuter d’un pilote avec vos experts",
+    "es": "Hablar de un piloto con sus expertos"
+  },
+  "Explainable AI alongside your experts | Neurytika": {
+    "fr": "Une IA explicable aux côtés de vos experts | Neurytika",
+    "es": "Una IA explicable junto a sus expertos | Neurytika"
+  },
+  "3 incidents in 12 months · Limited alternative supply · Condition report predates renovation": {
+    "fr": "3 incidents sur 12 mois · Peu de possibilités de report de charge · Rapport d’état antérieur à la rénovation",
+    "es": "3 incidentes en 12 meses · Pocas alternativas de suministro · Informe de estado anterior a la renovación"
   }
 }
