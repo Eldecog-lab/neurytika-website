@@ -5942,5 +5942,37 @@
   "3 incidents in 12 months · Limited alternative supply · Condition report predates renovation": {
     "fr": "3 incidents sur 12 mois · Peu de possibilités de report de charge · Rapport d’état antérieur à la rénovation",
     "es": "3 incidentes en 12 meses · Pocas alternativas de suministro · Informe de estado anterior a la renovación"
+  },
+  "Your feedback enriches the model": {
+    "fr": "Votre retour enrichit le modèle",
+    "es": "Sus comentarios enriquecen el modelo"
+  },
+  "After the inspection, a validated outcome becomes a new labelled example. ERC updates its evidence counters incrementally, without retraining on the full history.": {
+    "fr": "Après l’inspection, un résultat validé devient un nouvel exemple étiqueté. ERC actualise ses compteurs de manière incrémentale, sans réapprendre sur tout l’historique.",
+    "es": "Tras la inspección, un resultado validado se convierte en un nuevo ejemplo etiquetado. ERC actualiza sus contadores de forma incremental, sin volver a entrenar con todo el historial."
+  },
+  "Illustrative follow-up: the inspection confirms satisfactory condition after renovation. This outcome is validated for learning.": {
+    "fr": "Suite du scénario : l’inspection confirme un état satisfaisant après rénovation. Ce résultat est validé pour l’apprentissage.",
+    "es": "Continuación del escenario: la inspección confirma un estado satisfactorio tras la renovación. Este resultado se valida para el aprendizaje."
+  },
+  "Simulate adding the validated example": {
+    "fr": "Simuler l’ajout de l’exemple validé",
+    "es": "Simular la incorporación del ejemplo validado"
+  },
+  "One validated example added in this simulation": {
+    "fr": "Un exemple validé ajouté dans cette simulation",
+    "es": "Un ejemplo validado añadido en esta simulación"
+  },
+  "The relevant evidence counters are updated. This feedback can inform future proposals; your recorded decision remains separate and unchanged.": {
+    "fr": "Les compteurs associés aux motifs concernés sont actualisés. Ce retour peut éclairer les prochaines propositions ; votre décision consignée reste distincte et inchangée.",
+    "es": "Se actualizan los contadores de los patrones correspondientes. Este resultado puede orientar propuestas futuras; su decisión registrada permanece separada y sin cambios."
+  },
+  "Read the ERC paper on incremental learning": {
+    "fr": "Lire l’article ERC sur l’apprentissage incrémental",
+    "es": "Leer el artículo ERC sobre aprendizaje incremental"
+  },
+  "No learning update simulated": {
+    "fr": "Aucune mise à jour d’apprentissage simulée",
+    "es": "No se ha simulado ninguna actualización del aprendizaje"
   }
 }

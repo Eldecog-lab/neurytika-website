@@ -10,3 +10,6 @@ for(const lang of ['en','fr','es']){
  }
 }
 console.log('PASS: complete EN/FR/ES copy, both contexts, all three independent expert decisions and exported evidence.');
+
+for(const lang of ['en','fr','es']) { const c=copy[lang]; const r=engine.record(c,{updated:true,choice:'1',reason:'Expert review',learned:true}); assert(r.includes(c.learnDone)); assert(r.includes(c.learnCheck)); assert(r.includes(c.options[1])); }
+console.log('PASS: validated learning feedback remains distinct from expert decision in all languages.');

@@ -3,10 +3,10 @@
 (function(root){
  'use strict';
  function proposal(updated){return updated?'revised':'original';}
- function record(c,s){return [c.record,c.case,c.notice,'',c.sourceTitle+':',c.facts.map(function(f,i){return f+' — '+c.sources[i];}).join('\n'),'',c.proposalLabel+' (1): '+c.original,c.proposalLabel+' (2): '+c[proposal(s.updated)],s.updated?c.updated:c.notUpdated,c.combination,s.updated?c.changeText:c.counter,c.remainText,'',c.decisionLabel+': '+c.options[s.choice],c.reason+': '+s.reason].join('\n');}
+ function record(c,s){return [c.record,c.case,c.notice,'',c.sourceTitle+':',c.facts.map(function(f,i){return f+' — '+c.sources[i];}).join('\n'),'',c.proposalLabel+' (1): '+c.original,c.proposalLabel+' (2): '+c[proposal(s.updated)],s.updated?c.updated:c.notUpdated,c.combination,s.updated?c.changeText:c.counter,c.remainText,'',c.decisionLabel+': '+c.options[s.choice],c.reason+': '+s.reason,'',c.learnTitle,s.learned?c.learnDone:c.learnNo,s.learned?c.learnCheck:''].join('\n');}
  if(typeof module==='object'&&module.exports){module.exports={proposal:proposal,record:record};return;}
  var shell=document.getElementById('grid-demo'),c=(root.NeurytikaGridCopy||{})[document.documentElement.lang];if(!shell||!c)return;
- var state={step:0,checked:false,updated:false,choice:'',reason:'',confirmed:false},started=false,completed=false;
+ var state={step:0,checked:false,updated:false,choice:'',reason:'',confirmed:false,learningValidated:false,learned:false},started=false,completed=false;
  var body=document.getElementById('grid-body'),heading=document.getElementById('grid-heading'),next=document.getElementById('grid-next'),back=document.getElementById('grid-back');
  function el(tag,text,cls){var n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
  function track(name,params){if(root.NeurytikaAudience)root.NeurytikaAudience.track(name,params);}
@@ -31,12 +31,19 @@
    var label=el('label',c.reason);label.htmlFor='grid-reason';var area=el('textarea');area.id='grid-reason';area.rows=3;area.maxLength=1600;area.required=true;area.placeholder=c.placeholder;area.value=state.reason;area.addEventListener('input',function(){state.reason=area.value;invalidate();});form.append(label,area);
    form.append(button(c.suggest,function(){if(state.choice===''){announce(c.validation);fieldset.querySelector('input').focus();return;}state.reason=c.suggestions[Number(state.choice)];area.value=state.reason;invalidate();area.focus();},'grid-text-button'));
    var submit=el('button',c.confirm,'button');submit.type='submit';form.append(submit);form.addEventListener('submit',function(e){e.preventDefault();if(state.choice===''||!state.reason.trim()){announce(c.validation);area.focus();return;}state.confirmed=true;if(!completed){completed=true;track('demo_complete');}render(false);document.getElementById('grid-confirmed').focus();});body.append(form,el('p',c.local,'grid-muted'));
-   if(state.confirmed){var result=el('section',undefined,'grid-confirmed');result.id='grid-confirmed';result.tabIndex=-1;result.append(el('h3',c.confirmed),el('p',c.options[Number(state.choice)]),el('p',state.reason,'grid-note'));result.append(button(c.download,function(){var blob=new Blob([record(c,state)],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=el('a');a.href=url;a.download='Neurytika-GRID-014-'+document.documentElement.lang+'.txt';document.body.append(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);},'button'));body.append(result);}
-   body.append(button(c.reset,function(){state={step:0,checked:false,updated:false,choice:'',reason:'',confirmed:false};render(true);},'grid-text-button'));
+   if(state.confirmed){var result=el('section',undefined,'grid-confirmed');result.id='grid-confirmed';result.tabIndex=-1;result.append(el('h3',c.confirmed),el('p',c.options[Number(state.choice)]),el('p',state.reason,'grid-note'));result.append(button(c.download,function(){var blob=new Blob([record(c,state)],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=el('a');a.href=url;a.download='Neurytika-GRID-014-'+document.documentElement.lang+'.txt';document.body.append(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);},'button'));body.append(result);
+    var learning=el('section',undefined,'grid-learning');learning.append(el('h3',c.learnTitle),el('p',c.learnIntro));
+    var learningLabel=el('label',undefined,'grid-check'),verified=el('input');verified.type='checkbox';verified.checked=state.learningValidated;verified.disabled=state.learned;learningLabel.append(verified,el('span',c.learnCheck));learning.append(learningLabel);
+    var learn=button(c.learnButton,function(){state.learned=true;render(false);document.getElementById('grid-learned').focus();},'button');learn.disabled=!state.learningValidated||state.learned;
+    verified.addEventListener('change',function(){state.learningValidated=verified.checked;learn.disabled=!verified.checked||state.learned;});learning.append(learn);
+    if(state.learned){var learned=card(c.learnDone,c.learnResult);learned.id='grid-learned';learned.tabIndex=-1;learning.append(learned);}
+    var source=el('a',c.learnSource,'text-link');source.href='https://doi.org/10.1016/j.neucom.2025.131797';learning.append(source);body.append(learning);
+   }
+   body.append(button(c.reset,function(){state={step:0,checked:false,updated:false,choice:'',reason:'',confirmed:false,learningValidated:false,learned:false};render(true);},'grid-text-button'));
   }
   if(focus){heading.focus({preventScroll:true});heading.scrollIntoView({block:'start',behavior:'auto'});}
  }
- function invalidate(){state.confirmed=false;var old=document.getElementById('grid-confirmed');if(old)old.remove();}
+ function invalidate(){state.confirmed=false;var old=document.getElementById('grid-confirmed');if(old)old.remove();var learning=body.querySelector('.grid-learning');if(learning)learning.remove();}
  next.addEventListener('click',function(){begin();if(state.step<3){state.step++;track('demo_step',{step_number:state.step+1});render(true);}});
  back.addEventListener('click',function(){if(state.step>0){state.step--;render(true);}});
  document.addEventListener('click',function(e){if(e.target.closest('.demo-pilot-link'))track('demo_pilot_click');});
