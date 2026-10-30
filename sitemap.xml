@@ -316,6 +316,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/interactive-demo/" />
   </url>
   <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/responsible-ai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/responsible-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-responsable/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-responsable/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/responsible-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/fr/ia-responsable/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/responsible-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-responsable/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-responsable/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/responsible-ai/" />
+  </url>
+  <url>
+    <loc>https://eldecog-lab.github.io/neurytika-website/es/ia-responsable/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/responsible-ai/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/ia-responsable/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://eldecog-lab.github.io/neurytika-website/es/ia-responsable/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://eldecog-lab.github.io/neurytika-website/responsible-ai/" />
+  </url>
+  <url>
     <loc>https://eldecog-lab.github.io/neurytika-website/find-your-ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://eldecog-lab.github.io/neurytika-website/find-your-ai/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/" />

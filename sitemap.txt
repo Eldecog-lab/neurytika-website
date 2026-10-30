@@ -43,6 +43,9 @@ https://eldecog-lab.github.io/neurytika-website/es/vigilancia-maritima/
 https://eldecog-lab.github.io/neurytika-website/interactive-demo/
 https://eldecog-lab.github.io/neurytika-website/fr/demonstration-interactive/
 https://eldecog-lab.github.io/neurytika-website/es/demostracion-interactiva/
+https://eldecog-lab.github.io/neurytika-website/responsible-ai/
+https://eldecog-lab.github.io/neurytika-website/fr/ia-responsable/
+https://eldecog-lab.github.io/neurytika-website/es/ia-responsable/
 https://eldecog-lab.github.io/neurytika-website/find-your-ai/
 https://eldecog-lab.github.io/neurytika-website/fr/trouver-votre-solution/
 https://eldecog-lab.github.io/neurytika-website/es/encuentre-su-solucion/

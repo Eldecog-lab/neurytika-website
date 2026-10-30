@@ -28,6 +28,7 @@ ROUTES = {
  'intelligence-decision-support': {'en':'intelligence-decision-support/','fr':'fr/analyse-aide-decision/','es':'es/analisis-apoyo-decision/'},
  'maritime-surveillance-ai': {'en':'maritime-surveillance-ai/','fr':'fr/surveillance-maritime/','es':'es/vigilancia-maritima/'},
  'interactive-demo': {'en':'interactive-demo/','fr':'fr/demonstration-interactive/','es':'es/demostracion-interactiva/'},
+ 'responsible-ai': {'en':'responsible-ai/','fr':'fr/ia-responsable/','es':'es/ia-responsable/'},
  'quiz': {'en':'find-your-ai/','fr':'fr/trouver-votre-solution/','es':'es/encuentre-su-solucion/'}
 }
 CATALOG = json.loads((ROOT/'i18n/translations.json').read_text())
@@ -42,15 +43,15 @@ DIRECTORY = {
  'en': {'label':'Explore Neurytika','groups':[
   ('Business solutions',[("interactive-demo","Interactive demo"),('technology-evaluation', 'Technology evaluation'),('intelligence-decision-support', 'Intelligence & decision support'),('maritime-surveillance-ai', 'Maritime surveillance'),('customer-retention','Customer retention'),('lead-qualification','Lead qualification'),('quality-control','Quality control'),('fraud-detection','Fraud detection'),('predictive-analytics','Predictive analytics & consulting')]),
   ('Deployment & AI',[('on-premise-ai','On-premise AI'),('data-sovereignty-ai','Data sovereignty & AI'),('generative-ai-vs-predictive-ai','Generative AI vs predictive AI'),('embedded-ai-aerospace','Embedded AI for aerospace')]),
-  ('Neurytika',[('home','Home'),('company','Celeste EcoFlyers — About us'),('home#publication','Research & scientific evidence'),('home#academic','Academic access'),('home#contact','Contact & demo')])]},
+  ('Neurytika',[('responsible-ai','Human expertise & responsible AI'),('home','Home'),('company','Celeste EcoFlyers — About us'),('home#publication','Research & scientific evidence'),('home#academic','Academic access'),('home#contact','Contact & demo')])]},
  'fr': {'label':'Explorer Neurytika','groups':[
   ('Solutions métier',[("interactive-demo","Démonstration interactive"),('technology-evaluation', 'Évaluation technologique'),('intelligence-decision-support', 'Analyse et aide à la décision'),('maritime-surveillance-ai', 'Surveillance maritime'),('customer-retention','Fidélisation clients'),('lead-qualification','Qualification des prospects'),('quality-control','Contrôle qualité'),('fraud-detection','Détection de fraude'),('predictive-analytics','Analyse prédictive et conseil')]),
   ('Déploiement et IA',[('on-premise-ai','IA sur site'),('data-sovereignty-ai','Souveraineté des données et IA'),('generative-ai-vs-predictive-ai','IA générative et IA prédictive'),('embedded-ai-aerospace','IA embarquée pour l’aérospatial')]),
-  ('Neurytika',[('home','Accueil'),('company','Celeste EcoFlyers — Notre société'),('home#publication','Recherche et résultats scientifiques'),('home#academic','Accès académique'),('home#contact','Contact et démonstration')])]},
+  ('Neurytika',[('responsible-ai','Expertise humaine et IA responsable'),('home','Accueil'),('company','Celeste EcoFlyers — Notre société'),('home#publication','Recherche et résultats scientifiques'),('home#academic','Accès académique'),('home#contact','Contact et démonstration')])]},
  'es': {'label':'Explorar Neurytika','groups':[
   ('Soluciones empresariales',[("interactive-demo","Demostración interactiva"),('technology-evaluation', 'Evaluación tecnológica'),('intelligence-decision-support', 'Análisis y apoyo a la decisión'),('maritime-surveillance-ai', 'Vigilancia marítima'),('customer-retention','Fidelización de clientes'),('lead-qualification','Calificación de leads'),('quality-control','Control de calidad'),('fraud-detection','Detección de fraude'),('predictive-analytics','Analítica predictiva y consultoría')]),
   ('Despliegue e IA',[('on-premise-ai','IA local'),('data-sovereignty-ai','Soberanía de datos e IA'),('generative-ai-vs-predictive-ai','IA generativa e IA predictiva'),('embedded-ai-aerospace','IA embarcada aeroespacial')]),
-  ('Neurytika',[('home','Inicio'),('company','Celeste EcoFlyers — Nuestra empresa'),('home#publication','Investigación y evidencia científica'),('home#academic','Acceso académico'),('home#contact','Contacto y demostración')])]}
+  ('Neurytika',[('responsible-ai','Experiencia humana e IA responsable'),('home','Inicio'),('company','Celeste EcoFlyers — Nuestra empresa'),('home#publication','Investigación y evidencia científica'),('home#academic','Acceso académico'),('home#contact','Contacto y demostración')])]}
 }
 
 def translated(value, lang):

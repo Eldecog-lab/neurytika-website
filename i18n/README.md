@@ -21,3 +21,7 @@ The Gmail delivery filter is limited to `from:submissions@formsubmit.co` and `su
 The existing interactive-demo routes now show a four-step scripted power-grid case in EN/FR/ES. Static copy remains in translations.json, and interactive copy lives in grid-demo-copy.js. grid-demo.js separates the illustrative proposal from the expert decision, requires a rationale, and produces a local text download. Notes live only in tab memory and never enter analytics, URLs, storage or server requests. demo_complete fires only after a valid expert decision, once per page load. No lead submission occurs in this walkthrough. The example does not invoke ERC or describe a client deployment.
 
 Run `node scripts/test_grid_demo.cjs`. Browser checks should include original and corrected contexts, disagreement with the proposal, editing a confirmed decision, reset, local download, and mobile layout.
+
+## Human expertise and responsible AI
+
+The site has 17 routes in three languages (51 pages). The responsible-ai route explains expert review, incremental learning and data control, with public CNIL guidance clearly separated from product capabilities. Its entry appears on the homepage and key commercial pages; the site directory links it from every page. Edit English HTML and translations.json, then rebuild. responsible.css styles the cards and reference panel. Preserve the demo-first ordering on interactive-demo. Public references are contextual sources, not endorsements or certifications.

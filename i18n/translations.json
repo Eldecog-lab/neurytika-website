@@ -5974,5 +5974,261 @@
   "No learning update simulated": {
     "fr": "Aucune mise à jour d’apprentissage simulée",
     "es": "No se ha simulado ninguna actualización del aprendizaje"
+  },
+  "Explore the expert-led demo →": {
+    "fr": "Voir la démonstration avec l’expert →",
+    "es": "Ver la demostración con el experto →"
+  },
+  "Human expertise, responsible AI & sources →": {
+    "fr": "Expertise humaine, IA responsable et sources →",
+    "es": "Experiencia humana, IA responsable y fuentes →"
+  },
+  "Explainable AI. Human expertise. Responsible decisions.": {
+    "fr": "IA explicable. Expertise humaine. Décisions responsables.",
+    "es": "IA explicable. Experiencia humana. Decisiones responsables."
+  },
+  "EXPLAINABLE AI SOFTWARE + IMPLEMENTATION": {
+    "fr": "LOGICIEL D’IA EXPLICABLE + ACCOMPAGNEMENT",
+    "es": "SOFTWARE DE IA EXPLICABLE + IMPLEMENTACIÓN"
+  },
+  "Your experts understand. Your organization decides.": {
+    "fr": "Vos experts comprennent. Votre organisation décide.",
+    "es": "Sus expertos comprenden. Su organización decide."
+  },
+  "Give your experts the evidence to understand a proposal, challenge it and make the final decision. Enrich the model with validated feedback, on your infrastructure or in your chosen cloud.": {
+    "fr": "Donnez à vos experts les éléments pour comprendre une proposition, la discuter et garder la décision finale. Enrichissez le modèle avec des retours validés, sur votre infrastructure ou dans le cloud de votre choix.",
+    "es": "Ofrezca a sus expertos los elementos para comprender una propuesta, cuestionarla y tomar la decisión final. Enriquezca el modelo con resultados validados, en su infraestructura o en la nube que elija."
+  },
+  "Human expertise · Incremental learning · Data control": {
+    "fr": "Expertise humaine · Apprentissage incrémental · Maîtrise des données",
+    "es": "Experiencia humana · Aprendizaje incremental · Control de datos"
+  },
+  "YOUR DATA. AN EXPLANATION. YOUR DECISION.": {
+    "fr": "VOS DONNÉES. UNE EXPLICATION. VOTRE DÉCISION.",
+    "es": "SUS DATOS. UNA EXPLICACIÓN. SU DECISIÓN."
+  },
+  "Review the proposal": {
+    "fr": "Examiner la proposition",
+    "es": "Examinar la propuesta"
+  },
+  "Compare the evidence with your expertise.": {
+    "fr": "Confrontez les éléments à votre expertise.",
+    "es": "Contraste la evidencia con su experiencia."
+  },
+  "Keep the decision": {
+    "fr": "Garder la décision",
+    "es": "Conservar la decisión"
+  },
+  "Validate, discuss and add context.": {
+    "fr": "Validez, discutez et apportez du contexte.",
+    "es": "Valide, cuestione y aporte contexto."
+  },
+  "HUMAN EXPERTISE + RESPONSIBLE AI": {
+    "fr": "EXPERTISE HUMAINE + IA RESPONSABLE",
+    "es": "EXPERIENCIA HUMANA + IA RESPONSABLE"
+  },
+  "Put expertise at the heart of every decision.": {
+    "fr": "Placez l’expertise au cœur de chaque décision.",
+    "es": "Sitúe la experiencia en el centro de cada decisión."
+  },
+  "Examine feature combinations, their observed counts and their association with outcomes. Bring the model’s evidence into a conversation with your domain experts.": {
+    "fr": "Examinez les combinaisons de caractéristiques, leurs effectifs observés et leur association avec les résultats. Confrontez ces éléments à la connaissance de vos experts métier.",
+    "es": "Examine las combinaciones de características, sus frecuencias observadas y su asociación con los resultados. Contraste estos elementos con el conocimiento de sus expertos."
+  },
+  "Keep the final decision": {
+    "fr": "Garder la décision finale",
+    "es": "Conservar la decisión final"
+  },
+  "Design a workflow in which experts can add context, disagree and explain their choice. Our implementation support helps turn human oversight into an effective review step.": {
+    "fr": "Construisez un parcours où les experts peuvent apporter du contexte, exprimer un désaccord et expliquer leur choix. Notre accompagnement transforme la supervision humaine en une véritable étape de revue.",
+    "es": "Diseñe un proceso en el que los expertos puedan aportar contexto, discrepar y explicar su elección. Nuestro acompañamiento convierte la supervisión humana en una revisión efectiva."
+  },
+  "Learn from validated feedback": {
+    "fr": "Apprendre des retours validés",
+    "es": "Aprender de resultados validados"
+  },
+  "ERC supports incremental learning: new labelled observations update its counts without restarting the full training process. Define who validates feedback and when updates enter service.": {
+    "fr": "ERC permet un apprentissage incrémental : de nouvelles observations étiquetées mettent à jour ses compteurs sans reprendre tout l’apprentissage. Définissez qui valide les retours et quand les mises à jour entrent en service.",
+    "es": "ERC permite el aprendizaje incremental: nuevas observaciones etiquetadas actualizan sus contadores sin repetir todo el entrenamiento. Defina quién valida los resultados y cuándo se aplican las actualizaciones."
+  },
+  "Make decisions open to review": {
+    "fr": "Rendre les décisions examinables",
+    "es": "Facilitar la revisión de decisiones"
+  },
+  "Use inspectable evidence to support explanations for reviewers and people affected by a decision. Shape understandable information, correction and reconsideration procedures with your team.": {
+    "fr": "Appuyez-vous sur des éléments examinables pour préparer les explications destinées aux évaluateurs et aux personnes concernées. Définissez avec vos équipes une information compréhensible et les procédures de correction et de réexamen.",
+    "es": "Utilice evidencia examinable para preparar explicaciones destinadas a los revisores y a las personas afectadas. Defina con su equipo información comprensible y procedimientos de corrección y reconsideración."
+  },
+  "Control your data": {
+    "fr": "Maîtriser vos données",
+    "es": "Controlar sus datos"
+  },
+  "Deploy locally or in your chosen cloud. Agree data selection, access, retention and model-update responsibilities as part of the implementation.": {
+    "fr": "Déployez le logiciel localement ou dans le cloud de votre choix. Cadrez la sélection des données, les accès, la conservation et les responsabilités de mise à jour du modèle lors de l’intégration.",
+    "es": "Despliegue el software localmente o en la nube que elija. Acuerde la selección de datos, los accesos, la conservación y las responsabilidades de actualización durante la implementación."
+  },
+  "PUBLIC GUIDANCE": {
+    "fr": "RECOMMANDATIONS PUBLIQUES",
+    "es": "RECOMENDACIONES PÚBLICAS"
+  },
+  "CNIL: explanations people can understand": {
+    "fr": "CNIL : des explications compréhensibles",
+    "es": "CNIL: explicaciones comprensibles"
+  },
+  "The CNIL defines explainability as making the elements behind an AI result understandable, with explanations adapted to their audience. Its guidance on AI in production addresses effective human oversight and the quality of continuous-learning data.": {
+    "fr": "La CNIL définit l’explicabilité par la compréhension des éléments qui fondent un résultat, avec des explications adaptées à leur destinataire. Ses recommandations sur l’IA en production abordent la supervision humaine effective et la qualité des données d’apprentissage continu.",
+    "es": "La CNIL define la explicabilidad como la comprensión de los elementos que sustentan un resultado, con explicaciones adaptadas a su destinatario. Sus recomendaciones sobre IA en producción abordan la supervisión humana efectiva y la calidad de los datos de aprendizaje continuo."
+  },
+  "CNIL — Explainability ↗": {
+    "fr": "CNIL — Explicabilité ↗",
+    "es": "CNIL — Explicabilidad ↗"
+  },
+  "CNIL — Human oversight & AI in production ↗": {
+    "fr": "CNIL — Contrôle humain et IA en production ↗",
+    "es": "CNIL — Supervisión humana e IA en producción ↗"
+  },
+  "Neurytika | Explainable AI for Human Expertise & Responsible Decisions": {
+    "fr": "Neurytika | IA explicable, expertise humaine et décisions responsables",
+    "es": "Neurytika | IA explicable, experiencia humana y decisiones responsables"
+  },
+  "Explainable prediction software with incremental learning. Support expert decisions, control your data and build a responsible AI workflow with Neurytika.": {
+    "fr": "Logiciel de prédiction explicable et apprentissage incrémental. Accompagnez vos experts, maîtrisez vos données et construisez un parcours d’IA responsable.",
+    "es": "Software de predicción explicable y aprendizaje incremental. Apoye a sus expertos, controle sus datos y construya un proceso de IA responsable."
+  },
+  "Responsible AI, Human Expertise & Incremental Learning | Neurytika": {
+    "fr": "IA responsable, expertise humaine et apprentissage incrémental | Neurytika",
+    "es": "IA responsable, experiencia humana y aprendizaje incremental | Neurytika"
+  },
+  "EXPLAINABILITY THAT SERVES PEOPLE": {
+    "fr": "L’EXPLICABILITÉ AU SERVICE DES PERSONNES",
+    "es": "EXPLICABILIDAD AL SERVICIO DE LAS PERSONAS"
+  },
+  "Define your expert-led pilot →": {
+    "fr": "Définir votre pilote avec vos experts →",
+    "es": "Definir su piloto con sus expertos →"
+  },
+  "Five ways to keep your organization in control": {
+    "fr": "Cinq leviers pour garder la maîtrise",
+    "es": "Cinco formas de mantener el control"
+  },
+  "Public guidance and research": {
+    "fr": "Recommandations publiques et recherche",
+    "es": "Recomendaciones públicas e investigación"
+  },
+  "Défenseur des droits — meaningful human involvement": {
+    "fr": "Défenseur des droits — une intervention humaine réelle",
+    "es": "Défenseur des droits — intervención humana efectiva"
+  },
+  "Its 2024 report calls for meaningful human intervention and effective transparency in public services. We use these questions to frame the pilot: can the reviewer understand, challenge and reconsider a proposal?": {
+    "fr": "Son rapport de 2024 souligne l’importance d’une intervention humaine substantielle et d’une transparence effective dans les services publics. Ces questions guident le cadrage du pilote : l’évaluateur peut-il comprendre, discuter et réexaminer une proposition ?",
+    "es": "Su informe de 2024 destaca la intervención humana sustantiva y la transparencia efectiva en los servicios públicos. Estas preguntas orientan el piloto: ¿puede el revisor comprender, cuestionar y reconsiderar una propuesta?"
+  },
+  "Read the source ↗": {
+    "fr": "Consulter la source ↗",
+    "es": "Consultar la fuente ↗"
+  },
+  "ERC — the scientific basis": {
+    "fr": "ERC — les fondements scientifiques",
+    "es": "ERC — la base científica"
+  },
+  "The open-access Neurocomputing paper describes learning through counter updates, inspectable evidence and reproducibility. Sections 7.2, 10.3 and 10.4 support the discussion of incremental learning and auditability.": {
+    "fr": "L’article en accès libre de Neurocomputing décrit l’apprentissage par mise à jour de compteurs, les éléments statistiques examinables et la reproductibilité. Les sections 7.2, 10.3 et 10.4 étayent l’apprentissage incrémental et les possibilités d’audit.",
+    "es": "El artículo de acceso abierto en Neurocomputing describe el aprendizaje mediante actualización de contadores, la evidencia examinable y la reproducibilidad. Las secciones 7.2, 10.3 y 10.4 fundamentan el aprendizaje incremental y las posibilidades de auditoría."
+  },
+  "Human–AI research — preserve expert autonomy": {
+    "fr": "Recherche humain–IA — préserver l’autonomie des experts",
+    "es": "Investigación humano–IA — preservar la autonomía experta"
+  },
+  "A CHI 2020 study observed professionals overriding erroneous algorithmic recommendations in a specific decision-support setting. It supports evaluating the human–AI workflow as well as the model.": {
+    "fr": "Une étude présentée à CHI 2020 a observé des professionnels s’écartant de recommandations algorithmiques erronées dans un contexte précis d’aide à la décision. Elle invite à évaluer le travail humain–IA autant que le modèle.",
+    "es": "Un estudio presentado en CHI 2020 observó a profesionales apartarse de recomendaciones algorítmicas erróneas en un contexto concreto. Invita a evaluar el trabajo humano–IA además del modelo."
+  },
+  "Transparency matters to the people affected": {
+    "fr": "La transparence compte aussi pour les personnes concernées",
+    "es": "La transparencia también importa a las personas afectadas"
+  },
+  "Public debates about welfare, employment and tax controls highlight questions about data selection, unequal impacts and the ability to challenge a decision. La Quadrature du Net questions both the transparency and the purposes of these systems. These investigations help define the questions an organization should examine before deployment.": {
+    "fr": "Les débats sur les contrôles sociaux, l’emploi et la fiscalité soulèvent des questions sur les données choisies, les effets inégaux et la possibilité de contester une décision. La Quadrature du Net interroge la transparence autant que les finalités de ces systèmes. Ses enquêtes aident à préciser les questions à examiner avant un déploiement.",
+    "es": "Los debates sobre controles sociales, empleo y fiscalidad plantean cuestiones sobre los datos elegidos, los efectos desiguales y la posibilidad de impugnar una decisión. La Quadrature du Net cuestiona tanto la transparencia como las finalidades de estos sistemas. Sus investigaciones ayudan a definir las preguntas previas al despliegue."
+  },
+  "France Travail — profiling and oversight (2024)": {
+    "fr": "France Travail — profilage et contrôle (2024)",
+    "es": "France Travail — perfiles y supervisión (2024)"
+  },
+  "CAF — analysis of the scoring system (2023)": {
+    "fr": "CAF — analyse du système de notation (2023)",
+    "es": "CAF — análisis del sistema de puntuación (2023)"
+  },
+  "Tax controls — arguments on effective human oversight (2019)": {
+    "fr": "Contrôle fiscal — analyse du contrôle humain effectif (2019)",
+    "es": "Control fiscal — análisis de la supervisión humana efectiva (2019)"
+  },
+  "Explainability provides a basis for examining fairness. Our consulting helps teams define appropriate objectives, review data and errors, and organize meaningful human review.": {
+    "fr": "L’explicabilité fournit une base pour examiner l’équité. Notre accompagnement aide les équipes à définir des objectifs pertinents, examiner les données et les erreurs, et organiser une véritable revue humaine.",
+    "es": "La explicabilidad ofrece una base para examinar la equidad. Nuestra consultoría ayuda a definir objetivos adecuados, revisar datos y errores y organizar una revisión humana efectiva."
+  },
+  "A CONTROLLED LEARNING LOOP": {
+    "fr": "UNE BOUCLE D’APPRENTISSAGE MAÎTRISÉE",
+    "es": "UN CICLO DE APRENDIZAJE CONTROLADO"
+  },
+  "Your expertise becomes a lasting contribution.": {
+    "fr": "Votre expertise enrichit durablement le modèle.",
+    "es": "Su experiencia enriquece el modelo de forma duradera."
+  },
+  "Review the evidence behind the proposal.": {
+    "fr": "Examinez les éléments soutenant la proposition.",
+    "es": "Revise la evidencia que sustenta la propuesta."
+  },
+  "Add context, correct inputs and examine alternatives.": {
+    "fr": "Ajoutez du contexte, corrigez les données et examinez les alternatives.",
+    "es": "Añada contexto, corrija datos y examine alternativas."
+  },
+  "The expert records the choice and its rationale.": {
+    "fr": "L’expert consigne son choix et ses raisons.",
+    "es": "El experto registra su elección y sus motivos."
+  },
+  "Enrich": {
+    "fr": "Enrichir",
+    "es": "Enriquecer"
+  },
+  "A separately validated outcome can update the model. A disagreement first triggers review; feedback enters learning through an agreed validation process.": {
+    "fr": "Un résultat validé séparément peut alimenter le modèle. Un désaccord ouvre d’abord une revue ; les retours entrent dans l’apprentissage selon un processus de validation défini.",
+    "es": "Un resultado validado por separado puede actualizar el modelo. Una discrepancia inicia una revisión; los resultados se incorporan mediante un proceso de validación acordado."
+  },
+  "Make these principles measurable in your pilot.": {
+    "fr": "Rendez ces principes mesurables dans votre pilote.",
+    "es": "Haga medibles estos principios en su piloto."
+  },
+  "Together, we define how to assess prediction quality, the usefulness of explanations, expert review, error patterns and validated updates. The pilot also scopes data access, model versions and the information needed to review a past decision.": {
+    "fr": "Nous définissons ensemble comment évaluer la qualité prédictive, l’utilité des explications, la revue experte, les profils d’erreurs et les mises à jour validées. Le pilote cadre aussi les accès aux données, les versions du modèle et les informations nécessaires au réexamen d’une décision passée.",
+    "es": "Definimos juntos cómo evaluar la calidad predictiva, la utilidad de las explicaciones, la revisión experta, los patrones de error y las actualizaciones validadas. El piloto también concreta los accesos, las versiones del modelo y la información necesaria para revisar una decisión anterior."
+  },
+  "Discuss your responsible AI pilot →": {
+    "fr": "Échanger sur votre pilote d’IA responsable →",
+    "es": "Hablemos de su piloto de IA responsable →"
+  },
+  "EXPERTISE, ETHICS & CONTINUOUS IMPROVEMENT": {
+    "fr": "EXPERTISE, ÉTHIQUE ET AMÉLIORATION CONTINUE",
+    "es": "EXPERIENCIA, ÉTICA Y MEJORA CONTINUA"
+  },
+  "Understand the proposal. Keep the decision.": {
+    "fr": "Comprendre la proposition. Garder la décision.",
+    "es": "Comprender la propuesta. Conservar la decisión."
+  },
+  "Combine inspectable predictions, expert review and incremental learning from validated outcomes. We help define the workflow and data controls with your team.": {
+    "fr": "Associez prédictions examinables, revue experte et apprentissage incrémental à partir de résultats validés. Nous cadrons le parcours et la maîtrise des données avec votre équipe.",
+    "es": "Combine predicciones examinables, revisión experta y aprendizaje incremental a partir de resultados validados. Definimos el proceso y el control de los datos con su equipo."
+  },
+  "Reference: the CNIL’s guidance addresses understandable explanations and effective human oversight.": {
+    "fr": "Référence : les recommandations de la CNIL abordent les explications compréhensibles et la supervision humaine effective.",
+    "es": "Referencia: las recomendaciones de la CNIL abordan explicaciones comprensibles y supervisión humana efectiva."
+  },
+  "Read the CNIL guidance ↗": {
+    "fr": "Lire les recommandations de la CNIL ↗",
+    "es": "Leer las recomendaciones de la CNIL ↗"
+  },
+  "See the expert-led demo →": {
+    "fr": "Voir la démonstration avec l’expert →",
+    "es": "Ver la demostración con el experto →"
   }
 }

@@ -74,6 +74,11 @@
     "fr": "fr/demonstration-interactive/",
     "es": "es/demostracion-interactiva/"
   },
+  "responsible-ai": {
+    "en": "responsible-ai/",
+    "fr": "fr/ia-responsable/",
+    "es": "es/ia-responsable/"
+  },
   "quiz": {
     "en": "find-your-ai/",
     "fr": "fr/trouver-votre-solution/",
