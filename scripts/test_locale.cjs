@@ -15,7 +15,7 @@ function scenario({current='en', page='home', search='', saved=null, languages=[
   vm.runInNewContext(source, {
     document: {documentElement: {lang:current, getAttribute:()=>page}, addEventListener:()=>{}},
     navigator: {languages}, URL, URLSearchParams,
-    location: {search, hash, origin:'https://eldecog-lab.github.io', replace:url=>redirected=url},
+    location: {search, hash, origin:'https://ai.celeste.aero', replace:url=>redirected=url},
     localStorage: {
       getItem:()=>{if(denied) throw Error('disabled'); return saved;},
       setItem:(_,v)=>{if(denied) throw Error('disabled'); stored=v;}
@@ -23,7 +23,7 @@ function scenario({current='en', page='home', search='', saved=null, languages=[
   });
   return {redirected, stored};
 }
-assert.equal(scenario().redirected, 'https://eldecog-lab.github.io/neurytika-website/fr/#solutions');
+assert.equal(scenario().redirected, 'https://ai.celeste.aero/fr/#solutions');
 assert.equal(scenario({languages:['pt'], hash:''}).redirected, null);
 assert.equal(scenario({search:'?lang=en'}).redirected, null);
 assert.equal(scenario({saved:'en'}).redirected, null);

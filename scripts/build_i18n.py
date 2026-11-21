@@ -10,8 +10,8 @@ import json, re, posixpath
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = 'https://eldecog-lab.github.io/neurytika-website/'
-PREFIX = '/neurytika-website/'
+BASE = 'https://ai.celeste.aero/'
+PREFIX = '/'
 ROUTES = {
  'home': {'en':'','fr':'fr/','es':'es/'},
  'customer-retention': {'en':'customer-retention/','fr':'fr/fidelisation-clients/','es':'es/fidelizacion-clientes/'},
@@ -105,6 +105,30 @@ def build_page(key,source,lang):
             n['content']=translated(n.get('content',''),lang)
         for attr in ['href','src','poster']:
             if n.has_attr(attr): n[attr]=mapped_url(n[attr],original,lang)
+    # Celeste AI is the commercial brand; Neurytika remains the software name.
+    for brand in s.select('header .brand, footer .brand'):
+        brand.clear()
+        brand['aria-label']={'en':'Celeste AI home','fr':'Accueil Celeste AI','es':'Inicio Celeste AI'}[lang]
+        word=s.new_tag('span',attrs={'class':'celeste-wordmark'});word.string='Celeste AI';brand.append(word)
+        product=s.new_tag('span',attrs={'class':'celeste-product'});product.string={'en':'Neurytika software','fr':'Logiciel Neurytika','es':'Software Neurytika'}[lang];brand.append(product)
+    for meta in s.select('meta[property="og:site_name"]'):meta['content']='Celeste AI'
+    if s.title:
+        title=s.title.get_text().replace('Neurytika |','Celeste AI |').replace('| Neurytika','| Celeste AI').replace('— Neurytika','— Celeste AI')
+        s.title.string=title
+        ogtitle=s.find('meta',property='og:title')
+        if ogtitle:ogtitle['content']=title
+    for schema in s.find_all('script',type='application/ld+json'):
+        obj=json.loads(schema.string)
+        if obj.get('@type')=='WebSite':obj['name']='Celeste AI';obj['alternateName']='Neurytika'
+        schema.string=json.dumps(obj,ensure_ascii=False)
+    if key=='home':
+        intro=s.select_one('.elastic-intro')
+        if intro:intro.string={'en':'Celeste AI helps your experts understand, discuss and enrich predictions with Neurytika software. Incremental learning from validated observations, on your infrastructure or in your chosen cloud.','fr':'Celeste AI accompagne vos experts pour comprendre, discuter et enrichir les prédictions avec le logiciel Neurytika. Un apprentissage incrémental à partir d’observations validées, sur votre infrastructure ou dans le cloud de votre choix.','es':'Celeste AI ayuda a sus expertos a comprender, debatir y enriquecer las predicciones con el software Neurytika. Aprendizaje incremental a partir de observaciones validadas, en su infraestructura o en la nube que elija.'}[lang]
+        caption=s.select_one('.hero-caption')
+        if caption:
+            caption.clear()
+            logo=s.new_tag('img',src='/assets/neurytika-logo.png',alt='Neurytika',width='115',height='29',attrs={'class':'product-signature'})
+            caption.append(logo);caption.append({'en':'Software · Integration · Expert support','fr':'Logiciel · Intégration · Accompagnement des experts','es':'Software · Integración · Apoyo a expertos'}[lang])
     s.html['lang']=lang;s.html['data-page-key']=key
     s.find('link',rel='canonical')['href']=target
     og=s.find('meta',property='og:url')

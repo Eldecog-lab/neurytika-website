@@ -2,7 +2,7 @@
 
 English commercial website for Neurytika prediction software, deployment and consulting, powered by the Evidence Ratio Classifier (ERC).
 
-**Website:** https://eldecog-lab.github.io/neurytika-website/
+**Website:** https://ai.celeste.aero/
 
 ## Content and sources
 Scientific descriptions follow the [Neurytika README](https://github.com/Eldecog-lab/Neurytika) and [V0 specification](https://github.com/Eldecog-lab/Neurytika/blob/main/docs/spec-mvp-v0.md).

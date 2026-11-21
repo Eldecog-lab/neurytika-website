@@ -34,7 +34,7 @@
       supported.indexOf(saved) !== -1 ? saved :
       preferredLanguage(navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || '']);
     if (wanted !== current) {
-      var next = new URL('/neurytika-website/' + routes[page][wanted], location.origin);
+      var next = new URL('/' + routes[page][wanted], location.origin);
       next.search = location.search;
       next.hash = location.hash;
       location.replace(next.href);
