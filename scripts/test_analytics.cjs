@@ -31,3 +31,17 @@ for(const mode of ['public','internal','test']){
  assert.equal(sent.length,mode==='internal'?0:4);for(const e of sent){assert.equal(e[2].send_to,mode==='test'?'G-SQFJCLWF18':'G-B31298QHG3');assert(!JSON.stringify(e).includes('NEVER-SEND'));}
 }
 console.log('Interactive demo events respect consent routing, internal exclusions and personal-data filtering.');
+
+// Campaign attribution survives privacy-safe URL redaction, including QA routing.
+for(const mode of ['public','test','internal']){
+ const x=setup('accept','ai.celeste.aero',mode,'?utm_source=youtube&utm_medium=social&utm_campaign=channel_profile&email=private-email@example.com');
+ const cfg=(x.ctx.window.dataLayer||[]).find(e=>e[0]==='config');
+ if(mode==='internal'){assert(!cfg);continue;}
+ assert.equal(cfg[1],mode==='test'?'G-SQFJCLWF18':'G-B31298QHG3');
+ assert.equal(cfg[2].campaign_source,'youtube');assert.equal(cfg[2].campaign_medium,'social');assert.equal(cfg[2].campaign_name,'channel_profile');
+ assert(!JSON.stringify(x.ctx.window.dataLayer).includes('private-email'));assert(!cfg[2].page_location.includes('?'));
+}
+const invalid=setup('accept','ai.celeste.aero',null,'?utm_source=user%40example.com&utm_medium=social&utm_campaign=1234567890');
+const cfgInvalid=invalid.ctx.window.dataLayer.find(e=>e[0]==='config')[2];
+assert(!cfgInvalid.campaign_source);assert(!cfgInvalid.campaign_name);assert.equal(cfgInvalid.campaign_medium,'social');
+console.log('Campaign attribution uses three validated identifiers; query strings and personal data remain excluded.');
