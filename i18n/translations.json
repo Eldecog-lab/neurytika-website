@@ -6230,5 +6230,529 @@
   "See the expert-led demo →": {
     "fr": "Voir la démonstration avec l’expert →",
     "es": "Ver la demostración con el experto →"
+  },
+  "Explore the interactive demo": {
+    "fr": "Voir la démonstration interactive",
+    "es": "Ver la demostración interactiva"
+  },
+  "Explore a pilot on your data": {
+    "fr": "Découvrir un pilote sur vos données",
+    "es": "Explorar un piloto con sus datos"
+  },
+  "Use cases": {
+    "fr": "Cas d’usage",
+    "es": "Casos de uso"
+  },
+  "EXPLAINABLE AI. HUMAN EXPERTISE.": {
+    "fr": "IA EXPLICABLE. EXPERTISE HUMAINE.",
+    "es": "IA EXPLICABLE. EXPERIENCIA HUMANA."
+  },
+  "Understand the prediction.": {
+    "fr": "Comprenez la prédiction.",
+    "es": "Comprenda la predicción."
+  },
+  "Keep the decision.": {
+    "fr": "Gardez la décision.",
+    "es": "Conserve la decisión."
+  },
+  "Prediction software your experts can examine, challenge and enrich with validated observations. On your infrastructure or in your chosen cloud.": {
+    "fr": "Un logiciel de prédiction que vos experts peuvent examiner, discuter et enrichir avec des observations validées. Sur votre infrastructure ou dans le cloud de votre choix.",
+    "es": "Un software de predicción que sus expertos pueden examinar, debatir y enriquecer con observaciones validadas. En su infraestructura o en la nube de su elección."
+  },
+  "Neurytika software · Integration · Expert support": {
+    "fr": "Logiciel Neurytika · Intégration · Accompagnement expert",
+    "es": "Software Neurytika · Integración · Acompañamiento experto"
+  },
+  "See what supports the proposal.": {
+    "fr": "Voyez ce qui étaye la proposition.",
+    "es": "Vea qué sustenta la propuesta."
+  },
+  "Inspect feature combinations and the observations associated with the predicted outcome.": {
+    "fr": "Examinez les combinaisons de caractéristiques et les observations associées au résultat prédit.",
+    "es": "Examine las combinaciones de características y las observaciones asociadas al resultado previsto."
+  },
+  "Bring your expertise into the decision.": {
+    "fr": "Faites compter votre expertise.",
+    "es": "Haga valer su experiencia."
+  },
+  "Add context, discuss the evidence and keep the final decision with your team.": {
+    "fr": "Apportez du contexte, discutez les éléments et gardez la décision finale dans votre équipe.",
+    "es": "Aporte contexto, debata los elementos y mantenga la decisión final en su equipo."
+  },
+  "Learn from validated observations.": {
+    "fr": "Apprenez des observations validées.",
+    "es": "Aprenda de observaciones validadas."
+  },
+  "Update ERC incrementally with new labelled observations, without restarting full training.": {
+    "fr": "Mettez ERC à jour progressivement avec de nouvelles observations étiquetées, sans reprendre tout l’apprentissage.",
+    "es": "Actualice ERC de forma incremental con nuevas observaciones etiquetadas, sin repetir todo el aprendizaje."
+  },
+  "Built on published research": {
+    "fr": "Fondé sur une recherche publiée",
+    "es": "Basado en investigación publicada"
+  },
+  "CNIL resource: explainability": {
+    "fr": "Ressource CNIL : explicabilité",
+    "es": "Recurso de la CNIL: explicabilidad"
+  },
+  "A proposal starts a conversation.": {
+    "fr": "Une proposition ouvre la discussion.",
+    "es": "Una propuesta abre el diálogo."
+  },
+  "The model proposes a closer review of sector A. The expert examines the feature combinations, their observed counts and the outcomes associated with them.": {
+    "fr": "Le modèle propose une revue approfondie du secteur A. L’expert examine les combinaisons de caractéristiques, leurs effectifs observés et les résultats qui leur sont associés.",
+    "es": "El modelo propone revisar con más detalle el sector A. El experto examina las combinaciones de características, sus recuentos observados y los resultados asociados."
+  },
+  "Model proposal": {
+    "fr": "Proposition du modèle",
+    "es": "Propuesta del modelo"
+  },
+  "Review sector A": {
+    "fr": "Examiner le secteur A",
+    "es": "Revisar el sector A"
+  },
+  "Evidence to examine": {
+    "fr": "Éléments à examiner",
+    "es": "Elementos que examinar"
+  },
+  "High load + unusual configuration": {
+    "fr": "Charge élevée + configuration inhabituelle",
+    "es": "Carga elevada + configuración inusual"
+  },
+  "Discuss and decide": {
+    "fr": "Discuter et décider",
+    "es": "Debatir y decidir"
+  },
+  "Your expertise adds the missing context.": {
+    "fr": "Votre expertise apporte le contexte.",
+    "es": "Su experiencia aporta el contexto."
+  },
+  "The expert checks whether planned works explain the configuration. They request additional information, document their reasoning and choose the next action.": {
+    "fr": "L’expert vérifie si des travaux planifiés expliquent cette configuration. Il demande les informations complémentaires, documente son raisonnement et choisit la suite à donner.",
+    "es": "El experto comprueba si unas obras planificadas explican la configuración. Solicita información adicional, documenta su razonamiento y elige la siguiente acción."
+  },
+  "Expert review": {
+    "fr": "Revue de l’expert",
+    "es": "Revisión del experto"
+  },
+  "Check the planned works": {
+    "fr": "Vérifier les travaux planifiés",
+    "es": "Comprobar las obras planificadas"
+  },
+  "Decision stays with the expert": {
+    "fr": "La décision reste à l’expert",
+    "es": "La decisión sigue en manos del experto"
+  },
+  "Add context before deciding": {
+    "fr": "Compléter le contexte avant de décider",
+    "es": "Completar el contexto antes de decidir"
+  },
+  "Validate and enrich": {
+    "fr": "Valider et enrichir",
+    "es": "Validar y enriquecer"
+  },
+  "Verified experience feeds the next analysis.": {
+    "fr": "L’expérience vérifiée nourrit la prochaine analyse.",
+    "es": "La experiencia verificada nutre el próximo análisis."
+  },
+  "Once the outcome is verified, a new labelled observation can update ERC’s counts. Your team evaluates the update and decides when it enters service.": {
+    "fr": "Une fois le résultat vérifié, une nouvelle observation étiquetée peut mettre à jour les compteurs ERC. Votre équipe évalue la mise à jour et décide de sa mise en service.",
+    "es": "Una vez verificado el resultado, una nueva observación etiquetada puede actualizar los recuentos de ERC. Su equipo evalúa la actualización y decide cuándo ponerla en servicio."
+  },
+  "Validated observation": {
+    "fr": "Observation validée",
+    "es": "Observación validada"
+  },
+  "Update ERC counts": {
+    "fr": "Mettre à jour les compteurs ERC",
+    "es": "Actualizar los recuentos de ERC"
+  },
+  "Incremental learning": {
+    "fr": "Apprentissage incrémental",
+    "es": "Aprendizaje incremental"
+  },
+  "Evaluate before release": {
+    "fr": "Évaluer avant la mise en service",
+    "es": "Evaluar antes de la puesta en servicio"
+  },
+  "HUMAN EXPERTISE IN ACTION": {
+    "fr": "L’EXPERTISE HUMAINE EN ACTION",
+    "es": "LA EXPERIENCIA HUMANA EN ACCIÓN"
+  },
+  "From a prediction to an informed decision.": {
+    "fr": "D’une prédiction à une décision éclairée.",
+    "es": "De una predicción a una decisión informada."
+  },
+  "An illustrative electricity-network review. Follow how an expert understands, discusses and enriches the model.": {
+    "fr": "Une revue illustrative du réseau électrique. Découvrez comment un expert comprend, discute et enrichit le modèle.",
+    "es": "Una revisión ilustrativa de la red eléctrica. Descubra cómo un experto comprende, debate y enriquece el modelo."
+  },
+  "Expert workflow": {
+    "fr": "Parcours de l’expert",
+    "es": "Recorrido del experto"
+  },
+  "NETWORK REVIEW": {
+    "fr": "REVUE DU RÉSEAU",
+    "es": "REVISIÓN DE LA RED"
+  },
+  "Illustrative example": {
+    "fr": "Exemple illustratif",
+    "es": "Ejemplo ilustrativo"
+  },
+  "EXPLANATIONS THAT PEOPLE CAN USE": {
+    "fr": "DES EXPLICATIONS UTILES AUX PERSONNES",
+    "es": "EXPLICACIONES ÚTILES PARA LAS PERSONAS"
+  },
+  "Understand. Discuss. Reconsider.": {
+    "fr": "Comprendre. Discuter. Réexaminer.",
+    "es": "Comprender. Debatir. Reexaminar."
+  },
+  "For the expert who decides": {
+    "fr": "Pour l’expert qui décide",
+    "es": "Para el experto que decide"
+  },
+  "Connect the model’s evidence with domain knowledge. Document your judgment, express disagreement and choose the next action.": {
+    "fr": "Reliez les éléments du modèle à la connaissance du métier. Documentez votre jugement, exprimez un désaccord et choisissez la prochaine action.",
+    "es": "Relacione los elementos del modelo con el conocimiento del sector. Documente su criterio, exprese un desacuerdo y elija la siguiente acción."
+  },
+  "For the person affected": {
+    "fr": "Pour la personne concernée",
+    "es": "Para la persona afectada"
+  },
+  "Build explanations people can understand, so they can identify a data error, provide context and request a review through your organization’s procedures.": {
+    "fr": "Construisez des explications compréhensibles pour permettre de repérer une donnée erronée, d’apporter du contexte et de demander un réexamen selon les procédures de votre organisation.",
+    "es": "Construya explicaciones comprensibles para identificar un dato erróneo, aportar contexto y solicitar una revisión mediante los procedimientos de su organización."
+  },
+  "CNIL: understandable explanations and effective human oversight": {
+    "fr": "CNIL : des explications compréhensibles et un contrôle humain effectif",
+    "es": "CNIL: explicaciones comprensibles y supervisión humana efectiva"
+  },
+  "Explore the CNIL’s resources on explainability, human oversight and data quality for continuous learning.": {
+    "fr": "Consultez les ressources de la CNIL sur l’explicabilité, le contrôle humain et la qualité des données d’apprentissage continu.",
+    "es": "Consulte los recursos de la CNIL sobre explicabilidad, supervisión humana y calidad de los datos para el aprendizaje continuo."
+  },
+  "Read the sources and our approach": {
+    "fr": "Lire les sources et notre approche",
+    "es": "Leer las fuentes y nuestro enfoque"
+  },
+  "WHERE EXPLANATIONS MATTER": {
+    "fr": "LÀ OÙ L’EXPLICATION COMPTE",
+    "es": "DONDE IMPORTAN LAS EXPLICACIONES"
+  },
+  "Built around your experts and your data.": {
+    "fr": "Autour de vos experts et de vos données.",
+    "es": "En torno a sus expertos y sus datos."
+  },
+  "Energy & infrastructure": {
+    "fr": "Énergie et infrastructures",
+    "es": "Energía e infraestructuras"
+  },
+  "Examine a proposal together": {
+    "fr": "Examinez une proposition ensemble",
+    "es": "Examinen juntos una propuesta"
+  },
+  "Make the electricity-network example your starting point for a discussion with your experts.": {
+    "fr": "Partez de l’exemple du réseau électrique pour ouvrir la discussion avec vos experts.",
+    "es": "Parta del ejemplo de la red eléctrica para iniciar el diálogo con sus expertos."
+  },
+  "Explore the use case": {
+    "fr": "Explorer le cas d’usage",
+    "es": "Explorar el caso de uso"
+  },
+  "Public sector & expert teams": {
+    "fr": "Secteur public et équipes expertes",
+    "es": "Sector público y equipos expertos"
+  },
+  "Support decisions that can be explained": {
+    "fr": "Accompagnez des décisions explicables",
+    "es": "Apoye decisiones explicables"
+  },
+  "Bring structured data and inspectable patterns into a documented human review.": {
+    "fr": "Associez données structurées et motifs examinables dans une revue humaine documentée.",
+    "es": "Combine datos estructurados y patrones examinables en una revisión humana documentada."
+  },
+  "Sensitive data": {
+    "fr": "Données sensibles",
+    "es": "Datos sensibles"
+  },
+  "Keep control of your environment": {
+    "fr": "Gardez la maîtrise de votre environnement",
+    "es": "Mantenga el control de su entorno"
+  },
+  "Choose local deployment or your preferred cloud, with integration tailored to your organization.": {
+    "fr": "Choisissez un déploiement local ou votre cloud, avec une intégration adaptée à votre organisation.",
+    "es": "Elija un despliegue local o su nube, con una integración adaptada a su organización."
+  },
+  "Explore all solutions and resources": {
+    "fr": "Explorer toutes les solutions et ressources",
+    "es": "Explorar todas las soluciones y recursos"
+  },
+  "Deploy where your expertise lives.": {
+    "fr": "Déployez là où se trouve votre expertise.",
+    "es": "Despliegue donde está su experiencia."
+  },
+  "Keep data and models on your infrastructure, or use your chosen cloud. We help connect the software to your systems and your team’s working methods.": {
+    "fr": "Conservez les données et les modèles sur votre infrastructure, ou utilisez le cloud de votre choix. Nous vous aidons à relier le logiciel à vos systèmes et aux méthodes de travail de votre équipe.",
+    "es": "Conserve los datos y los modelos en su infraestructura, o utilice la nube de su elección. Le ayudamos a conectar el software con sus sistemas y las prácticas de su equipo."
+  },
+  "Explore deployment options": {
+    "fr": "Découvrir les options de déploiement",
+    "es": "Descubrir las opciones de despliegue"
+  },
+  "Incremental by design": {
+    "fr": "Incrémental par conception",
+    "es": "Incremental por diseño"
+  },
+  "New labelled observation": {
+    "fr": "Nouvelle observation étiquetée",
+    "es": "Nueva observación etiquetada"
+  },
+  "Validation under your protocol": {
+    "fr": "Validation selon votre protocole",
+    "es": "Validación según su protocolo"
+  },
+  "ERC counts updated": {
+    "fr": "Mise à jour des compteurs ERC",
+    "es": "Actualización de los recuentos de ERC"
+  },
+  "Evaluation before release": {
+    "fr": "Évaluation avant mise en service",
+    "es": "Evaluación antes de la puesta en servicio"
+  },
+  "SOFTWARE + IMPLEMENTATION": {
+    "fr": "LOGICIEL + ACCOMPAGNEMENT",
+    "es": "SOFTWARE + ACOMPAÑAMIENTO"
+  },
+  "Start with one question. Evaluate on your data.": {
+    "fr": "Partez d’une question. Évaluez sur vos données.",
+    "es": "Parta de una pregunta. Evalúe con sus datos."
+  },
+  "Define the use case, work with a representative dataset and review predictions and explanations with your experts. Agree success criteria and the next integration step together.": {
+    "fr": "Définissez le cas d’usage, travaillez sur un jeu de données représentatif et examinez les prédictions et explications avec vos experts. Convenez ensemble des critères de réussite et de la prochaine étape d’intégration.",
+    "es": "Defina el caso de uso, trabaje con datos representativos y revise las predicciones y explicaciones con sus expertos. Acuerden los criterios de éxito y el siguiente paso de integración."
+  },
+  "A scoped business question": {
+    "fr": "Une question métier cadrée",
+    "es": "Una pregunta de negocio delimitada"
+  },
+  "Results reviewed with experts": {
+    "fr": "Des résultats examinés avec les experts",
+    "es": "Resultados revisados con expertos"
+  },
+  "An integration recommendation": {
+    "fr": "Une recommandation d’intégration",
+    "es": "Una recomendación de integración"
+  },
+  "Explore the solution": {
+    "fr": "Découvrir la solution",
+    "es": "Explorar la solución"
+  },
+  "Discuss your use case": {
+    "fr": "Parlons de votre cas d’usage",
+    "es": "Hablemos de su caso de uso"
+  },
+  "Explore this use case with us": {
+    "fr": "Explorons ensemble ce cas d’usage",
+    "es": "Exploremos juntos este caso de uso"
+  },
+  "Explore fraud detection": {
+    "fr": "Découvrir la détection de fraude",
+    "es": "Explorar la detección de fraude"
+  },
+  "Explore software and consulting": {
+    "fr": "Découvrir le logiciel et l’accompagnement",
+    "es": "Explorar el software y la consultoría"
+  },
+  "Read the business guide": {
+    "fr": "Lire le guide métier",
+    "es": "Leer la guía empresarial"
+  },
+  "Explore data sovereignty and AI deployment": {
+    "fr": "Découvrir la souveraineté des données et le déploiement de l’IA",
+    "es": "Explorar la soberanía de los datos y el despliegue de IA"
+  },
+  "Read the open-access article": {
+    "fr": "Lire l’article en accès ouvert",
+    "es": "Leer el artículo en acceso abierto"
+  },
+  "Explore the experiments and results": {
+    "fr": "Découvrir les expériences et résultats",
+    "es": "Explorar los experimentos y resultados"
+  },
+  "Explore the company, team and research": {
+    "fr": "Découvrir la société, l’équipe et la recherche",
+    "es": "Conocer la empresa, el equipo y la investigación"
+  },
+  "Request academic access": {
+    "fr": "Demander un accès académique",
+    "es": "Solicitar acceso académico"
+  },
+  "Tell us about your project": {
+    "fr": "Présentez-nous votre projet",
+    "es": "Cuéntenos su proyecto"
+  },
+  "Website source": {
+    "fr": "Code source du site",
+    "es": "Código fuente del sitio"
+  },
+  "Read the ERC research": {
+    "fr": "Lire la publication ERC",
+    "es": "Leer la publicación ERC"
+  },
+  "Fraud detection and case review": {
+    "fr": "Détection de fraude et examen des dossiers",
+    "es": "Detección de fraude y revisión de expedientes"
+  },
+  "Prediction software and consulting": {
+    "fr": "Logiciel de prédiction et conseil",
+    "es": "Software de predicción y consultoría"
+  },
+  "Plan your deployment around data sovereignty and data control": {
+    "fr": "Préparer un déploiement qui respecte votre souveraineté et votre maîtrise des données",
+    "es": "Planificar un despliegue con soberanía y control de sus datos"
+  },
+  "Generative AI vs predictive AI: read the business guide": {
+    "fr": "IA générative et IA prédictive : le guide pour les entreprises",
+    "es": "IA generativa e IA predictiva: guía para empresas"
+  },
+  "Explore the business use case": {
+    "fr": "Découvrir le cas d’usage métier",
+    "es": "Explorar el caso de uso empresarial"
+  },
+  "Explore on-premise implementation": {
+    "fr": "Découvrir l’intégration sur site",
+    "es": "Explorar la implementación local"
+  },
+  "Explore customer retention": {
+    "fr": "Découvrir la fidélisation clients",
+    "es": "Explorar la fidelización de clientes"
+  },
+  "Explore lead qualification": {
+    "fr": "Découvrir la qualification des prospects",
+    "es": "Explorar la calificación de leads"
+  },
+  "Explore fraud review": {
+    "fr": "Découvrir le contrôle de fraude",
+    "es": "Explorar la revisión de fraude"
+  },
+  "Explore quality predictions": {
+    "fr": "Découvrir les prédictions qualité",
+    "es": "Explorar las predicciones de calidad"
+  },
+  "Explore explainable fraud detection": {
+    "fr": "Découvrir la détection de fraude explicable",
+    "es": "Explorar la detección de fraude explicable"
+  },
+  "Explore predictive analytics": {
+    "fr": "Découvrir l’analyse prédictive",
+    "es": "Explorar la analítica predictiva"
+  },
+  "Discuss an operational prediction project": {
+    "fr": "Parlons d’un projet de prédiction opérationnelle",
+    "es": "Hablemos de un proyecto de predicción operativa"
+  },
+  "Read the open-access ERC research paper": {
+    "fr": "Lire la publication ERC en libre accès",
+    "es": "Leer la publicación ERC de acceso abierto"
+  },
+  "See local and cloud deployment options": {
+    "fr": "Découvrir les options de déploiement local et cloud",
+    "es": "Ver opciones de despliegue local y en la nube"
+  },
+  "Explore prediction software": {
+    "fr": "Découvrir le logiciel de prédiction",
+    "es": "Explorar el software de predicción"
+  },
+  "Visit Celeste.aero": {
+    "fr": "Visiter Celeste.aero",
+    "es": "Visitar Celeste.aero"
+  },
+  "Discover Celeste EcoFlyers": {
+    "fr": "Découvrir Celeste EcoFlyers",
+    "es": "Descubrir Celeste EcoFlyers"
+  },
+  "Explore the aircraft program": {
+    "fr": "Découvrir le programme aéronautique",
+    "es": "Explorar el programa aeronáutico"
+  },
+  "Explore Neurytika software and consulting": {
+    "fr": "Découvrir le logiciel Neurytika et le conseil",
+    "es": "Explorar el software Neurytika y la consultoría"
+  },
+  "Read the ministry announcement": {
+    "fr": "Lire l’annonce du ministère",
+    "es": "Leer el anuncio del ministerio"
+  },
+  "View the labelled solution": {
+    "fr": "Voir la solution labellisée",
+    "es": "Ver la solución certificada"
+  },
+  "Read Defence Blog’s coverage": {
+    "fr": "Lire l’article de Defence Blog",
+    "es": "Leer la cobertura de Defence Blog"
+  },
+  "Read the official VivaTech press kit": {
+    "fr": "Lire le dossier de presse officiel VivaTech",
+    "es": "Leer el dossier de prensa oficial de VivaTech"
+  },
+  "Read the ERC publication": {
+    "fr": "Lire la publication ERC",
+    "es": "Leer la publicación ERC"
+  },
+  "Meet the team on Celeste.aero": {
+    "fr": "Rencontrer l’équipe sur Celeste.aero",
+    "es": "Conocer al equipo en Celeste.aero"
+  },
+  "Explore local processing and data control": {
+    "fr": "Découvrir le traitement local et la maîtrise des données",
+    "es": "Explorar el procesamiento local y el control de datos"
+  },
+  "Read the open-access research": {
+    "fr": "Lire la recherche en libre accès",
+    "es": "Leer la investigación de acceso abierto"
+  },
+  "Read the article": {
+    "fr": "Lire l’article",
+    "es": "Leer el artículo"
+  },
+  "Celeste.aero": {
+    "fr": "Celeste.aero",
+    "es": "Celeste.aero"
+  },
+  "Explore the expert-led demo": {
+    "fr": "Voir la démonstration avec l’expert",
+    "es": "Ver la demostración con el experto"
+  },
+  "Human expertise, responsible AI & sources": {
+    "fr": "Expertise humaine, IA responsable et sources",
+    "es": "Experiencia humana, IA responsable y fuentes"
+  },
+  "CNIL — Explainability": {
+    "fr": "CNIL — Explicabilité",
+    "es": "CNIL — Explicabilidad"
+  },
+  "CNIL — Human oversight & AI in production": {
+    "fr": "CNIL — Contrôle humain et IA en production",
+    "es": "CNIL — Supervisión humana e IA en producción"
+  },
+  "Define your expert-led pilot": {
+    "fr": "Définir votre pilote avec vos experts",
+    "es": "Definir su piloto con sus expertos"
+  },
+  "Read the source": {
+    "fr": "Consulter la source",
+    "es": "Consultar la fuente"
+  },
+  "Discuss your responsible AI pilot": {
+    "fr": "Échanger sur votre pilote d’IA responsable",
+    "es": "Hablemos de su piloto de IA responsable"
+  },
+  "Read the CNIL guidance": {
+    "fr": "Lire les recommandations de la CNIL",
+    "es": "Leer las recomendaciones de la CNIL"
+  },
+  "See the expert-led demo": {
+    "fr": "Voir la démonstration avec l’expert",
+    "es": "Ver la demostración con el experto"
   }
 }

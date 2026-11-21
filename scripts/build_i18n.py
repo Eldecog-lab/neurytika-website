@@ -90,7 +90,7 @@ def schema_walk(v, original, lang, key=''):
 def clean_generated(s):
     for n in s.select('[data-i18n-ui],link[hreflang]'): n.decompose()
     for n in s.select('script[src],link[rel="stylesheet"]'):
-        if any(x in n.get('src',n.get('href','')) for x in ['locale.js','locale.css']): n.decompose()
+        if any(x in n.get('src',n.get('href','')) for x in ['locale.js','locale.css','presentation.css']): n.decompose()
 
 def build_page(key,source,lang):
     s=BeautifulSoup(source,'html.parser');clean_generated(s)
@@ -120,6 +120,7 @@ def build_page(key,source,lang):
     s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'analytics.css?v=20261016-2',attrs={'data-i18n-ui':'audience-style'}))
     s.head.append(s.new_tag('script',src=PREFIX+'analytics.js?v=20261017-cookie-root',defer='',attrs={'data-i18n-ui':'audience-script'}))
     s.head.append(s.new_tag('script',src=PREFIX+'demo-form.js?v=20261016-2',defer='',attrs={'data-i18n-ui':'demo-script'}))
+    s.head.append(s.new_tag('link',rel='stylesheet',href=PREFIX+'presentation.css?v=20261121'))
     selector=s.new_tag('div',attrs={'class':'language-switch','role':'group','aria-label':LABELS[lang],'data-i18n-ui':'languages'})
     for other,name in [('en','English'),('fr','Français'),('es','Español')]:
         link=s.new_tag('a',href=PREFIX+ROUTES[key][other]+'?lang='+other,hreflang=other,lang=other,attrs={'data-language':other,'aria-label':name})
