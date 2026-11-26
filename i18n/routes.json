@@ -1,4 +1,9 @@
 {
+  "evidence": {
+    "en": "evidence/",
+    "fr": "fr/preuves/",
+    "es": "es/evidencia/"
+  },
   "home": {
     "en": "",
     "fr": "fr/",

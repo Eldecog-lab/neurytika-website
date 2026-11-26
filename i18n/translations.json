@@ -6990,5 +6990,365 @@
   "Neurytika Software: Explainable AI, Local Deployment & Incremental Learning | Celeste AI": {
     "fr": "Logiciel Neurytika : IA explicable, déploiement local et apprentissage incrémental | Celeste AI",
     "es": "Software Neurytika: IA explicable, despliegue local y aprendizaje incremental | Celeste AI"
+  },
+  "Neurytika evidence: published results & a real explanation | Celeste AI": {
+    "fr": "Preuves Neurytika : résultats publiés et explication réelle | Celeste AI",
+    "es": "Evidencia Neurytika: resultados publicados y explicación real | Celeste AI"
+  },
+  "Explore published ERC benchmarks and a real Neurytika report. Inspect a saved prediction, its supporting patterns and observed counts, then plan your own evaluation.": {
+    "fr": "Explorez les résultats publiés d’ERC et un véritable rapport Neurytika. Examinez une prédiction enregistrée, ses motifs et leurs occurrences, puis préparez votre évaluation.",
+    "es": "Explore los resultados publicados de ERC y un informe real de Neurytika. Examine una predicción guardada, sus patrones y sus frecuencias, y prepare su evaluación."
+  },
+  "NEURYTIKA · EVIDENCE LIBRARY": {
+    "fr": "NEURYTIKA · DOSSIER DE PREUVES",
+    "es": "NEURYTIKA · DOSSIER DE EVIDENCIA"
+  },
+  "See the evidence behind explainable AI.": {
+    "fr": "Examinez les preuves derrière l’IA explicable.",
+    "es": "Examine la evidencia detrás de la IA explicable."
+  },
+  "Explore a real example →": {
+    "fr": "Explorer un exemple réel →",
+    "es": "Explorar un ejemplo real →"
+  },
+  "Read the published results": {
+    "fr": "Lire les résultats publiés",
+    "es": "Ver los resultados publicados"
+  },
+  "From research to an inspectable result": {
+    "fr": "De la recherche à un résultat examinable",
+    "es": "De la investigación a un resultado verificable"
+  },
+  "01 · Published method": {
+    "fr": "01 · Méthode publiée",
+    "es": "01 · Método publicado"
+  },
+  "ERC is described and evaluated in Neurocomputing. The tables below identify the datasets and comparison protocol.": {
+    "fr": "ERC est décrit et évalué dans Neurocomputing. Les tableaux ci-dessous précisent les données et le protocole de comparaison.",
+    "es": "ERC se describe y evalúa en Neurocomputing. Las tablas siguientes identifican los datos y el protocolo de comparación."
+  },
+  "02 · Working software": {
+    "fr": "02 · Logiciel concret",
+    "es": "02 · Software real"
+  },
+  "An existing Neurytika PDF export connects a saved prediction to explicit feature combinations and observed counts.": {
+    "fr": "Un export PDF existant de Neurytika relie une prédiction enregistrée à des combinaisons explicites de caractéristiques et à leurs occurrences.",
+    "es": "Un PDF existente de Neurytika conecta una predicción guardada con combinaciones explícitas de características y sus frecuencias."
+  },
+  "03 · Your expert review": {
+    "fr": "03 · Votre revue métier",
+    "es": "03 · Su revisión experta"
+  },
+  "Use these artifacts to define what your team wants to inspect, measure and document in a pilot on your data.": {
+    "fr": "Appuyez-vous sur ces éléments pour définir ce que votre équipe souhaite examiner, mesurer et documenter lors d’un pilote sur vos données.",
+    "es": "Utilice estas evidencias para definir qué quiere examinar, medir y documentar su equipo en un piloto con sus datos."
+  },
+  "This is a saved query in a real Neurytika report generated on 9 February 2026, using a model built from 32,561 Adult Income training records. The query was saved on 8 February 2026. It demonstrates how the software exposes evidence for review.": {
+    "fr": "Il s’agit d’une requête enregistrée dans un véritable rapport Neurytika généré le 9 février 2026, avec un modèle construit sur 32 561 observations d’apprentissage Adult Income. La requête a été enregistrée le 8 février 2026. Elle montre comment le logiciel expose les éléments à examiner.",
+    "es": "Es una consulta guardada en un informe real de Neurytika generado el 9 de febrero de 2026, con un modelo construido a partir de 32.561 registros de entrenamiento Adult Income. La consulta se guardó el 8 de febrero de 2026. Muestra cómo el software expone la evidencia para su revisión."
+  },
+  "SAVED MODEL OUTPUT": {
+    "fr": "SORTIE ENREGISTRÉE DU MODÈLE",
+    "es": "RESULTADO GUARDADO DEL MODELO"
+  },
+  "Predicted income class: ≤ $50K": {
+    "fr": "Classe de revenu prédite : ≤ 50 000 $",
+    "es": "Clase de ingresos predicha: ≤ 50.000 $"
+  },
+  "Top reported combination": {
+    "fr": "Principale combinaison rapportée",
+    "es": "Principal combinación mostrada"
+  },
+  "observed occurrences of this combination": {
+    "fr": "occurrences observées de cette combinaison",
+    "es": "apariciones observadas de esta combinación"
+  },
+  "Read the result in two steps: identify the exact conditions, then examine how often they occurred. The report also lists “marital_status: Divorced + education: 5th-6th” with 20 occurrences. These overlapping pattern counts describe training evidence; the published test accuracies appear separately below.": {
+    "fr": "Lisez le résultat en deux temps : identifiez les conditions exactes, puis examinez leur nombre d’occurrences. Le rapport présente aussi « marital_status: Divorced + education: 5th-6th », avec 20 occurrences. Ces effectifs de motifs pouvant se recouper décrivent les données d’apprentissage ; les taux de bonnes classifications sur test publiés figurent séparément ci-dessous.",
+    "es": "Lea el resultado en dos pasos: identifique las condiciones exactas y examine cuántas veces aparecieron. El informe también muestra «marital_status: Divorced + education: 5th-6th», con 20 apariciones. Estos recuentos de patrones que pueden solaparse describen la evidencia de entrenamiento; las exactitudes publicadas sobre datos de prueba aparecen por separado más abajo."
+  },
+  "The export displays a 100.0% alignment score for the leading pattern. This is the model’s displayed evidence score, not a measured 100% success rate on future cases. The input is a saved demonstration query on a public research dataset, rather than a verified outcome for a client.": {
+    "fr": "L’export affiche un score d’alignement de 100,0 % pour le motif principal. Il s’agit du score d’évidence affiché par le modèle, et non d’un taux de réussite mesuré de 100 % sur de futurs dossiers. L’entrée est une requête de démonstration enregistrée sur un jeu de recherche public, plutôt qu’un résultat vérifié chez un client.",
+    "es": "La exportación muestra una puntuación de alineación del 100,0 % para el patrón principal. Es la puntuación de evidencia mostrada por el modelo, no una tasa de acierto medida del 100 % en casos futuros. La entrada es una consulta de demostración guardada sobre un conjunto público de investigación, no un resultado verificado para un cliente."
+  },
+  "What an expert can examine": {
+    "fr": "Ce que l’expert peut examiner",
+    "es": "Qué puede examinar un experto"
+  },
+  "Are the recorded inputs correct? How much evidence supports each pattern? Are the variables appropriate for the intended decision? Adult includes demographic fields: their visibility provides a concrete starting point for reviewing variable selection and the model’s behavior. The expert decides what information to verify and what action to take.": {
+    "fr": "Les informations saisies sont-elles correctes ? Sur combien d’observations chaque motif repose-t-il ? Les variables sont-elles adaptées à la décision envisagée ? Adult comprend des données démographiques : leur visibilité fournit un point de départ concret pour examiner le choix des variables et le comportement du modèle. L’expert décide des informations à vérifier et de la suite à donner.",
+    "es": "¿Son correctos los datos introducidos? ¿Cuántas observaciones respaldan cada patrón? ¿Son adecuadas las variables para la decisión prevista? Adult incluye variables demográficas: hacerlas visibles permite revisar la selección de variables y el comportamiento del modelo. El experto decide qué información verificar y cómo actuar."
+  },
+  "Inspect the original software export": {
+    "fr": "Examiner l’export original du logiciel",
+    "es": "Examinar la exportación original del software"
+  },
+  "Original Neurytika report: leading pattern with support 70 and additional combinations": {
+    "fr": "Rapport Neurytika original : motif principal de support 70 et autres combinaisons",
+    "es": "Informe original de Neurytika: patrón principal con soporte 70 y otras combinaciones"
+  },
+  "Original English interface excerpt, page 19. Values are transcribed above for accessibility.": {
+    "fr": "Extrait de l’interface originale en anglais, page 19. Les valeurs sont retranscrites ci-dessus pour l’accessibilité.",
+    "es": "Extracto de la interfaz original en inglés, página 19. Los valores se transcriben arriba para facilitar el acceso."
+  },
+  "Download the source PDF excerpt (English, original pages 1, 18–19)": {
+    "fr": "Télécharger l’extrait PDF source (anglais, pages originales 1, 18–19)",
+    "es": "Descargar el extracto PDF original (inglés, páginas originales 1, 18–19)"
+  },
+  "A real Neurytika explanation, step by step": {
+    "fr": "Une véritable explication Neurytika, pas à pas",
+    "es": "Una explicación real de Neurytika, paso a paso"
+  },
+  "The following values reproduce Table 7 of “Evidence ratio classifier: A one-pass model for fast incremental learning”, Neurocomputing 659 (2026), article 131797. Accuracy is the proportion of correctly classified test records, expressed here as a percentage.": {
+    "fr": "Les valeurs suivantes reprennent le tableau 7 de « Evidence ratio classifier: A one-pass model for fast incremental learning », Neurocomputing 659 (2026), article 131797. L’exactitude est la proportion d’observations de test correctement classées, exprimée ici en pourcentage.",
+    "es": "Los valores siguientes reproducen la tabla 7 de «Evidence ratio classifier: A one-pass model for fast incremental learning», Neurocomputing 659 (2026), artículo 131797. La exactitud es la proporción de registros de prueba correctamente clasificados, expresada aquí en porcentaje."
+  },
+  "Published accuracy comparison": {
+    "fr": "Comparaison des exactitudes publiées",
+    "es": "Comparación de exactitudes publicadas"
+  },
+  "Test accuracy (%) · published experimental protocol": {
+    "fr": "Exactitude sur test (%) · protocole expérimental publié",
+    "es": "Exactitud en prueba (%) · protocolo experimental publicado"
+  },
+  "Dataset": {
+    "fr": "Jeu de données",
+    "es": "Conjunto de datos"
+  },
+  "Training size¹": {
+    "fr": "Taille d’apprentissage¹",
+    "es": "Tamaño de entrenamiento¹"
+  },
+  "Logistic regression": {
+    "fr": "Régression logistique",
+    "es": "Regresión logística"
+  },
+  "¹ Training sizes as reported in Table 7. Adult uses the canonical 32,561/16,281 train/test split; the other datasets use stratified 70/30 splits. Section 6 describes preprocessing, including missing-value removal, and model settings. VBNN denotes the study’s variational Bayesian neural network. ² CardFraud is the synthetic Card_transdata dataset.": {
+    "fr": "¹ Tailles d’apprentissage telles que rapportées au tableau 7. Adult utilise la séparation canonique de 32 561/16 281 observations d’apprentissage/test ; les autres jeux utilisent des séparations stratifiées 70/30. La section 6 décrit les prétraitements, dont le retrait des valeurs manquantes, et les paramètres des modèles. VBNN désigne le réseau neuronal bayésien variationnel de l’étude. ² CardFraud est le jeu synthétique Card_transdata.",
+    "es": "¹ Tamaños de entrenamiento según la tabla 7. Adult utiliza la división canónica de 32.561/16.281 registros de entrenamiento/prueba; los demás conjuntos utilizan divisiones estratificadas 70/30. La sección 6 describe el preprocesamiento, incluida la eliminación de valores ausentes, y la configuración de los modelos. VBNN designa la red neuronal bayesiana variacional del estudio. ² CardFraud es el conjunto sintético Card_transdata."
+  },
+  "These results place ERC alongside established classifiers under the study’s protocol. Its distinctive contribution combines predictive classification with explicit evidence and count-based learning.": {
+    "fr": "Ces résultats situent ERC aux côtés de classificateurs établis dans le protocole de l’étude. Son apport associe classification prédictive, éléments explicites et apprentissage par compteurs.",
+    "es": "Estos resultados sitúan ERC junto a clasificadores consolidados bajo el protocolo del estudio. Su aportación combina clasificación predictiva, evidencia explícita y aprendizaje mediante contadores."
+  },
+  "Read the open-access paper: methods, tables and comparisons →": {
+    "fr": "Lire l’article en accès libre : méthodes, tableaux et comparaisons →",
+    "es": "Leer el artículo de acceso abierto: métodos, tablas y comparaciones →"
+  },
+  "Published results you can examine": {
+    "fr": "Des résultats publiés à examiner",
+    "es": "Resultados publicados que puede examinar"
+  },
+  "New validated observations enrich the evidence": {
+    "fr": "Les nouvelles observations validées enrichissent les éléments du modèle",
+    "es": "Las nuevas observaciones validadas enriquecen la evidencia"
+  },
+  "ERC learns by updating counts associated with observed patterns and class labels. The paper describes this incremental rule; the software contains a streaming evaluation path that predicts before learning from the incoming label. This provides a practical foundation for evaluating progressive updates with your team.": {
+    "fr": "ERC apprend en mettant à jour les compteurs associés aux motifs observés et aux classes. L’article décrit cette règle incrémentale ; le logiciel comprend un parcours d’évaluation en flux qui prédit avant d’apprendre l’étiquette reçue. C’est une base concrète pour évaluer les mises à jour progressives avec votre équipe.",
+    "es": "ERC aprende actualizando los contadores asociados a patrones observados y etiquetas de clase. El artículo describe esta regla incremental; el software incluye una evaluación en flujo que predice antes de aprender la etiqueta recibida. Esto ofrece una base práctica para evaluar actualizaciones progresivas con su equipo."
+  },
+  "Review the proposal and its evidence": {
+    "fr": "Examiner la proposition et ses éléments",
+    "es": "Revisar la propuesta y su evidencia"
+  },
+  "Validate the observed outcome": {
+    "fr": "Valider le résultat observé",
+    "es": "Validar el resultado observado"
+  },
+  "Update the model’s counts": {
+    "fr": "Actualiser les compteurs du modèle",
+    "es": "Actualizar los contadores del modelo"
+  },
+  "Evaluate the update before release": {
+    "fr": "Évaluer la mise à jour avant sa mise en service",
+    "es": "Evaluar la actualización antes de ponerla en servicio"
+  },
+  "A corrected input changes the case being examined. A new validated outcome supplies a learning example. Your organization defines the validation and release process.": {
+    "fr": "Une information corrigée modifie le dossier examiné. Un nouveau résultat validé fournit un exemple d’apprentissage. Votre organisation définit le processus de validation et de mise en service.",
+    "es": "Un dato corregido modifica el caso examinado. Un nuevo resultado validado aporta un ejemplo de aprendizaje. Su organización define el proceso de validación y puesta en servicio."
+  },
+  "Sources and provenance": {
+    "fr": "Sources et provenance",
+    "es": "Fuentes y procedencia"
+  },
+  "sections 6–8, Table 7; incremental learning in the method and cost analysis.": {
+    "fr": "sections 6–8, tableau 7 ; apprentissage incrémental dans la méthode et l’analyse des coûts.",
+    "es": "secciones 6–8, tabla 7; aprendizaje incremental en el método y el análisis de costes."
+  },
+  "9 February 2026; original pages 1, 18 and 19. The excerpt preserves the original output.": {
+    "fr": "9 février 2026 ; pages originales 1, 18 et 19. L’extrait conserve la sortie originale.",
+    "es": "9 de febrero de 2026; páginas originales 1, 18 y 19. El extracto conserva la salida original."
+  },
+  "public research dataset used by the example.": {
+    "fr": "jeu de recherche public utilisé pour l’exemple.",
+    "es": "conjunto público de investigación utilizado en el ejemplo."
+  },
+  "Explainability": {
+    "fr": "Explicabilité",
+    "es": "Explicabilidad"
+  },
+  "public guidance informing our approach to understandable explanations.": {
+    "fr": "référence publique pour notre démarche d’explications compréhensibles.",
+    "es": "referencia pública para nuestro enfoque de explicaciones comprensibles."
+  },
+  "The software review used the existing explanation and streaming implementation. The PDF is a historical export; the publication reports a separate experimental run.": {
+    "fr": "La revue logicielle s’appuie sur les fonctions existantes d’explication et d’apprentissage en flux. Le PDF est un export historique ; la publication rapporte une expérience distincte.",
+    "es": "La revisión del software se basa en las funciones existentes de explicación y aprendizaje en flujo. El PDF es una exportación histórica; la publicación documenta un experimento distinto."
+  },
+  "Bring this level of visibility to your own data": {
+    "fr": "Apportez cette visibilité à vos propres données",
+    "es": "Lleve esta visibilidad a sus propios datos"
+  },
+  "Choose a decision your experts need to explain. We will define the dataset, evaluation criteria, review workflow and deployment environment together.": {
+    "fr": "Choisissez une décision que vos experts doivent expliquer. Nous définirons ensemble les données, les critères d’évaluation, le parcours de revue et l’environnement de déploiement.",
+    "es": "Elija una decisión que sus expertos necesiten explicar. Definiremos juntos los datos, los criterios de evaluación, el proceso de revisión y el entorno de despliegue."
+  },
+  "Request a demonstration": {
+    "fr": "Demander une démonstration",
+    "es": "Solicitar una demostración"
+  },
+  "Explore Neurytika software →": {
+    "fr": "Découvrir le logiciel Neurytika →",
+    "es": "Descubrir el software Neurytika →"
+  },
+  "What your team can inspect in Neurytika": {
+    "fr": "Ce que votre équipe peut examiner dans Neurytika",
+    "es": "Qué puede examinar su equipo en Neurytika"
+  },
+  "Inspect a prediction": {
+    "fr": "Examiner une prédiction",
+    "es": "Examinar una predicción"
+  },
+  "See the feature combinations behind a classification and their observed support. Our real Adult report example shows a leading pattern observed 70 times.": {
+    "fr": "Examinez les combinaisons de caractéristiques derrière une classification et leurs occurrences. Notre exemple réel de rapport Adult montre un motif principal observé 70 fois.",
+    "es": "Examine las combinaciones de características detrás de una clasificación y sus frecuencias. Nuestro ejemplo real del informe Adult muestra un patrón principal observado 70 veces."
+  },
+  "Compare and evaluate": {
+    "fr": "Comparer et évaluer",
+    "es": "Comparar y evaluar"
+  },
+  "Benchmark Lab brings evaluation protocols, comparative metrics and report exports into the software. Review the published ERC results alongside the documented protocol.": {
+    "fr": "Benchmark Lab réunit protocoles d’évaluation, mesures comparatives et exports de rapports dans le logiciel. Consultez les résultats publiés d’ERC avec leur protocole documenté.",
+    "es": "Benchmark Lab reúne protocolos de evaluación, métricas comparativas y exportaciones de informes en el software. Consulte los resultados publicados de ERC junto con su protocolo documentado."
+  },
+  "Share a documented review": {
+    "fr": "Partager une revue documentée",
+    "es": "Compartir una revisión documentada"
+  },
+  "Export a PDF connecting dataset context, learned patterns and saved individual predictions. Give your experts a concrete document to examine together.": {
+    "fr": "Exportez un PDF reliant le contexte des données, les motifs appris et les prédictions individuelles enregistrées. Donnez à vos experts un document concret à examiner ensemble.",
+    "es": "Exporte un PDF que conecte el contexto de los datos, los patrones aprendidos y las predicciones individuales guardadas. Ofrezca a sus expertos un documento concreto para revisar juntos."
+  },
+  "See a real Neurytika report →": {
+    "fr": "Voir un véritable rapport Neurytika →",
+    "es": "Ver un informe real de Neurytika →"
+  },
+  "Explore the published benchmarks": {
+    "fr": "Explorer les résultats publiés",
+    "es": "Explorar los resultados publicados"
+  },
+  "What makes ERC’s explanations intrinsic?": {
+    "fr": "Pourquoi les explications d’ERC sont-elles intrinsèques ?",
+    "es": "¿Por qué las explicaciones de ERC son intrínsecas?"
+  },
+  "ERC represents learned evidence as explicit combinations of feature values and associated counts. Neurytika exposes matching patterns for inspection, linking the explanation to the model’s own representation. This helps an expert examine the statistical basis of a proposal and the inputs that deserve verification.": {
+    "fr": "ERC représente les éléments appris par des combinaisons explicites de valeurs de caractéristiques et des compteurs associés. Neurytika expose les motifs correspondants à l’examen, reliant l’explication à la représentation propre du modèle. L’expert peut ainsi examiner la base statistique d’une proposition et les informations à vérifier.",
+    "es": "ERC representa la evidencia aprendida mediante combinaciones explícitas de valores de características y contadores asociados. Neurytika muestra los patrones coincidentes para su revisión, vinculando la explicación con la propia representación del modelo. El experto puede examinar así la base estadística de una propuesta y los datos que conviene verificar."
+  },
+  "Follow the evidence in a real example": {
+    "fr": "Suivre les éléments d’un exemple réel",
+    "es": "Seguir la evidencia en un ejemplo real"
+  },
+  "Open the evidence library: results, example and source report →": {
+    "fr": "Ouvrir le dossier de preuves : résultats, exemple et rapport source →",
+    "es": "Abrir el dossier de evidencia: resultados, ejemplo e informe original →"
+  },
+  "Explore the evidence library and a real software report →": {
+    "fr": "Explorer le dossier de preuves et un véritable rapport logiciel →",
+    "es": "Explorar el dossier de evidencia y un informe real del software →"
+  },
+  "Download the source PDF excerpt (English, original pages 1, 18–19) ↗": {
+    "fr": "Télécharger l’extrait PDF source (anglais, pages originales 1, 18–19) ↗",
+    "es": "Descargar el extracto PDF original (inglés, páginas originales 1, 18–19) ↗"
+  },
+  "— sections 6–8, Table 7; incremental learning in the method and cost analysis.": {
+    "fr": "— sections 6–8, tableau 7 ; apprentissage incrémental dans la méthode et l’analyse des coûts.",
+    "es": "— secciones 6–8, tabla 7; aprendizaje incremental en el método y el análisis de costes."
+  },
+  "— 9 February 2026; original pages 1, 18 and 19. The excerpt preserves the original output.": {
+    "fr": "— 9 février 2026 ; pages originales 1, 18 et 19. L’extrait conserve la sortie originale.",
+    "es": "— 9 de febrero de 2026; páginas originales 1, 18 y 19. El extracto conserva la salida original."
+  },
+  "— public research dataset used by the example.": {
+    "fr": "— jeu de recherche public utilisé pour l’exemple.",
+    "es": "— conjunto público de investigación utilizado en el ejemplo."
+  },
+  "CNIL · Explainability": {
+    "fr": "CNIL · Explicabilité",
+    "es": "CNIL · Explicabilidad"
+  },
+  "— public guidance informing our approach to understandable explanations.": {
+    "fr": "— référence publique pour notre démarche d’explications compréhensibles.",
+    "es": "— referencia pública para nuestro enfoque de explicaciones comprensibles."
+  },
+  "32,561": {
+    "fr": "32 561",
+    "es": "32.561"
+  },
+  "5,687": {
+    "fr": "5 687",
+    "es": "5.687"
+  },
+  "700,000": {
+    "fr": "700 000",
+    "es": "700.000"
+  },
+  "83.0": {
+    "fr": "83,0",
+    "es": "83,0"
+  },
+  "82.1": {
+    "fr": "82,1",
+    "es": "82,1"
+  },
+  "85.9": {
+    "fr": "85,9",
+    "es": "85,9"
+  },
+  "85.1": {
+    "fr": "85,1",
+    "es": "85,1"
+  },
+  "97.7": {
+    "fr": "97,7",
+    "es": "97,7"
+  },
+  "94.1": {
+    "fr": "94,1",
+    "es": "94,1"
+  },
+  "100.0": {
+    "fr": "100,0",
+    "es": "100,0"
+  },
+  "95.6": {
+    "fr": "95,6",
+    "es": "95,6"
+  },
+  "90.7": {
+    "fr": "90,7",
+    "es": "90,7"
+  },
+  "90.0": {
+    "fr": "90,0",
+    "es": "90,0"
+  },
+  "91.3": {
+    "fr": "91,3",
+    "es": "91,3"
+  },
+  "91.0": {
+    "fr": "91,0",
+    "es": "91,0"
   }
 }

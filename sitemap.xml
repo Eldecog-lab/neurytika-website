@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ai.celeste.aero/evidence/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/evidence/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/preuves/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ai.celeste.aero/es/evidencia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/evidence/" />
+  </url>
+  <url>
+    <loc>https://ai.celeste.aero/fr/preuves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/evidence/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/preuves/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ai.celeste.aero/es/evidencia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/evidence/" />
+  </url>
+  <url>
+    <loc>https://ai.celeste.aero/es/evidencia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/evidence/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/preuves/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ai.celeste.aero/es/evidencia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/evidence/" />
+  </url>
+  <url>
     <loc>https://ai.celeste.aero/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/" />
