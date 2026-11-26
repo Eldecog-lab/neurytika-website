@@ -22,6 +22,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/" />
   </url>
   <url>
+    <loc>https://ai.celeste.aero/neurytika-software/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/neurytika-software/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/logiciel-neurytika/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ai.celeste.aero/es/software-neurytika/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/neurytika-software/" />
+  </url>
+  <url>
+    <loc>https://ai.celeste.aero/fr/logiciel-neurytika/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/neurytika-software/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/logiciel-neurytika/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ai.celeste.aero/es/software-neurytika/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/neurytika-software/" />
+  </url>
+  <url>
+    <loc>https://ai.celeste.aero/es/software-neurytika/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/neurytika-software/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/logiciel-neurytika/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ai.celeste.aero/es/software-neurytika/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ai.celeste.aero/neurytika-software/" />
+  </url>
+  <url>
     <loc>https://ai.celeste.aero/customer-retention/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://ai.celeste.aero/customer-retention/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://ai.celeste.aero/fr/fidelisation-clients/" />

@@ -6826,5 +6826,169 @@
   "Responsible AI, Human Expertise & Incremental Learning | Celeste AI": {
     "fr": "IA responsable, expertise humaine et apprentissage incrémental | Celeste AI",
     "es": "IA responsable, experiencia humana y aprendizaje incremental | Celeste AI"
+  },
+  "NEURYTIKA · PRODUCT GUIDE": {
+    "fr": "NEURYTIKA · FICHE PRODUIT",
+    "es": "NEURYTIKA · FICHA DE PRODUCTO"
+  },
+  "AI your experts can understand, challenge and enrich.": {
+    "fr": "Une IA que vos experts peuvent comprendre, discuter et enrichir.",
+    "es": "Una IA que sus expertos pueden comprender, cuestionar y enriquecer."
+  },
+  "Celeste AI is the software and consulting offer from Celeste EcoFlyers. Its Neurytika software uses the Evidence Ratio Classifier (ERC) to classify structured data with inspectable statistical evidence and incremental learning. Deploy it on your infrastructure or in your chosen cloud, with expert review at the heart of the workflow.": {
+    "fr": "Celeste AI est l’offre de logiciel et de conseil de Celeste EcoFlyers. Son logiciel Neurytika utilise l’Evidence Ratio Classifier (ERC) pour classer des données structurées avec des éléments statistiques examinables et un apprentissage incrémental. Déployez-le sur votre infrastructure ou dans le cloud de votre choix, avec la revue experte au cœur du processus.",
+    "es": "Celeste AI es la oferta de software y consultoría de Celeste EcoFlyers. Su software Neurytika utiliza Evidence Ratio Classifier (ERC) para clasificar datos estructurados con evidencia estadística examinable y aprendizaje incremental. Despliéguelo en su infraestructura o en la nube que elija, con la revisión experta en el centro del proceso."
+  },
+  "Try the expert-led demo →": {
+    "fr": "Explorer la démonstration experte →",
+    "es": "Explorar la demostración experta →"
+  },
+  "Scope your pilot →": {
+    "fr": "Cadrer votre pilote →",
+    "es": "Definir su piloto →"
+  },
+  "At a glance": {
+    "fr": "En un regard",
+    "es": "De un vistazo"
+  },
+  "For expert teams": {
+    "fr": "Pour les équipes expertes",
+    "es": "Para equipos expertos"
+  },
+  "Organizations that must explain their recommendations, review individual cases and retain human decision-making.": {
+    "fr": "Les organisations qui doivent expliquer leurs recommandations, examiner des dossiers et conserver la décision humaine.",
+    "es": "Organizaciones que necesitan explicar sus recomendaciones, revisar expedientes y mantener la decisión humana."
+  },
+  "Your data, your environment": {
+    "fr": "Vos données, votre environnement",
+    "es": "Sus datos, su entorno"
+  },
+  "Start with structured records and known outcomes. Agree the target, access rules and deployment environment with your business and IT teams.": {
+    "fr": "Partez de données structurées et de résultats connus. Définissez la cible, les règles d’accès et l’environnement avec vos équipes métier et informatiques.",
+    "es": "Parta de datos estructurados y resultados conocidos. Defina el objetivo, las reglas de acceso y el entorno con sus equipos de negocio y TI."
+  },
+  "Software and implementation": {
+    "fr": "Logiciel et mise en œuvre",
+    "es": "Software e implementación"
+  },
+  "Celeste supports data preparation, model evaluation, integration and team training. The pilot defines deliverables and success criteria for your use case.": {
+    "fr": "Celeste accompagne la préparation des données, l’évaluation du modèle, l’intégration et la formation. Le pilote définit les livrables et les critères de réussite de votre cas d’usage.",
+    "es": "Celeste acompaña la preparación de datos, la evaluación del modelo, la integración y la formación. El piloto define los entregables y criterios de éxito de su caso de uso."
+  },
+  "Questions to ask before choosing your AI software": {
+    "fr": "Les questions à poser avant de choisir votre logiciel IA",
+    "es": "Preguntas antes de elegir su software de IA"
+  },
+  "How can an expert understand and challenge a recommendation?": {
+    "fr": "Comment un expert peut-il comprendre et discuter une recommandation ?",
+    "es": "¿Cómo puede un experto comprender y cuestionar una recomendación?"
+  },
+  "Neurytika makes the feature combinations and statistical evidence supporting a classification inspectable. Your expert can review the inputs, add missing context and decide what action to take. The pilot evaluates whether these explanations are useful to your reviewers.": {
+    "fr": "Neurytika permet d’examiner les combinaisons de caractéristiques et les éléments statistiques qui soutiennent une classification. Votre expert peut vérifier les données, apporter le contexte manquant et choisir l’action à mener. Le pilote évalue l’utilité de ces explications pour vos équipes.",
+    "es": "Neurytika permite examinar las combinaciones de características y la evidencia estadística que respaldan una clasificación. Su experto puede revisar los datos, aportar contexto y elegir la acción. El piloto evalúa la utilidad de las explicaciones para su equipo."
+  },
+  "See the review workflow": {
+    "fr": "Voir le parcours de revue",
+    "es": "Ver el proceso de revisión"
+  },
+  "Can the model learn progressively without retraining on all past data?": {
+    "fr": "Le modèle peut-il apprendre progressivement sans réentraîner tout l’historique ?",
+    "es": "¿Puede el modelo aprender progresivamente sin volver a entrenar con todo el historial?"
+  },
+  "ERC updates its counters from new labelled observations. For a deployed workflow, agree who validates outcomes and when model updates are released. An expert’s disagreement initiates a review; a validated outcome supplies the learning example.": {
+    "fr": "ERC actualise ses compteurs à partir de nouvelles observations étiquetées. En exploitation, définissez qui valide les résultats et quand les mises à jour sont mises en service. Un désaccord de l’expert ouvre une revue ; un résultat validé fournit l’exemple d’apprentissage.",
+    "es": "ERC actualiza sus contadores con nuevas observaciones etiquetadas. En producción, defina quién valida los resultados y cuándo se publican las actualizaciones. Un desacuerdo del experto inicia una revisión; un resultado validado aporta el ejemplo de aprendizaje."
+  },
+  "Read the ERC paper": {
+    "fr": "Lire l’article ERC",
+    "es": "Leer el artículo ERC"
+  },
+  "Can we keep confidential data on our own infrastructure?": {
+    "fr": "Peut-on garder les données confidentielles sur notre infrastructure ?",
+    "es": "¿Podemos mantener los datos confidenciales en nuestra infraestructura?"
+  },
+  "Yes. Celeste offers on-premise deployment or deployment in your chosen cloud. We scope data flows, access permissions, retention and operational responsibilities with your team before implementation.": {
+    "fr": "Oui. Celeste propose un déploiement sur site ou dans le cloud de votre choix. Nous définissons avec votre équipe les flux de données, les droits d’accès, la conservation et les responsabilités d’exploitation avant la mise en œuvre.",
+    "es": "Sí. Celeste ofrece despliegue local o en la nube que elija. Definimos con su equipo los flujos de datos, los permisos de acceso, la conservación y las responsabilidades operativas antes de la implementación."
+  },
+  "Explore deployment choices": {
+    "fr": "Explorer les choix de déploiement",
+    "es": "Explorar las opciones de despliegue"
+  },
+  "How does this help people affected by a decision?": {
+    "fr": "En quoi cela aide-t-il les personnes concernées par une décision ?",
+    "es": "¿Cómo ayuda a las personas afectadas por una decisión?"
+  },
+  "Inspectable evidence gives your organization a basis for explaining a proposal, checking a disputed input and organizing reconsideration. We help adapt explanations to their audience and define a meaningful human review process, using CNIL guidance as a public reference.": {
+    "fr": "Des éléments examinables donnent à votre organisation une base pour expliquer une proposition, vérifier une donnée contestée et organiser un réexamen. Nous aidons à adapter les explications à leur public et à définir une revue humaine effective, avec les recommandations de la CNIL comme référence publique.",
+    "es": "La evidencia examinable permite explicar una propuesta, comprobar un dato cuestionado y organizar una reconsideración. Ayudamos a adaptar las explicaciones a su público y a definir una revisión humana efectiva, utilizando las recomendaciones de la CNIL como referencia pública."
+  },
+  "CNIL: explainability": {
+    "fr": "CNIL : explicabilité",
+    "es": "CNIL: explicabilidad"
+  },
+  "What will we see in the demonstration?": {
+    "fr": "Que montre la démonstration ?",
+    "es": "¿Qué muestra la demostración?"
+  },
+  "An engineer reviews an investment proposal for a power grid, examines supporting information, adds renovation context and records a reasoned decision. A final step illustrates learning from a validated outcome. The demonstration uses fictional data and scripted proposals; the pilot evaluates the software on your own records.": {
+    "fr": "Un ingénieur examine une proposition d’investissement sur un réseau électrique, vérifie les éléments, ajoute le contexte d’une rénovation et consigne une décision motivée. Une dernière étape illustre l’apprentissage à partir d’un résultat validé. La démonstration utilise des données fictives et des propositions scénarisées ; le pilote évalue le logiciel sur vos propres données.",
+    "es": "Un ingeniero examina una propuesta de inversión en una red eléctrica, revisa la evidencia, añade el contexto de una renovación y registra una decisión justificada. Un último paso ilustra el aprendizaje con un resultado validado. La demostración utiliza datos ficticios y propuestas predefinidas; el piloto evalúa el software con sus propios datos."
+  },
+  "Open the interactive demo": {
+    "fr": "Ouvrir la démonstration interactive",
+    "es": "Abrir la demostración interactiva"
+  },
+  "How do we start, and what does the pilot deliver?": {
+    "fr": "Comment démarrer et que livre le pilote ?",
+    "es": "¿Cómo empezar y qué entrega el piloto?"
+  },
+  "Choose one decision your team needs to explain, a representative data sample and a domain expert. Together we agree the evaluation protocol, prediction-quality criteria, explanation review, deployment requirements and deliverables. Request a scoped proposal for your project.": {
+    "fr": "Choisissez une décision que votre équipe doit expliquer, un échantillon représentatif et un expert métier. Nous convenons du protocole d’évaluation, des critères de qualité prédictive, de la revue des explications, des besoins de déploiement et des livrables. Demandez une proposition cadrée pour votre projet.",
+    "es": "Elija una decisión que su equipo necesite explicar, una muestra representativa y un experto del sector. Acordamos el protocolo de evaluación, los criterios de calidad predictiva, la revisión de explicaciones, los requisitos de despliegue y los entregables. Solicite una propuesta adaptada a su proyecto."
+  },
+  "Discuss a technology evaluation": {
+    "fr": "Discuter d’une évaluation technologique",
+    "es": "Consultar una evaluación tecnológica"
+  },
+  "Evidence you can inspect": {
+    "fr": "Des preuves à examiner",
+    "es": "Evidencia que puede examinar"
+  },
+  "Research: ERC in Neurocomputing": {
+    "fr": "Recherche : ERC dans Neurocomputing",
+    "es": "Investigación: ERC en Neurocomputing"
+  },
+  "The open-access paper “Evidence ratio classifier: A one-pass model for fast incremental learning” describes the method and evaluates it on Adult Income, Mushroom, Iris and Credit-Card Fraud. Use these published experiments to examine the method, and your pilot to measure its value on your own data.": {
+    "fr": "L’article en accès libre « Evidence ratio classifier: A one-pass model for fast incremental learning » décrit la méthode et l’évalue sur Adult Income, Mushroom, Iris et Credit-Card Fraud. Ces expériences publiées permettent d’examiner la méthode ; votre pilote mesure sa valeur sur vos propres données.",
+    "es": "El artículo de acceso abierto « Evidence ratio classifier: A one-pass model for fast incremental learning » describe el método y lo evalúa con Adult Income, Mushroom, Iris y Credit-Card Fraud. Estos experimentos permiten examinar el método; su piloto mide su valor con sus propios datos."
+  },
+  "Scientific article · DOI 10.1016/j.neucom.2025.131797": {
+    "fr": "Article scientifique · DOI 10.1016/j.neucom.2025.131797",
+    "es": "Artículo científico · DOI 10.1016/j.neucom.2025.131797"
+  },
+  "CNIL: a framework for human oversight": {
+    "fr": "CNIL : un cadre pour la supervision humaine",
+    "es": "CNIL: un marco para la supervisión humana"
+  },
+  "CNIL guidance addresses effective human intervention, understandable explanations and the quality of continuous-learning data. These public recommendations inform our implementation discussions.": {
+    "fr": "Les recommandations de la CNIL abordent l’intervention humaine effective, les explications compréhensibles et la qualité des données d’apprentissage continu. Ces références publiques éclairent nos échanges de mise en œuvre.",
+    "es": "Las recomendaciones de la CNIL abordan la intervención humana efectiva, las explicaciones comprensibles y la calidad de los datos de aprendizaje continuo. Estas referencias públicas orientan nuestras conversaciones de implementación."
+  },
+  "CNIL — Using AI in production": {
+    "fr": "CNIL — Utiliser un système d’IA en production",
+    "es": "CNIL — Utilizar un sistema de IA en producción"
+  },
+  "Bring a decision worth explaining.": {
+    "fr": "Apportez une décision qui mérite une explication.",
+    "es": "Traiga una decisión que merezca una explicación."
+  },
+  "Plan your Neurytika evaluation →": {
+    "fr": "Préparer votre évaluation Neurytika →",
+    "es": "Preparar su evaluación Neurytika →"
+  },
+  "Neurytika Software: Explainable AI, Local Deployment & Incremental Learning | Celeste AI": {
+    "fr": "Logiciel Neurytika : IA explicable, déploiement local et apprentissage incrémental | Celeste AI",
+    "es": "Software Neurytika: IA explicable, despliegue local y aprendizaje incremental | Celeste AI"
   }
 }

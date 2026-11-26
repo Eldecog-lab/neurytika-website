@@ -4,6 +4,11 @@
     "fr": "fr/",
     "es": "es/"
   },
+  "product": {
+    "en": "neurytika-software/",
+    "fr": "fr/logiciel-neurytika/",
+    "es": "es/software-neurytika/"
+  },
   "customer-retention": {
     "en": "customer-retention/",
     "fr": "fr/fidelisation-clients/",
